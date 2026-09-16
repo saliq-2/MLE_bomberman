@@ -790,7 +790,32 @@ def state_to_features(self, game_state: dict) -> np.array:
             occupied_for_opponent = occupied | {pos}  # we block their escape route too
             features[IDX_OPPONENT_TRAPPED] = 0.0 if _can_escape_own_bomb(
                 field, occupied_for_opponent, pos, bombs, start_pos=opponent_pos) else 1.0
-    else:
-        features[IDX_OPPONENT_DIST] = 1.0  # no opponents left -- treat as "maximally far"
+    # Experiment 27: when there is no opponent, the whole opponent block stays
+    # at zero, including IDX_OPPONENT_DIST. It used to be set to 1.0 here on
+    # the reading "no opponent == maximally far", which is the intuitive
+    # encoding and the wrong one for a linear model.
+    #
+    # In solo training (Task 1 and Task 2, which is how every submitted
+    # checkpoint was trained) `others` is empty on every single step, so that
+    # 1.0 was a constant -- and so is IDX_BIAS. Two features that are
+    # constantly 1.0 are perfectly collinear: they receive identical gradients
+    # on every update, so from a zero initialization they end up with exactly
+    # identical weights, and the intended bias is split evenly across the two.
+    # Confirmed on the Experiment 26 control checkpoint, where
+    # w[:, IDX_BIAS] == w[:, IDX_OPPONENT_DIST] holds exactly, to the bit, for
+    # all six actions.
+    #
+    # That is harmless during solo training and actively wrong at evaluation:
+    # with opponents on the board IDX_OPPONENT_DIST is no longer 1.0, so half
+    # of what the model learned as a constant bias silently turns into a term
+    # that varies with opponent distance and was never fitted as one.
+    #
+    # Zero is the correct "this feature is inactive" encoding here -- a zero
+    # feature contributes exactly 0 to every Q-value and receives exactly zero
+    # gradient, so the weight simply stays 0 and the bias stays clean. This is
+    # the same class of bug as Experiment 10's "bomb available" feature, which
+    # was removed for being collinear with safe-to-bomb; it reappeared in
+    # Experiment 24 and went unnoticed until the Experiment 26 control was
+    # built.
 
     return features
