@@ -29,6 +29,337 @@ experiments in this log predate it and are marked accordingly.
 
 ---
 
+## Writing the report from this log
+
+This section exists so the report can be written by *selecting* from work
+already done rather than by re-deriving it. The log below is ~1500 lines in
+chronological order, which is the right shape for an experiment log and the
+wrong shape for a report — the report wants the same material reorganised by
+argument. What follows is that reorganisation: which experiments answer which
+required section, which numbers are quotable, and which gaps are still open.
+
+The project spec fixes the seven sections and states that the *Experiments and
+Results* section is the one that carries the grade. It also states, twice, that
+**each chapter or section must be marked with its main author** — that is a
+legal requirement, not a formatting preference, and it is the single easiest
+mark to lose.
+
+### Report section → where the material already is
+
+| # | Report section | What the spec asks for | Source in this log | Status |
+|---|---|---|---|---|
+| 1 | Introduction | The problem, why it is hard | Game rules + the sparse-reward problem; the 400-step limit and 4-agent simultaneity | **To write.** No prose exists yet. Short — half a page. |
+| 2 | Background | Survey of RL approaches considered | "Background: approaches considered" below | **Drafted below**, needs the team's own framing |
+| 3 | Project planning | Team organisation, time allocation, hardware | — | **Only the team can write this.** See "What this log cannot supply". |
+| 4 | Methods | Specialising the general method; design choices justified; variants to test; the testing methodology | `## Agent: qlearn_agent` header block (features, rewards, hyperparameters); `## Agent: sarsa_agent`; Experiment 1c's review-feedback fixes; `scripts/run_experiment.py` protocol. The feature-encoding lesson from Exp 27 (encode "inapplicable" as 0, not a sentinel) belongs here too. | **Strong.** Mostly a rewrite of existing prose. |
+| 5 | Training | Training process, tricks used to speed it up | Experience replay (Exp 6), target network (Exp 7/8), potential-based shaping (Exp 15), guided exploration (Exp 20/22), two-stage curriculum with warm start (Exp 28), self-play not used — say so | **Strong.** The curriculum belongs here and is the single most effective training change in the log. |
+| 6 | Experiments and Results | Systematic evaluation, training diagrams, comparison to provided agents, difficulties and how they were overcome, which agent is best | Experiments 1–30 in full; figures 1–6; the factorial in Exp 27, the before/after tables in Exp 28, the negative result in Exp 29, the four-task table and held-out model selection in Exp 30 | **Very strong — this is the section to spend words on.** Lead with Experiments 27–30, failures included. |
+| 7 | Conclusion | Summary, what you would do with more time, how to improve the setup | "Next steps" section (items 8–11 are the honest "what we would redo" list); the opponent-blindness finding in Exp 23 | **Mostly assembled**, needs writing up. Note Exp 19's ceiling claim is no longer safe to assert — see item 8. |
+
+### What to lead with
+
+A grader reading for "systematic scientific approach" is looking for evidence
+that the work responded to its own results rather than accumulating features.
+The three strongest pieces of evidence in this log are all cases where the
+result was unflattering, and they should be foregrounded rather than buried:
+
+0. **Experiments 27-30 are the spine of the Results section.** A routine
+   control found an encoding defect (27); fixing it and adding the curriculum
+   stage the log had never chained took the tournament agent from 0.641 to
+   1.191 score/round (28); a well-motivated feature group then *failed* (29);
+   and measuring properly — three training seeds, held-out model selection,
+   and the two solo tasks the harness had never been able to run — took it to
+   1.345 and turned up a defect in the agent nobody had looked for (30).
+
+   Write the arc including the failures. Three of the four largest gains in
+   this project came from fixing its own mistakes, and two of the most
+   informative entries (29, 30) are ones where something was found to be
+   wrong: a biased sampler that invalidated a firing rate quoted in
+   Experiment 26, an over-broad conclusion about variance that Experiment 30
+   then narrowed, and an evaluation harness that structurally could not
+   measure two of the brief's four tasks. That is what a systematic approach
+   looks like in practice, and it is the part the grading criteria reward.
+1. **Experiment 27 — a routine control turned up a defect that invalidated
+   three experiments' worth of conclusions.** `IDX_OPPONENT_DIST` was
+   constantly 1.0 during solo training, making it perfectly collinear with the
+   bias; the learned bias silently split across the two, and the split became
+   an unfitted varying term as soon as opponents appeared at evaluation.
+   Removing it is worth more score than every feature added in Experiments
+   11–26 combined. This is the strongest single item in the log, and it
+   should open the Results section rather than close it.
+2. **Experiment 27 also explains Experiment 25.** The plain baseline kept
+   beating every engineered variant because zero-padding had accidentally
+   given it the corrected model — its weight on the collinear feature was 0
+   by construction. Verified directly. What looked like a lesson about
+   over-engineering was a defect the baseline structurally could not have.
+   The freshly-trained fixed 30-feature model then reproduces the baseline to
+   within noise (1.037 vs 1.058 score/round), which is the confirmation that
+   the mechanism is the right one.
+3. **Experiment 25, Part 1 — a hypothesis was tested and dropped.** The
+   stacked-bomb explanation for qlearn's self-kill increase was checked
+   against a 1332-case bucket classification, was not supported, and the
+   planned Part 2 fix was *cancelled on that evidence* instead of being built
+   anyway.
+4. **Experiment 26 — a prediction registered before the run, and held, for a
+   reason that turned out to be wrong.** Redundancy was predicted useless from
+   a pre-training firing-rate measurement and duly learned nothing; Experiment
+   29 then found the measurement itself was biased (fixed-density sampling),
+   so the prediction was right and its justification was not. Worth reporting
+   as a pair — it is a better illustration of why measurements get re-checked
+   than a clean success would be. The slack feature it was paired with cut
+   self-kills 73%.
+
+Note what item 1 obliges the report to do. Experiment 19's "genuine ceiling
+for the current feature set" conclusion was measured on defective
+checkpoints, so it must be re-measured or explicitly downgraded to a
+conjecture — reporting it as an established finding would no longer be
+honest. Saying so costs nothing and is exactly the kind of thing the grading
+criteria reward.
+
+### Suggested proportions
+
+At ~4000 words per team member, and with section 6 carrying the grade:
+
+| Section | Share | Rationale |
+|---|---|---|
+| Introduction | 5% | Spec says "briefly" |
+| Background | 12% | Survey, not a textbook chapter |
+| Project planning | 8% | Required, but not graded on length |
+| Methods | 20% | Features, rewards, hyperparameters, metrics |
+| Training | 10% | Tricks and why each was added |
+| **Experiments and Results** | **35%** | The graded section |
+| Conclusion | 10% | Summary + outlook |
+
+---
+
+### Headline numbers, in one place
+
+Every number below is already derived in the experiment it cites; this table
+exists so the report never has to re-hunt them. Values are mean ± sd across
+seeds, from greedy evaluation (`self.train=False`, ε=0 — the condition the
+tournament actually runs under), never from training-time statistics.
+
+**Task 1 — coin collection, `coin-heaven`, coins per round (max 50):**
+
+| Condition | Coins/round | Seeds | Source |
+|---|---|---|---|
+| With reward shaping | 41.51 | 5 | Exp 9 / `task1_shaping_fixed_v2_*` |
+| Sparse reward only | 18.75 | 5 | Exp 9 / `task1_noshaping_fixed_v2_*` |
+| Q-learning | 33.39 | 10 | `task1_qlearn_10seed_*` |
+| SARSA | 41.06 | 10 | Exp 21 / `task1_sarsa_*` |
+
+Note when quoting the shaping ablation: the seed spread is wide enough that the
+error bars overlap (see `figures/fig1_task1_shaping_ablation.png`). The honest claim is "shaping roughly
+doubles the mean", not "shaping is significantly better at n=5".
+
+**Task 2 — crates and bombing, `classic`, single agent:**
+
+| Stage | Coins/round | Self-kills/round | Note |
+|---|---|---|---|
+| Exp 10–13 | 0.00 | 0.00 | The never-bomb policy — both numbers are zero for the *same* reason |
+| Exp 18 | 0.26 | 0.19 | Escape commitment; the agent starts bombing at all |
+| Exp 20 | 0.40 | 0.17 | Guided exploration |
+| Exp 22 | 0.29 | 0.16 | Exp 20 re-run at 10 seeds; the gain did not survive |
+| SARSA | 0.35 | 0.12 | Exp 21 |
+
+**Tournament configuration — 3× `rule_based_agent`, `classic`, 200 rounds × 5
+seeds** (Exp 25 Part 3, corrected win/draw/loss, all `score_check_ok=True`):
+
+| Rank | Agent | Training | Score/round | Win rate | Self-kills | Deaths by opp. | Opp. killed |
+|---|---|---|---|---|---|---|---|
+| 1 | SARSA | Task-2 only | **1.120 ± 0.133** | **4.0%** | 120.4 ± 10.3 | 50.0 ± 8.5 | 7.0 ± 4.7 |
+| 2 | SARSA | vs `rule_based` | 0.952 ± 0.117 | 0.5% | 74.6 ± 4.4 | 123.2 ± 2.8 | 4.6 ± 2.2 |
+| 3 | Q-learning | vs `rule_based` | 0.917 ± 0.110 | 2.4% | 130.0 ± 5.8 | 66.2 ± 4.4 | 5.8 ± 3.6 |
+| 4 | Q-learning | Task-2 only | 0.583 ± 0.018 | 1.3% | 73.2 ± 6.6 | 102.2 ± 7.3 | 4.6 ± 1.1 |
+
+**Across opponent configurations** (Exp 23, 1000 rounds per config):
+
+| Config | Q-learning score/round | SARSA score/round |
+|---|---|---|
+| Task 3 (`peaceful` + `coin_collector`) | 0.791 ± 0.146 | 1.228 ± 0.127 |
+| Task 4 (1× `rule_based`) | 0.617 ± 0.080 | 1.345 ± 0.134 |
+| Tournament (3× `rule_based`) | 0.568 ± 0.101 | 1.084 ± 0.150 |
+
+**Self-kill cause split** (Exp 25 Part 1, 1332 self-kills classified, 0
+unmatched). Bucket (a) = an opponent bomb was dropped inside our own
+drop-to-death window; bucket (b) = no opponent bomb in that window:
+
+| Condition | (a) | (b) | (a) share |
+|---|---|---|---|
+| Q-learning, baseline | 186 | 180 | 50.8% |
+| SARSA, baseline | 399 | 203 | 66.3% |
+
+**Experiment 27's factorial** — tournament configuration, 200 rounds × 5
+seeds at a matched, disjoint seed range, every cell trained identically
+(1000 rounds, solo, seed 0). This supersedes Experiment 25's decision table
+as the basis for the submission choice:
+
+| Condition | Score/round | Win rate | Self-kills |
+|---|---|---|---|
+| Baseline, 23-feat padded (immune to the defect) | 1.058 ± 0.131 | 3.3% | 115.6 |
+| 30 features, defect present | 0.641 ± 0.057 | 0.3% | 86.8 |
+| 30 features, defect fixed | 1.037 ± 0.073 | 3.0% | 113.4 |
+| 32 features (Exp 26), defect present | 0.546 ± 0.084 | 0.9% | 83.4 |
+| 32 features (Exp 26), defect fixed | **1.121 ± 0.064** | 1.2% | **30.8** |
+
+Two separable effects, and the report should keep them separate: fixing the
+defect is what moves *score* (+62% at 30 features, +105% at 32), while
+Experiment 26's escape features are what move *survival* (self-kills 113.4 →
+30.8 in the fixed column, a 73% reduction). Neither result is visible without
+the other change in place.
+
+**Tasks 3 and 4** (Experiment 28, 200 rounds × 5 seeds). These are the numbers
+that turn "we measured Tasks 3/4" into "we attempted Tasks 3/4":
+
+| | Task-2 agent | Task-specific curriculum |
+|---|---|---|
+| Task 3 — opponents killed | 5.0 ± 2.4 | **11.0 ± 4.6** |
+| Task 3 — score/round | 1.456 ± 0.12 | 1.022 ± 0.12 |
+| Task 4 — total deaths | 149.6 | **73.8** |
+| Task 4 — score/round | 1.431 ± 0.12 | 1.356 ± 0.21 |
+
+Report both columns. The Task 3 curriculum doubles kills — the brief's own
+wording for that task is "hunt and blow up" — and pays for it with a 30% score
+drop; the Task 4 curriculum halves deaths and gives up half its kills. Neither
+is a free win, and the interesting finding is that one feature set produced
+*opposite* policies against weak and strong opponents.
+
+**Submitted agent** (Experiment 30): the curriculum checkpoint from training
+seed 1, at **1.345 ± 0.07** score/round over 10 boards spanning two disjoint
+sets, 3.45% win rate, 63.2 self-kills. It beats the previously submitted
+seed-0 checkpoint by **+0.160, +4.06 SE**, with both board sets agreeing
+independently.
+
+On win rate it is **level with the 23-feature baseline, not ahead of it**.
+Compared on the five boards both were actually run on (300-304): baseline
+3.30%, submitted 3.20%, a difference of -0.10 pp at 0.09 SE — indistinguishable.
+Score on those same boards is 1.058 vs 1.305, +3.86 SE, which is the
+comparison that decides the submission. An earlier draft of this entry claimed
+the submitted agent had passed the baseline on win rate; that came from
+comparing its 10-board average against the baseline's 5-board average on a
+different board set, and is withdrawn.
+
+Two numbers, and the report needs both: **1.345** is what the submitted
+checkpoint measures; **1.281 ± 0.081** is what the training procedure produces
+on average across seeds. Selecting the best of three seeds is legitimate for
+deciding what to submit and illegitimate as an estimate of the method's
+output.
+
+Note the submitted agent has *more* self-kills than the checkpoint it replaced
+(63.2 vs 14.2) and scores higher anyway. Survival was a proxy for skill and
+this is where the proxy breaks — worth saying in the report, because
+Experiment 26 optimised that proxy hard for little score.
+
+The most quotable fact about agent strength, for the Conclusion: the agent no
+longer destroys itself — self-kills fell from 115.6 per 200 rounds at the
+baseline to 12.0 — but it still kills only ~4 opponents in 200 rounds. It
+learned to survive, not to fight, and against an opponent-kill worth five
+points that is the ceiling it has not broken. The honest one-line summary of
+the whole project's arc is that three of its four largest gains came from
+fixing its own mistakes (the collinear feature, the missing curriculum stage,
+the escape-execution gap) rather than from adding capability. Score comes overwhelmingly from crates and coins, not from
+fighting, and a tournament that rewards kills at five points each is not a
+tournament this agent is built to win.
+
+---
+
+### Figures
+
+All five are regenerated from the committed `results/*.json` by
+
+```
+python scripts/make_report_figures.py
+```
+
+so a figure and the number it depicts cannot drift apart. They are written to
+`figures/`. Colours come from a palette checked for colour-vision-deficiency
+separation, and every series is also labelled directly on the plot, so the
+figures survive greyscale printing.
+
+| Figure | Shows | Use it in |
+|---|---|---|
+| `fig1_task1_shaping_ablation` | Task 1 with vs without reward shaping | Methods or Results — the shaping justification |
+| `fig2_task2_training_curves` | Coins and self-kills during training, Exp 13→18 | Results — the "training progress diagram" the spec asks for |
+| `fig3_task2_progression` | Greedy-eval coins and self-kills across Exp 10→22 | Results — the systematic-progression argument |
+| `fig4_qlearn_vs_sarsa` | The two models on both tasks | Results — the two-model comparison |
+| `fig5_tournament_decision` | Experiment 27's five conditions in tournament config | Results — the submission decision, and the clearest single picture of the defect's cost |
+| `fig6_task34_curriculum` | Experiment 28's Task 3 and Task 4 curricula, before and after | Results — the task-coverage evidence, and the clearest picture of the cost side: one mechanism producing opposite policies against weak and strong opponents |
+
+`fig2` and `fig3` are best presented as a pair and explained together. Read
+alone, the self-kill panel of `fig2` looks like nothing improved: every stage
+sits between 0.7 and 0.95 throughout training. The coins panel is what shows
+the Experiment 18 break, and `fig3` supplies the reason the two panels look
+inconsistent — before Experiment 18 the greedy policy never dropped a bomb, so
+it scored zero coins *and* zero self-kills. A policy that never bombs cannot
+kill itself. Any claim about self-kill rates that does not condition on how
+often the agent actually bombs is uninterpretable, and that point is worth
+making explicitly in the report.
+
+---
+
+### Background: approaches considered
+
+The spec's Background section asks for an overview of possible solution
+methods, not only the one adopted. The options actually on the table for this
+task, and the reason each was or was not pursued:
+
+- **Tabular Q-learning.** The natural starting point from the lecture, and
+  immediately impossible here: the state is a 17×17 board plus bombs,
+  explosions, coins and four agents, so the table is astronomically large and
+  essentially every state is visited at most once. Rejected on state-space
+  size, which is precisely the motivation for function approximation.
+- **Linear function approximation with hand-crafted features** — adopted, and
+  the model that satisfies the spec's requirement that at least one model use
+  lecture techniques. One weight vector per action, `Q(s,a) = w_a · f(s)`.
+  Cheap to train, cheap to evaluate well inside the 0.5 s/step budget, and —
+  the property that mattered most in practice — *inspectable*: several
+  diagnoses in this log (Experiments 10, 11, 12) were made by reading the
+  learned weights directly and noticing a sign that should not have been
+  negative. That is not available from a network.
+- **Deep Q-networks.** The obvious way to avoid hand-crafting features, and
+  the spec explicitly warns that teams attempting it have historically failed
+  to converge before the deadline. The machinery that makes DQN stable was
+  adopted *without* the network: uniform experience replay (Exp 6) and a
+  target network (Exp 7/8) are both in the final agent, applied to a linear
+  model. Worth stating plainly in the report — the choice was not "linear
+  instead of DQN" but "DQN's stabilisers on a linear model".
+- **Policy-gradient / actor-critic methods.** Not attempted. Honest reason:
+  time, and no diagnosis in this log pointed at value-based learning as the
+  bottleneck — the failures found were feature-representation failures
+  (Experiments 11–18), which a policy gradient over the same features would
+  have inherited unchanged.
+- **Imitation of the provided `rule_based_agent`.** Explicitly not pursued: the
+  spec forbids submitting a model that does not learn from its features, and
+  a behaviour-cloned rule-based policy would defeat the point of the exercise.
+
+The representation choices that ended up mattering more than the algorithm
+choice are documented throughout: commitment mechanisms for targets
+(Experiment 13) and for escapes (Experiment 18), and the potential-based
+formulation of the escape shaping (Experiment 15), which is the one shaping
+term with a theoretical guarantee of policy invariance.
+
+---
+
+### What this log cannot supply
+
+Two things the report needs that no amount of re-reading this file will
+produce, both of which must be written by the team:
+
+1. **Project planning (section 3).** How the work was divided, how the
+   schedule was set, what hardware was used. Nothing in this log records team
+   structure, and it must not be invented.
+2. **Per-section author attribution.** The spec requires each chapter or
+   section to be marked with its main author, "so that we can grade each team
+   member's work individually — this is important for legal reasons". This
+   cannot be derived from the repository.
+
+Two further administrative items, easy to lose marks on and unrelated to the
+writing: the report must contain the URL of the public code repository, and
+must **not** contain the university logo. The report itself must not be
+committed to that repository.
+
+---
+
 ## Agent: `qlearn_agent`
 
 Linear function-approximation Q-learning (semi-gradient TD(0) + uniform
@@ -869,11 +1200,56 @@ seeds — with 5 more seeds the outliers stopped dominating the mean.
    support for the on-policy-conservatism hypothesis on Task 2, not a
    decisive win given the variance; matches Q-learning closely on Task 1
    as expected (no danger decisions to differ over there).
-6. Now that both models exist: report-writing groundwork — the two-model
-   comparison (Experiment 21) plus the systematic Task 1→2 progression
-   across this whole log is close to what section 4-6 of the final report
-   needs. Worth revisiting whether prioritized replay (item 4) or Task 3
-   (opponents) is the better use of remaining time before the deadline.
+6. ~~Report-writing groundwork~~ — done: see "Writing the report from this
+   log" at the top of this file. Section-by-section mapping, headline
+   numbers collected in one table, and five figures regenerated from
+   `results/` by `scripts/make_report_figures.py`.
+7. ~~Escape robustness~~ — Experiment 26. The redundancy half was predicted
+   useless and was; the slack half cuts self-kills 73% once Experiment 27's
+   fix is in. The firing rate quoted as the reason (1.6%) was corrected to
+   31.9% in Experiment 29 — why redundancy learned nothing is now open, with
+   "largely implied by safe-bomb and slack" the untested conjecture.
+8. **Fix the opponent-dependence defect.** *Highest-priority open item.*
+   Experiment 30 measured Q(BOMB) falling 0.405 when opponents are removed
+   from an otherwise identical state, because `IDX_OPPONENT_DIST` reads 0.0
+   ("no opponent", per Experiment 27) which is also the *near* end of its
+   scale, and the curriculum agent learned a positive BOMB weight on
+   distance. The agent therefore stops bombing once the board clears — worth
+   0.001 vs 1.2 coins/round on solo Task 2, and a live cost in the tournament
+   every time the last opponent dies mid-round. The obvious candidate fix is
+   a separate "no opponent present" indicator so that 0.0 distance and "no
+   opponent" are distinguishable, which is safe to learn in a curriculum
+   stage where opponents die (it varies there) but would reintroduce
+   Experiment 27's collinearity if it were ever trained solo. Untested.
+9. ~~Measure training-seed variance~~ — done, Experiment 30 Part 3. Experiment
+   28's condition is stable (sd 0.081 across three seeds); the 2.5x spread
+   seen in Experiment 29 was a property of that failed condition, not of the
+   setup. The practical rule stands: compare conditions across training
+   seeds, not evaluation boards.
+10. **Re-run the Experiment 19 ceiling finding.** That experiment concluded
+   the seed variance was "a genuine ceiling for the current feature
+   set/reward structure". It was measured on checkpoints trained under the
+   Experiment 27 defect. The conclusion may still hold, but it is no longer
+   supported by the evidence that was offered for it, and should be either
+   re-measured or downgraded to a conjecture in the report. Highest-value
+   open item.
+11. **Re-check Experiments 23–25 under the fix.** Every opponent-facing
+   number in those three experiments was produced by a defective checkpoint
+   except the zero-padded baselines. The qualitative conclusions may
+   survive — the baseline really did win — but the reason given for it was
+   wrong, and the opponent-aware features of Experiment 24 have never had a
+   fair test.
+12. **Ablate Experiment 26's two features separately.** And test why
+    redundancy learned nothing, now that "too sparse" is ruled out (it fires
+    in 31.9% of states, not 1.6%) — the standing conjecture is that it is
+    largely implied by `IDX_SAFE_BOMB` and `IDX_ESCAPE_SLACK`. They were added as a
+    group. The weights say redundancy does nothing, which is strong evidence
+    but not the same as running the 31-feature slack-only condition.
+13. **Audit the remaining features for the same defect class.** Two
+    instances found so far (Experiment 10's "bomb available", Experiment
+    27's opponent distance). A mechanical check — for each feature, is it
+    constant across a solo training run? — would take an afternoon and
+    should be run before adding any further feature.
 
 ---
 
@@ -1465,3 +1841,987 @@ number that actually decides which agent gets submitted, the answer coming
 out of this experiment is: **plain baseline SARSA, not either opponent-aware
 variant** — worth stating plainly rather than assuming the more heavily
 engineered checkpoint must be the better one.
+
+---
+
+### Experiment 26 — Escape robustness: redundancy vs. slack (hypothesis registered before evaluation)
+
+**Where this comes from.** Experiment 25 Part 1 classified 1332 self-kills
+into bucket (a) — an opponent bomb was dropped inside our own
+drop-to-death window — and bucket (b) — no opponent bomb in that window.
+It then used that split to test one specific claim: that bucket (a)
+explained the *increase* in qlearn's self-kill rate under `vs_rule_based`
+training. It did not, and Part 2 was cancelled on that evidence.
+
+What that test did **not** establish, and what is easy to misread it as
+having established, is that bucket (a) is irreducible. In absolute terms
+bucket (a) is 66.3% of the submitted SARSA baseline's self-kills (399 of
+602). "This mechanism does not explain the change between two conditions"
+and "this mechanism is not worth attacking in either condition" are
+different claims, and only the first was tested. This experiment attacks
+the absolute number.
+
+**The gap in the feature set.** `IDX_SAFE_BOMB` asks "does *a* route out
+exist?" — computed by `_can_escape_own_bomb`, which is a correct
+time-expanded search and has been since Experiment 13/14. It is the right
+question in a solo game and the wrong one with three other bombers on the
+board, because a single-route escape is safe exactly until somebody drops a
+bomb across that one corridor while ours is ticking. Nothing in the
+30-feature vector distinguishes "one way out" from "three ways out", or
+"reach safety with two steps to spare" from "reach safety on the step the
+bomb detonates".
+
+**Two candidate features, and a prediction made before training.**
+
+- `IDX_SAFE_BOMB_ROBUST` (index 30): 1 when at least two *distinct first
+  moves* each lead to a genuine escape. Directly encodes "losing one
+  corridor still leaves a way out".
+- `IDX_ESCAPE_SLACK` (index 31): `(BOMB_TIMER − t_earliest) / BOMB_TIMER`,
+  where `t_earliest` is the soonest step at which we could be standing
+  somewhere that stays safe through the whole blast. A graded measure of
+  how much margin the escape has.
+
+Both are computed by `_escape_options`, which runs the *same* search as
+`_can_escape_own_bomb` once per opening direction. `_can_escape_own_bomb`
+itself is deliberately left untouched: it feeds features 0–29, and
+Experiment 25's zero-padding equivalence argument for every earlier
+checkpoint depends on those being computed identically.
+
+Before any training, two things were measured over 4000 randomly generated
+`classic`-density states (`scripts/check_escape_equivalence.py`):
+
+| Property | As measured here | Corrected (Experiment 29) |
+|---|---|---|
+| `len(_escape_options(...)[0]) >= 1` vs `_can_escape_own_bomb(...)` | 0 mismatches / 4000 | 0 mismatches / 4000 |
+| States where a bomb is droppable at all (≥1 route) | 12.9% | 64.9% |
+| States where ≥2 distinct routes exist (`robust` fires) | **1.6%** | **31.9%** |
+| Escape-slack distribution over escapable states | 0.50: 77.1% · 0.25: 19.8% · 0.00: 3.1% | 0.50: 68.1% · 0.25: 29.5% · 0.00: 2.3% |
+
+> **Correction, added at Experiment 29.** The left-hand column is wrong, and
+> the prediction below was made on it. `scripts/check_escape_equivalence.py`
+> generated every sample board at a fixed 0.75 crate density — the density a
+> `classic` round *starts* at. A round clears crates from there, so that
+> sampler described the opening moves of a round and nothing after them, and
+> it understates any feature whose value depends on having a free tile to
+> walk to. Re-measured with density drawn from [0, 0.75], redundancy fires in
+> 31.9% of states, not 1.6%. The equivalence check is unaffected: it does not
+> depend on density, and still passes at 0 mismatches.
+
+That 1.6% was the basis for a prediction written down before the training
+runs: **redundancy will be close to useless and slack will carry whatever
+effect there is.** A binary feature that is off 98.4% of the time gives a
+linear model almost nothing to attach a weight to, whereas slack is defined
+everywhere a bomb can be dropped at all and has real spread. The two were
+nevertheless added as a *group*, the same way Experiment 24 added its seven
+opponent features as a group, because the point of including redundancy was
+to test that prediction rather than to assume it.
+
+> **What survives the correction, and what does not.** The prediction held —
+> redundancy did learn weights within noise of zero (see below) — but the
+> stated reason for it did not. A feature that fires in nearly a third of
+> states is not too sparse to learn, so sparsity cannot be why it learned
+> nothing. The likelier explanation, untested: redundancy is largely implied
+> by `IDX_SAFE_BOMB` and `IDX_ESCAPE_SLACK`, which are already in the vector,
+> so it carries little *unique* signal for a linear model to use. That is a
+> conjecture and is listed as an open item, not a conclusion. Getting the
+> right answer from a wrong measurement is luck, and is worth flagging as
+> such rather than quietly keeping the prediction and dropping the number.
+
+**Why the equivalence check exists at all.** The new search could have been
+written by generalizing `_can_escape_own_bomb`, which would have been less
+code. It was not, because features 0–29 must keep computing bit-identically
+for the older checkpoints to remain valid under padding — so the two
+searches now coexist and could silently drift apart. The check asserts they
+agree wherever they are supposed to (≥1 route ⇔ the old bool) rather than
+leaving that as an assumption. It also asserts the obvious monotonicity,
+that "robust" implies "safe".
+
+**Padding, 30 → 32.** All ten existing checkpoints were widened by
+`scripts/pad_checkpoints.py`, which re-derives Experiment 25's argument and
+re-verifies it numerically on every call. One detail worth recording,
+because it briefly looked like a failure: the identity `padded · f ==
+original · f[:k]` holds exactly in real arithmetic but *not* bit-exactly in
+floating point — numpy blocks a 32-wide dot product differently from a
+23-wide one, so partial sums accumulate in a different order even though
+every added term is exactly 0.0. The 30 → 32 paddings came out bit-identical
+(max |ΔQ| = 0); the 23 → 32 paddings differ by ~1.8e-15. The honest claim is
+therefore "equal to within floating-point noise", not "bit-identical", and
+the script prints the observed maximum rather than asserting zero. The only
+way that noise could change behaviour is by flipping an exact tie between
+two actions' Q-values in the argmax.
+
+**Training.** Both agents retrained from scratch on the protocol the
+baseline used — `classic`, single agent, 1000 rounds, seed 0, default
+hyperparameters — with the feature vector now 32-dimensional. Nothing else
+changed: same reward table, same shaping terms, no new shaping attached to
+either new feature. That is deliberate. Letting the model learn the weight
+from the existing reward signal keeps this a test of the *representation*;
+adding a shaping term for "you bombed with slack" would have changed two
+things at once and made the result uninterpretable.
+
+**Learned weights on the two new dimensions** (per action, order `UP,
+RIGHT, DOWN, LEFT, WAIT, BOMB`):
+
+| Agent | `robust` (index 30) | `slack` (index 31) |
+|---|---|---|
+| SARSA | −0.05, −0.01, −0.04, −0.08, +0.01, **−0.09** | −0.70, −0.37, −0.45, −0.29, −0.30, **+4.85** |
+| Q-learning | +0.14, +0.01, +0.08, +0.00, +0.01, **+0.10** | +0.07, −0.08, +0.18, +0.20, +0.10, **+3.63** |
+
+The prediction holds on the weights. `robust` sits within noise of zero for
+every action in both agents. That was the prediction; the reason given for it
+(1.6% firing) is wrong — see the correction above — so this is a confirmed
+prediction with an unconfirmed mechanism, not a confirmed explanation. `slack` acquires by far the largest positive BOMB weight
+in either model (+4.85 SARSA, +3.63 Q-learning), and mildly negative
+weights on the movement actions, which together read as a learned rule of
+the shape "drop a bomb when there is room to get clear, and don't spend
+steps loitering in places where there isn't". That is the behaviour the
+hand-written escape logic was always able to *evaluate* but which nothing
+in the reward structure previously gave the model a reason to *prefer*.
+
+Note also what this says about Experiment 10's finding. That experiment
+removed the "bomb available" feature because a large negative weight on an
+always-co-occurring term was suppressing BOMB entirely. Here the opposite
+happens: given a feature that distinguishes good bombing opportunities from
+merely legal ones, the model puts a large *positive* weight on BOMB. The
+two results are consistent — in both cases the model was doing the best
+linear thing available given what the features let it see.
+
+**Evaluation protocol.** Identical to Experiments 23/25 so the numbers are
+directly comparable: `classic`, 200 rounds, 5 seeds, `self.train=False` for
+every agent, three configurations (Task 3 = `peaceful` + `coin_collector`;
+Task 4 = 1× `rule_based`; tournament = 3× `rule_based`), win/draw/loss
+reconstructed from `game.log` and cross-checked against `--save-stats` on
+every run. Board seeds use offset 300, disjoint from every range used
+previously. The Task-2-only baseline is re-evaluated at the *same* seed
+offset rather than compared against Experiment 25's numbers, so the two
+conditions are paired on identical boards.
+
+**Results — raw numbers.** Both agents, all three configurations, 200 rounds
+× 5 seeds at offset 300, `score_check_ok=True` on all 30 runs:
+
+| Agent | Config | Score/round | Win rate | Self-kills |
+|---|---|---|---|---|
+| SARSA | Task 3 | 0.725 ± 0.105 | 1.2% | 101.4 |
+| SARSA | Task 4 | 0.556 ± 0.035 | 0.8% | 102.2 |
+| SARSA | Tournament | 0.546 ± 0.084 | 0.9% | 83.4 |
+| Q-learning | Task 3 | 0.698 ± 0.035 | 1.0% | 12.0 |
+| Q-learning | Task 4 | 0.608 ± 0.061 | 1.0% | 23.8 |
+| Q-learning | Tournament | 0.591 ± 0.050 | 0.3% | 14.6 |
+
+Against the Task-2-only SARSA baseline's 1.084 ± 0.150 in the tournament
+configuration (Experiment 23), 0.546 looks like a clear regression, and the
+first draft of this entry said exactly that.
+
+**That reading was wrong, and Experiment 27 is why.** The control condition
+built for this experiment — the 30-feature set trained fresh under the same
+protocol — came out at 0.641, also far below the baseline, *without any of
+the features this experiment added*. Something other than the escape
+features was costing roughly half the score, and it turned out to be a
+collinearity defect present in every checkpoint trained solo under the
+post-Experiment-24 code, including both of the agents evaluated above.
+Experiment 27 documents it, and re-runs this comparison with it removed.
+
+**What the numbers above can and cannot support.** They cannot be read as
+"the escape features do not help", because they were produced under the
+defect. The comparison that is valid here is the one against the control,
+since both share it: 0.641 (30 features) vs 0.546 (32 features), which is
+directionally negative but with overlapping spreads. The clean answer comes
+from the fixed column of Experiment 27's factorial, where the same row
+contrast runs 1.037 → 1.121 on score and — the number this experiment was
+actually designed to move — **113.4 → 30.8 on self-kills, a 73% reduction**.
+
+So the honest summary of Experiment 26 is that its features do what they
+were meant to do, that this was invisible until a defect nobody was looking
+for got fixed, and that the prediction registered before training held on
+both halves: redundancy contributed nothing (weights within noise of zero)
+and slack carried the effect — though the *reason* offered for the redundancy
+half was later shown to rest on a mis-measured firing rate (see the correction
+at the top of this entry).
+
+**A note on what "better" means here.** The self-kill collapse does not come
+free. In the fixed column, adding the escape features moves bombing down
+(5.81 → 3.96 bombs/round) and crates with it (15.4 → 9.5), while deaths *by
+opponents* rise sharply (51.6 → 155.4). The agent stops killing itself and
+starts loitering long enough for a `rule_based_agent` to kill it instead;
+total deaths per 200 rounds actually go up, from 165.0 to 186.2. Score rises
+anyway, because coins per round rise (0.932 → 1.031). Reporting only the
+self-kill number would be cherry-picking the metric the feature was designed
+to move.
+
+---
+
+### Experiment 27 — A collinear feature, found by building Experiment 26's control
+
+**How this was found.** Not by looking for it. Experiment 26 needed a control
+condition — the feature set as it stood *before* the two escape features,
+trained fresh under the identical protocol — because comparing a newly trained
+32-feature model against `model_task2_baseline.pt` would have confounded the
+new features with everything that changed in the code base since Experiment 18,
+when that baseline was trained. `agent_code/sarsa_control/` is that control: a
+byte-identical copy of the 30-feature `callbacks.py` and `train.py` at HEAD,
+trained on `classic`, single agent, 1000 rounds, seed 0.
+
+The control came out far weaker than expected, and the first thing checked was
+its weight vector. Two columns were identical:
+
+| Action | `w[·, IDX_BIAS]` | `w[·, IDX_OPPONENT_DIST]` |
+|---|---|---|
+| UP | −0.925 | −0.925 |
+| RIGHT | −0.994 | −0.994 |
+| DOWN | −0.930 | −0.930 |
+| LEFT | −0.847 | −0.847 |
+| WAIT | −0.057 | −0.057 |
+| BOMB | −0.607 | −0.607 |
+
+Not approximately equal — exactly equal, `max |w_bias − w_oppdist| = 0.0`, and
+every other opponent weight (indices 24–29) exactly 0.
+
+**The mechanism.** `state_to_features` ended its opponent block with
+
+```python
+else:
+    features[IDX_OPPONENT_DIST] = 1.0  # no opponents left -- treat as "maximally far"
+```
+
+In solo training — which is how Task 1 and Task 2 are trained, and therefore
+how every submitted checkpoint was trained — `game_state['others']` is empty on
+every step of every round, so that branch is taken every time and
+`IDX_OPPONENT_DIST` is a constant 1.0. `IDX_BIAS` is also a constant 1.0. Two
+features that are constantly equal receive identical gradients on every update,
+so from the zero initialization in `setup` they stay identical forever, and the
+intended bias term is split evenly between them. Verified directly rather than
+inferred: calling `state_to_features` on a synthetic opponent-free state returns
+`features[IDX_BIAS] == features[IDX_OPPONENT_DIST] == 1.0`.
+
+**Why that is not harmless.** During solo training it changes nothing — the sum
+`w_bias + w_oppdist` is what acts, and it is fitted correctly. The damage is at
+evaluation. With opponents on the board `IDX_OPPONENT_DIST` is no longer 1.0;
+it is the capped, scaled BFS distance to the committed opponent. So half of
+what the model learned as a *constant* silently becomes a term that varies with
+opponent distance and was never fitted as one. Every Q-value shifts by
+`w_oppdist · (f_oppdist − 1)`, and because `w_oppdist` differs per action, the
+shift differs per action — it reorders the argmax. The agent is, in effect,
+evaluated with a different bias than the one it was trained with, and the
+distortion is largest exactly when an opponent is near.
+
+This is the same class of defect as Experiment 10's, where "bomb available" was
+removed for being collinear with safe-to-bomb whenever bombing was viable and
+was dumping a large negative weight onto BOMB. That one was caught because it
+produced an obvious symptom — the agent never bombed. This one produced no
+symptom in solo training at all, which is why it survived from Experiment 24
+until now.
+
+**The fix.** One line: when there is no opponent, leave the whole opponent
+block at zero instead of writing 1.0 into the distance slot. For a linear model
+zero is the correct "this feature is inactive" encoding — it contributes
+exactly 0 to every Q-value and receives exactly zero gradient, so the weight
+stays at 0 and the bias stays clean. The intuitive reading that motivated the
+1.0 ("no opponent means maximally far") is a statement about the *world*; what
+the feature slot needs is a statement about whether the term applies at all.
+
+**Design.** Because Experiment 26's own agents were trained solo under the same
+defective code, its numbers cannot be read as "the escape features did not
+help" — they were trained with the collinearity present too. Separating the two
+factors needs four cells, all trained identically (`classic`, single agent,
+1000 rounds, seed 0) and all evaluated identically (tournament configuration,
+3× `rule_based_agent`, 200 rounds, 5 seeds at offset 300, `self.train=False`):
+
+|  | collinearity present | collinearity fixed |
+|---|---|---|
+| **without escape features (30)** | `sarsa_control` | `sarsa_control_fixed` |
+| **with escape features (32)** | `sarsa_agent` (Exp 26) | `sarsa_fixed` |
+
+The row contrast isolates Experiment 26's features; the column contrast
+isolates this experiment's fix.
+
+**Results — raw numbers.** Tournament configuration (3× `rule_based_agent`),
+`classic`, 200 rounds × 5 seeds at offset 300, `self.train=False`. All 20 runs
+passed the score cross-check. Every cell trained identically: 1000 rounds,
+single agent, seed 0.
+
+| | defect present | defect fixed |
+|---|---|---|
+| **30 features** (no escape features) | 0.641 ± 0.057 | 1.037 ± 0.073 |
+| **32 features** (Experiment 26) | 0.546 ± 0.084 | **1.121 ± 0.064** |
+
+Full metrics for the same four cells:
+
+| Metric | 30, defect | 30, fixed | 32, defect | 32, fixed |
+|---|---|---|---|---|
+| Score/round | 0.641 ± 0.06 | 1.037 ± 0.07 | 0.546 ± 0.08 | 1.121 ± 0.06 |
+| Win rate | 0.3% | 3.0% | 0.9% | 1.2% |
+| Self-kills | 86.8 ± 6.6 | 113.4 ± 5.6 | 83.4 ± 10.2 | 30.8 ± 3.1 |
+| Deaths by opponent | 107.6 ± 5.7 | 51.6 ± 7.6 | 111.0 ± 10.3 | 155.4 ± 3.6 |
+| Opponents killed | 1.2 ± 1.8 | 4.2 ± 1.9 | 3.4 ± 1.7 | 3.6 ± 1.7 |
+| Bombs/round | 3.12 ± 0.11 | 5.81 ± 0.14 | 3.38 ± 0.17 | 3.96 ± 0.15 |
+| Crates/round | 9.89 ± 0.48 | 15.41 ± 0.43 | 6.38 ± 0.41 | 9.50 ± 0.46 |
+| Coins/round | 0.611 ± 0.05 | 0.932 ± 0.04 | 0.461 ± 0.05 | 1.031 ± 0.05 |
+
+**Interpretation, kept separate from the numbers.**
+
+*The fix is the large effect.* Removing the collinearity raises score/round by
+62% at 30 features (0.641 → 1.037) and by 105% at 32 (0.546 → 1.121). Both
+gaps are several pooled standard deviations wide and consistent in sign across
+every one of the five seeds. This is much larger than anything any feature
+added in Experiments 11–26 produced.
+
+*The two factors interact.* Experiment 26's escape features are slightly
+negative with the defect present (0.641 → 0.546) and positive without it
+(1.037 → 1.121). That is not noise-flipping: with the bias split across a
+feature that changes value at evaluation time, every Q-value is already being
+perturbed per-action, and adding features whose whole purpose is to modulate
+the bomb decision has nothing stable to attach to. Fix the bias, and the same
+features cut self-kills by 73% (113.4 → 30.8).
+
+*This explains Experiment 25's headline result.* That experiment found the
+plain Task-2-only baseline beating every opponent-aware variant and said so
+plainly, without a mechanism. There is now a mechanism, and it is slightly
+embarrassing: `model_task2_baseline.pt` was trained under the 23-feature code,
+so its opponent weights exist only because `pad_checkpoints.py` wrote zeros
+into them — and a zero weight on `IDX_OPPONENT_DIST` is exactly what the fix
+in this experiment produces by training. **The baseline was winning because
+zero-padding had accidentally given it the corrected model.** Verified
+directly: `model_task2_baseline_padded.pt` has `w[:, IDX_OPPONENT_DIST] == 0`
+for all six actions.
+
+That also retires the "more engineering lost to the plain baseline" reading of
+Experiment 25 as a lesson about over-engineering. It was never about the
+engineering. Every checkpoint trained after Experiment 24 carried a defect the
+baseline structurally could not have.
+
+*Why it went unnoticed for three experiments.* The defect is invisible in
+every place it would normally be caught. Training curves look normal, because
+during solo training the sum `w_bias + w_oppdist` is fitted correctly and the
+split between them is unobservable. Greedy Task-2 evaluation looks normal, for
+the same reason — no opponents, so the feature is still 1.0. It only bites
+when opponents are on the board, and the first experiments to put opponents on
+the board (23, 24) also changed several other things at once, so the drop had
+somewhere else to be attributed. It took building a control that changed
+*nothing* to make the anomaly isolatable.
+
+*Methodological note.* The control was not built to find this. It was built
+because comparing a newly trained model against a checkpoint from eight
+experiments earlier confounds the new change with everything in between —
+routine hygiene, not a hypothesis. The finding is an argument for running the
+boring control even when the result seems predictable.
+
+#### Submission decision
+
+The factorial above settles the mechanism but not the submission, because the
+two strongest cells — the immune baseline and the fixed 32-feature agent — sat
+0.6 pooled standard errors apart at n=5 and disagreed about which metric
+favoured them. A 10-seed confirmation run at a fresh, disjoint seed range
+(offset 400) was started to resolve it.
+
+**That run did not finish.** The machine ran out of memory partway through
+(unrelated long-running jobs from another checkout were holding most of it) and
+the evaluation processes were killed after 2 of 10 seeds each. Rather than
+quietly reporting n=5, the two completed seeds are pooled with the offset-300
+set — same protocol, same 200 rounds, same greedy condition, disjoint boards —
+for n=7 per condition:
+
+| Candidate | Score/round (n=7) | Win rate | Self-kills |
+|---|---|---|---|
+| Baseline, 23-feat padded | 1.034 ± 0.115 | 3.1% | 115.6 ± 4.0 |
+| 32-feat, defect fixed | **1.108 ± 0.106** | 1.4% | **31.1 ± 3.5** |
+
+Difference in score/round: **+0.074, SE 0.059 — about 1.25 SE**, with the fixed
+agent ahead on 5 of 7 seeds. That is a real but not a decisive lead, and it
+should be reported as such rather than rounded up into a result. The two
+candidates genuinely disagree: score and survival favour the fixed agent, win
+rate favours the baseline (3.1% vs 1.4%).
+
+**Submitted: the 32-feature de-collinearized SARSA agent**
+(`model_exp27_decollinearized.pt`, installed as `sarsa_agent/model.pt`). The
+reasoning, in order of weight:
+
+1. The project specification decides a tournament "by total score", so
+   score/round is the criterion the tournament actually applies. The fixed
+   agent leads on it.
+2. Self-kills 31.1 vs 115.6. The baseline destroys itself in roughly 58% of
+   rounds and the fixed agent in roughly 16%. Tournament opponents will be
+   other students' agents, not the `rule_based_agent` these numbers were
+   measured against, and a policy whose score depends on surviving its own
+   bombs is the more robust of the two under that distribution shift.
+3. The baseline's competitiveness is an artefact. Its weights predate the
+   opponent features and are zero there only because `pad_checkpoints.py`
+   wrote zeros — it cannot benefit from the escape features at all, and its
+   lead was never a property anybody designed.
+
+The honest counter-argument, recorded because it is not weak: win rate is
+more than twice as high for the baseline, and if the tournament awards
+placement points rather than raw score, that ordering reverses. Switching the
+submission is a one-line change — copy `model_task2_baseline_padded.pt` over
+`model.pt` — and both checkpoints ship in the agent directory so the choice
+stays reversible without retraining.
+
+**Open, and not resolved here:** the 10-seed confirmation should be re-run when
+the machine is free. At 1.25 SE this decision rests on a lead that more data
+could still overturn.
+
+---
+
+### Experiment 28 — Curriculum training against opponents, under the corrected model
+
+**Why the opponent features deserve a second run.** Experiment 24 added seven
+opponent-aware features and trained against opponents; Experiment 25 found the
+resulting checkpoints losing to a baseline that had none of them, and
+Experiment 27 explained why every checkpoint trained after Experiment 24 was
+handicapped. That leaves a question the log has never actually answered: are
+the opponent features bad, or were they never given a fair run? Two things were
+wrong with the only test they have had.
+
+1. **The model was defective.** Experiment 24's runs predate Experiment 27, so
+   the weights they learned sat on top of a bias split with
+   `IDX_OPPONENT_DIST`. The one feature that is *supposed* to carry opponent
+   distance was simultaneously acting as half the bias term.
+2. **Training started from zero.** `setup` builds a fresh zero weight vector
+   whenever `self.train` is set, so every opponent run in this log had to learn
+   board navigation, bomb safety, crate value *and* opponent play
+   simultaneously, inside 1000 rounds, against three agents actively trying to
+   kill it. The Task-2 competence the log spent Experiments 1–22 building was
+   thrown away at the start of every one of them.
+
+The second point is the more serious of the two and it is entirely
+self-inflicted. The project brief suggests learning curricula explicitly; this
+log built a curriculum's worth of stages and then never chained them.
+
+**The change.** `setup` now honours `QLEARN_INIT_FROM`, a path to a checkpoint
+to start training from, and `train.py` honours `QLEARN_EPSILON_START`. Both are
+read only while `self.train` is set, so evaluation and tournament play are
+unaffected whether or not they are set — the submitted agent's behaviour does
+not depend on either. A width mismatch on the warm-start checkpoint is a hard
+error rather than a silent reshape, since loading a narrower vector would
+misalign every feature index.
+
+**Design.** Two stages, the second warm-started from the first:
+
+- *Stage 1* — solo `classic`, 1000 rounds, seed 0. This is exactly the
+  Experiment 27 checkpoint, reused unchanged rather than retrained, so the two
+  experiments share a starting point.
+- *Stage 2* — 1000 further rounds with opponents on the board, ε restarted at
+  0.15 rather than 0.3. A warm-started run is fine-tuning a competent policy;
+  re-opening at the from-scratch exploration rate would spend its first rounds
+  unlearning what it was handed.
+
+Two stage-2 conditions, matching the tasks the brief defines:
+
+| Condition | Stage-2 opponents | Targets |
+|---|---|---|
+| `sarsa_vs_t3` | `peaceful_agent` + `coin_collector_agent` | Task 3 |
+| `sarsa_vs_rb3` | 3× `rule_based_agent` | Task 4 and the tournament |
+
+Both are separate agent directories holding byte-identical code to
+`sarsa_agent`; they exist only so a training run cannot overwrite the
+submission checkpoint.
+
+**What would count as success.** Stated before the runs, because "better" is
+ambiguous here and the previous experiments have shown this agent can raise one
+metric by sacrificing another:
+
+- For Task 3, the brief's wording is "hunt and blow up", so the metric is
+  **opponents killed**, not score. The Task-2 agent manages roughly 3–7 kills
+  per 1000 rounds, which is not a solved task by any reading.
+- For Task 4 and the tournament, the metric is **score per round**, the
+  criterion the tournament itself applies, with self-kills watched as the
+  quantity Experiment 26 moved and which must not regress.
+- A result where the curriculum agent scores no better than its own warm start
+  is a real answer too: it would say the opponent features cannot be rescued by
+  better training, and that the honest conclusion is the one Experiment 25
+  reached for a wrong reason.
+
+**Did the opponent features learn anything?** First check, before any
+evaluation: the total absolute weight the model puts on the opponent block
+(indices 23–29). The warm start carries exactly 0 there by construction —
+those features are inert in solo training — so any non-zero value is weight
+the curriculum stage put on them.
+
+| Condition | Warm start | After stage 2 |
+|---|---|---|
+| `sarsa_vs_t3` | 0.000 | 7.155 |
+| `sarsa_vs_rb3` | 0.000 | 5.934 |
+
+They learned, and — more interestingly — the two conditions learned *opposite*
+policies from the same feature set. Against `peaceful_agent` and
+`coin_collector_agent`, `opp_trapped` and `opp_in_blast` both took positive
+BOMB weights: corner an opponent, bomb it. Against three `rule_based_agent`s,
+`opp_in_blast` went negative (−0.098) for BOMB. That is the correct read of
+each situation rather than a contradiction — `peaceful_agent` never drops a
+bomb, so hunting it is free, while closing to blast range on a
+`rule_based_agent` is how this agent dies, which the deaths-by-opponent column
+has been saying since Experiment 23. A single feature set producing "hunt" for
+weak opponents and "keep away" for strong ones is exactly the behaviour those
+features were added for in Experiment 24 and have never once shown.
+
+---
+
+**Task 3 — raw numbers** (`peaceful_agent` + `coin_collector_agent`, 200
+rounds × 5 seeds, offset 300, greedy):
+
+| Metric | Task-2 only (before) | Task-3 curriculum (after) | Effect |
+|---|---|---|---|
+| **Opponents killed** | 5.0 ± 2.4 | **11.0 ± 4.6** | **+2.56 SE** |
+| Deaths by opponent | 83.2 ± 9.0 | 65.4 ± 5.6 | −3.74 SE |
+| Score/round | 1.456 ± 0.12 | 1.022 ± 0.12 | **−5.69 SE** |
+| Coins/round | 1.331 ± 0.13 | 0.747 ± 0.01 | −9.89 SE |
+| Self-kills | 28.6 ± 4.2 | 35.2 ± 4.8 | +1.47 SE |
+| Bombs/round | 5.18 ± 0.32 | 3.49 ± 0.21 | −9.86 SE |
+
+Kills per seed: `[2, 8, 4, 7, 4]` → `[16, 15, 5, 11, 8]`, higher on 4 of 5.
+
+**Task 3 — interpretation.** On the metric registered before the run, the
+curriculum works: kills more than double, and the agent also dies to opponents
+*less*, so it is engaging them competently rather than trading itself away.
+This is the first checkpoint in the log that hunts at all.
+
+It pays for that by nearly halving coin collection, and score falls 30% — an
+effect both larger and far more certain than the kill gain. The agent stopped
+farming crates and went looking for opponents. Both halves belong in the same
+sentence; reporting the kill number alone would be metric-shopping, and the
+only reason the kill number can be reported at all without that charge is that
+it was named as the Task 3 metric before the run, on the brief's own wording
+("hunt and blow up").
+
+Consequence: `sarsa_vs_t3` is the Task 3 *result*, not a submission candidate.
+It demonstrates the capability the brief asks for; it is worse at the thing the
+tournament scores.
+
+---
+
+**Task 4 — raw numbers** (1× `rule_based_agent`, same protocol):
+
+| Metric | Before | After | Effect |
+|---|---|---|---|
+| Self-kills | 39.2 ± 6.3 | **11.8 ± 1.9** | **−9.25 SE** |
+| Deaths by opponent | 110.4 ± 6.0 | 62.0 ± 8.8 | −9.05 SE |
+| Win rate | 3.8% | 4.8% | +1.10 SE |
+| Score/round | 1.431 ± 0.12 | 1.356 ± 0.21 | −0.68 SE |
+| Opponents killed | 4.0 ± 1.0 | 2.0 ± 1.9 | −2.11 SE |
+
+**Task 4 — interpretation.** The opposite adaptation to Task 3, from the same
+mechanism. Against a full-strength opponent the curriculum taught avoidance,
+not aggression: total deaths fall from 149.6 to 73.8 per 200 rounds while kills
+halve. Score is flat within noise and win rate edges up. "Hold your own",
+which is how the brief phrases Task 4, is a fair description of what this
+checkpoint learned — it survives roughly twice as long and wins slightly more
+often, without ever becoming a threat.
+
+---
+
+**Tournament — raw numbers** (3× `rule_based_agent`, the submission-deciding
+configuration, matched seeds):
+
+| Metric | Exp 27 submission | Exp 28 curriculum | Baseline 23-feat |
+|---|---|---|---|
+| Score/round | 1.121 ± 0.064 | **1.191 ± 0.091** | 1.058 ± 0.131 |
+| Win rate | 1.2% | 2.4% | 3.3% |
+| Self-kills | 30.8 ± 3.1 | **12.0 ± 3.4** | 115.6 ± 4.2 |
+| Deaths by opponent | 155.4 ± 3.6 | 102.4 ± 2.3 | 55.2 ± 6.2 |
+| Coins/round | 1.031 | 1.086 | 0.918 |
+
+Curriculum minus Exp 27 submission: score **+0.070 (+1.40 SE)**, self-kills
+**−18.8 (−9.13 SE)**, win rate **+0.012 (+2.68 SE)**, opponents killed +0.6
+(+0.63 SE, noise).
+
+> **Correction, added at Experiment 29.** Every SE quoted in this entry is
+> computed over evaluation *boards*, with one training run per condition.
+> Experiment 29 trained three seeds of a near-identical condition and found a
+> 2.5x spread in score/round between them, an order of magnitude larger than
+> the board-level spread. So these SEs understate the real uncertainty by an
+> unknown amount, and the "+1.40 SE" margin in particular should not be read
+> as evidence of a 1.4-sigma effect. The ranking is unchanged — nothing
+> measured beats this checkpoint — but the size of its lead is not
+> established. See "Next steps" item 8. Per-seed score `[1.07, 1.18, 1.065, 1.09, 1.20]` →
+`[1.18, 1.235, 1.205, 1.29, 1.045]`, higher on 4 of 5.
+
+**Tournament — interpretation.** The curriculum checkpoint is better than the
+Experiment 27 submission on the deciding metric and decisively better on
+survival. The score gain on its own is +1.40 SE — suggestive, not proven — but
+it does not stand on its own: the self-kill collapse is a 9-sigma effect and
+the win-rate doubling is 2.7 SE, and all three point the same way. It is also
+the first checkpoint to lead the 23-feature baseline on score while cutting
+that baseline's self-kills by 90% (115.6 → 12.0).
+
+The baseline still wins more often (3.3% vs 2.4%). That gap has narrowed from
+Experiment 27's 3.3% vs 1.2%, but it has not closed, and it is the one metric
+where the submitted agent is not in front.
+
+**Submission updated** to `model_exp28_curriculum_rb3.pt`. The reasoning is the
+same as Experiment 27's — the brief decides a tournament "by total score" — and
+now points the same way on two of the three metrics rather than splitting.
+
+---
+
+**What this says about Experiment 25, finally.** That experiment concluded the
+opponent-aware work had failed. Experiment 27 showed the comparison was
+confounded by a defect. This experiment shows the features work once the defect
+is gone *and* they are given a competent policy to build on: the same seven
+features that looked worthless in Experiment 24 are carrying 5.9 units of
+weight and producing task-appropriate behaviour. The failure was never in the
+features; it was one encoding bug and one missing curriculum stage, and it took
+three experiments to separate those from the thing they were blamed on.
+
+**Not established here.** Single seed-0 training run per condition, so
+training-side variance is unmeasured — the evaluation spread is over board
+seeds only. Stage-2 length (1000 rounds) and ε restart (0.15) were picked by
+reasoning, not swept. And the tournament gain rests on n=5; the confirmation
+run at a second seed range still has not been completed (see Experiment 27's
+submission-decision note).
+
+---
+
+### Experiment 29 — Opponent-threat features: a negative result, and a measurement error it exposed
+
+**Where this came from.** Decomposing the submitted agent's tournament
+performance (Experiment 28) makes the remaining problem unambiguous:
+
+| | per round | per 200 rounds |
+|---|---|---|
+| Score from coins | 1.086 (91%) | — |
+| Score from kills | 0.105 (9%) | 4.2 kills |
+| Rounds ended by self-kill | — | 12.0 (6%) |
+| Rounds ended by an opponent | — | **102.4 (51%)** |
+| Rounds survived | — | 85.6 (43%) |
+
+Experiments 26 and 27 took self-kills from 115.6 to 12.0. What is left is that
+**half of all rounds end with an opponent killing us**, and since 91% of score
+is coins that can only be collected while alive, that is the binding
+constraint.
+
+**The gap in the feature set.** Every danger computation in `callbacks.py` —
+`_danger_zone`, `_bomb_danger_windows`, `_can_escape_own_bomb` — reasons about
+bombs that have *already been placed*. `bombs_left` is read exactly once, for
+our own agent (`game_state['self'][2]`); the identical flag on each entry of
+`game_state['others']` had never been read anywhere. Experiment 24's opponent
+features are all about what we could do to them — "would my bomb hit them",
+"could they escape my bomb". Standing in a straight line, within blast range,
+of an opponent holding a bomb was not representable.
+
+**Two features, after cutting four.** The group started at six dimensions and
+was reduced to two before any training, on firing rates measured over sampled
+states:
+
+| Candidate dimension | Firing rate | Kept? |
+|---|---|---|
+| `IDX_THREAT_HERE` — my tile is in a bomb-capable opponent's blast | 5.7% | yes |
+| `IDX_TRAPPED_BY_OPP` — if they bombed now, I could not escape | 19.1% | yes |
+| per-direction "neighbour is threatened" (×4) | 0.5–1.0% | **cut** |
+| per-direction "neighbour is out of threat" (×4) | 0.8–1.2% | **cut** |
+
+Four dimensions at ~1% would have added 24 parameters the measurement says
+would learn nothing. Cutting them is the decision Experiment 26 declined to
+make about its own redundancy dimension.
+
+---
+
+#### The measurement error
+
+Chasing why the per-direction dimensions were so sparse turned up a bug in the
+sampler, not in the features. `scripts/check_escape_equivalence.py` and the
+first version of `scripts/audit_constant_features.py` both generated every
+board at a **fixed 0.75 crate density** — the density a `classic` round
+*starts* at. A round clears crates from there, so those samplers described the
+opening moves of a round and nothing after them, and they systematically
+understate any feature whose value depends on having a free tile to move to.
+
+Re-measured with density drawn from [0, 0.75]:
+
+| Quantity | Fixed 0.75 | Across the range |
+|---|---|---|
+| `IDX_SAFE_BOMB_ROBUST` fires (Experiment 26's redundancy feature) | **1.6%** | **31.9%** |
+| States where a bomb is droppable at all | 12.9% | 64.9% |
+| `IDX_OPPONENT_DIR_BASE` fires | 0.1–0.4% | 6.4–8.0% |
+
+**This retracts the stated reason for Experiment 26's headline prediction.**
+That experiment predicted the redundancy feature would be useless *because* it
+fired in 1.6% of states, and it was useless — but it fires in nearly a third of
+states, so sparsity cannot be the explanation. The prediction was right and its
+justification was wrong. The likelier account, untested and listed as an open
+item: redundancy is largely implied by `IDX_SAFE_BOMB` and `IDX_ESCAPE_SLACK`,
+which are already in the vector, so it carries little unique signal for a
+linear model. Experiment 26's entry has been corrected in place rather than
+left standing.
+
+The equivalence check in that script is unaffected — it does not depend on
+density and still passes at 0 mismatches over 4000 states.
+
+---
+
+#### Results
+
+Three training seeds, warm-started from the same Experiment 27 Task-2
+checkpoint, 1000 curriculum rounds against 3× `rule_based_agent` — protocol
+identical to Experiment 28 in every respect except the two added features.
+Evaluated on the tournament configuration, 200 rounds per board seed.
+
+| Condition | Score/round | Self-kills | Deaths by opp. | Coins/round |
+|---|---|---|---|---|
+| Experiment 28 (32 features), train-seed 0 | **1.191 ± 0.091** | 12.0 | 102.4 | 1.086 |
+| Experiment 29, train-seed 0 | 0.747 ± 0.025 | 31.0 | 77.0 | 0.572 |
+| Experiment 29, train-seed 1 | 1.002 ± 0.134 | 40.0 | 136.3 | 0.935 |
+| Experiment 29, train-seed 2 | 0.400 ± 0.048 | 128.0 | 67.7 | 0.350 |
+
+(n=3 evaluation boards per training seed; the run was cut short by memory
+pressure on the machine, unrelated to the experiment. n=3 is thin, but all
+three training seeds land below the Experiment 28 figure and the conclusion
+does not turn on the last two boards.)
+
+**The features are not the problem with learning.** They learned strongly and
+consistently. Total absolute weight on the two dimensions was 5.05 / 7.01 /
+6.24 across seeds, comparable to Experiment 24's entire seven-feature opponent
+block. And in all three seeds `IDX_THREAT_HERE` penalised `WAIT` far more than
+any movement action:
+
+| Train seed | `WAIT` weight | mean over the 4 move actions |
+|---|---|---|
+| 0 | −0.883 | −0.193 |
+| 1 | −1.188 | −0.178 |
+| 2 | −0.819 | −0.077 |
+
+Three independent runs, same sign, same argmin, a 4–10× gap. The agent learned
+the rule the feature was added to express: *if you are standing in a line
+someone could bomb, do not stand still.* `IDX_TRAPPED_BY_OPP` is consistently
+negative too, but its ordering *across* actions differs between seeds — that
+part reads as per-seed noise, not a learned rule, and is reported as such.
+
+**Interpretation.** The agent learned the intended behaviour and got worse at
+the game. Deaths-by-opponent did fall for two of three seeds (77.0 and 67.7 vs
+102.4), which is exactly what the feature targeted — but coins fell further
+(0.572 and 0.350 vs 1.086), and coins are 91% of the score. Teaching an agent
+whose points come from farming crates to avoid opponents makes it avoid the
+board. The one seed that kept its coins (s1, 0.935) is also the one whose
+deaths-by-opponent went *up*, to 136.3.
+
+This is a real negative result, not a training failure, and it is the second
+time in this log that a feature did what it was designed to do and cost more
+than it returned (the first being Experiment 28's Task 3 curriculum, which
+doubled kills and lost 30% of score). Both point at the same underlying fact:
+**this agent's score is a coin-farming score, and anything that trades
+board-time for safety or aggression is trading against 91% of its points.**
+
+**Not established.** Whether the features would help an agent whose score came
+mostly from kills. Whether a smaller weight on them — they were learned freely,
+not regularised — would keep the survival gain without the coin loss. Neither
+was tested.
+
+---
+
+#### The larger finding: training-seed variance
+
+Score/round across the three training seeds is **0.400, 0.747, 1.002** — a
+2.5× spread from nothing but the seed. Evaluation-board spread within each seed
+is small by comparison (±0.025 to ±0.134).
+
+This is the first experiment in the log to train more than once. **Every
+previous experiment, Experiment 28 included, trained a single model at seed 0
+and reported only the spread over evaluation boards** — which measures the
+wrong variance, and measures it as much smaller than the one that matters.
+
+That bears directly on the submission. Experiment 28's 1.191 is one draw from a
+distribution now known to be wide, and the Experiment 27→28 comparison
+(1.121 → 1.191, quoted at +1.40 SE) used an SE computed over evaluation boards
+only. The correct comparison would need several training seeds per condition,
+and the runs that would settle it (Experiment 28's exact condition at training
+seeds 1 and 2) were set up but could not be completed — the machine had under
+500 MB free, most of it taken by an unrelated application.
+
+**So the honest status of the submitted checkpoint is: still the best agent
+measured, on the most directly comparable evidence available, but its margin
+over the Experiment 27 checkpoint is no longer supported at the confidence
+previously claimed.** The submission is unchanged, because nothing measured
+beats it; the claim about *how much* it wins by is withdrawn pending the
+seed-variance runs.
+
+> **Correction, added at Experiment 30.** The generalisation in the paragraph
+> above — that this variance undermines the error bars throughout the log —
+> was too broad, and the runs it called for have since been done. Experiment
+> 28's condition is *stable* across training seeds (1.191 / 1.305 / 1.347,
+> sd 0.081); the 2.5x spread measured here is a property of Experiment 29's
+> failed condition, not of the setup. Instability was one of the ways these
+> features were bad. What survives is the narrower and still-important point:
+> a comparison between conditions must be made across training seeds, because
+> evaluation-board spread is not the relevant uncertainty. See Experiment 30,
+> Part 3.
+
+---
+
+### Experiment 30 — Measuring properly: seed variance, model selection, and a defect the harness could not see
+
+Experiment 29 ended with two loose threads: a training-seed spread large enough
+to undermine the log's own error bars, and no measurement at all of the
+submitted agent on Tasks 1 and 2. Pulling both produced a better agent and a
+defect nobody had looked for.
+
+---
+
+#### Part 1 — the evaluation harness could not evaluate two of the four tasks
+
+`scripts/eval_vs_opponents.py` took a list of opponents and always placed them
+on the board. The brief defines Task 1 as "a game board without any crates or
+opponents" and Task 2 as "randomly placed crates yet without opponents" — both
+solo. So the harness that produced every number in Experiments 23-29 was
+structurally incapable of reporting on the two tasks the agent is best at, and
+nobody noticed because the interesting comparisons were all opponent-facing.
+
+Added `task1` (solo, `coin-heaven`) and `task2` (solo, `classic`) as
+configurations, with the opponent-facing three kept as the default so every
+earlier invocation reproduces unchanged.
+
+---
+
+#### Part 2 — the submitted agent could not play alone
+
+First run of the new configurations, on what was then the submitted checkpoint
+(Experiment 28, train-seed 0), 200 rounds x 5 seeds:
+
+| Task | bombs/round | crates/round | coins/round | score/round |
+|---|---|---|---|---|
+| Task 1 (solo, coin-heaven) | 0.000 | 0.000 | 4.322 | 4.322 |
+| Task 2 (solo, classic) | **0.006** | 0.026 | **0.001** | 0.001 |
+| Task 3 (+2 opponents) | 3.637 | 11.762 | 0.925 | 1.000 |
+| Task 4 (+`rule_based`) | 3.909 | 12.716 | 1.195 | 1.255 |
+
+In `classic` every coin starts inside a crate, so an agent that does not bomb
+cannot score at all. The curriculum agent bombs 3.6-3.9 times a round with
+opponents present and **0.006 times a round without them**.
+
+**Mechanism, measured rather than guessed.** Taking 3000 random boards and
+computing Q-values for the identical state with and without opponents:
+
+| | with 3 opponents | with 0 opponents |
+|---|---|---|
+| BOMB is the argmax action | 13.4% of states | 6.1% of states |
+| mean BOMB rank (0 = best of six) | 2.57 | 3.04 |
+
+Removing the opponents drops Q(BOMB) by **0.405** on average. The dominant
+term is `IDX_OPPONENT_DIST`, which carries **+0.554** on the BOMB row.
+
+**This is a consequence of Experiment 27's fix.** That experiment changed the
+"no opponent" encoding from 1.0 to 0.0, which is correct and necessary: 1.0 was
+constant during solo training and therefore collinear with the bias, and
+removing that collinearity was worth +62% score. But 0.0 is not a *neutral*
+value — on a scaled distance feature it is the **near** end of the range. For a
+model trained with opponents, which learned a positive BOMB weight on
+distance, "no opponents left" therefore reads as "an opponent is adjacent", and
+bombing is suppressed. The fix was right for the problem it solved and created
+a second one in the condition it was not tested in.
+
+Worth stating plainly because it is not only a solo-task curiosity: in the
+tournament, opponents die during a round. Every time the board clears, the
+agent stops bombing for the remainder of that round and stops scoring. This is
+a live cost in the configuration that decides the grade. It is diagnosed and
+**not fixed** — see "Next steps".
+
+The Task-2 checkpoint (Experiment 27, never trained against opponents) does not
+have the defect, and covers the solo tasks the curriculum agent cannot:
+
+| Task | Task-2 checkpoint | Curriculum checkpoint |
+|---|---|---|
+| Task 1, coins/round | **13.251 ± 1.10** | 4.322 |
+| Task 2, coins/round | **0.229 ± 0.04** | 0.001 |
+| Task 2, bombs/round | 1.061 | 0.006 |
+
+Neither is a strong Task 1 result — the dedicated Task-1 agent of Experiment 9
+collected 41.5 coins/round — and Task 2 at 0.229 coins/round out of 9 available
+is weak in absolute terms. The honest summary is that **the four tasks are
+covered by a progression of specialists, each stage trading away some of the
+previous stage's competence**, not by one agent that does all four.
+
+---
+
+#### Part 3 — training-seed variance, resolved
+
+Experiment 29 found a 2.5x spread across three training seeds and I concluded
+from it that the whole log's error bars were unreliable. Running the same test
+on Experiment 28's condition shows that conclusion was too broad:
+
+| Condition | train-seed scores | mean | sd |
+|---|---|---|---|
+| Experiment 28 (32 features, curriculum) | 1.191 / 1.305 / 1.347 | 1.281 | **0.081** |
+| Experiment 29 (34 features, + threat) | 0.747 / 1.002 / 0.400 | 0.716 | **0.302** |
+
+Experiment 28's condition is stable. The large spread is a property of the
+*failed* condition, not of every experiment in this log — instability was one
+of the ways Experiment 29's features were bad, rather than a general fact about
+the setup. The earlier, broader claim is withdrawn; the narrower one stands,
+and the practical rule is unchanged: a between-condition comparison needs
+several training seeds, because the board-level spread is not the relevant
+uncertainty.
+
+With training-seed variance now measured for both, the Experiment 28 vs 29
+comparison can be made on the right quantity: **+0.565, +3.13 SE**, and every
+Experiment 28 seed beats every Experiment 29 seed.
+
+---
+
+#### Part 4 — model selection, with held-out confirmation
+
+The submitted checkpoint turned out to be the *weakest* of its own condition's
+three seeds. Selecting the best of three on the boards used to compare them
+would be selection on noise, so all three were re-evaluated on board seeds
+500-504, disjoint from the 300-304 used for selection:
+
+| Train seed | Selection (300-304) | Held-out (500-504) | Pooled, n=10 | Win rate | Self-kills |
+|---|---|---|---|---|---|
+| 0 (previously submitted) | 1.191 | 1.179 | 1.185 ± 0.11 | 2.1% | 14.2 |
+| **1 (now submitted)** | 1.305 | **1.385** | **1.345 ± 0.07** | **3.5%** | 63.2 |
+| 2 | 1.347 | 1.297 | 1.322 ± 0.12 | 1.5% | 25.6 |
+
+Seeds 1 and 2 **swap places** between the two board sets (1.305 → 1.385 against
+1.347 → 1.297), which is exactly why the maximum on the selection boards was
+not simply taken. What survives is the gap to seed 0, which both board sets
+agree on independently:
+
+- seed 1 − seed 0: **+0.160, SE 0.039, +4.06 SE** (n=10 boards)
+- seed 2 − seed 0: +0.137, SE 0.050, +2.75 SE
+
+**Submission changed to the train-seed-1 checkpoint**
+(`model_exp30_curriculum_s1.pt`), on score/round: +13.5% over the checkpoint it
+replaces, and +3.86 SE over the 23-feature baseline on matched boards.
+
+Win rate is **not** part of the case. At 3.45% pooled it is level with the
+baseline's 3.30%, and on matched boards the baseline is fractionally ahead
+(3.30% vs 3.20%, 0.09 SE). Every submitted checkpoint in this project has
+trailed the baseline on win rate and this one still does; what changed is the
+score margin, which is what the brief says decides a tournament.
+
+Note it carries *more* self-kills than the checkpoint it replaces (63.2 vs
+14.2) and wins anyway. Survival was never the objective; it was a proxy, and
+this is the point at which the proxy and the objective part company. Experiment
+26 is worth re-reading with that in mind — it cut self-kills 73% and gained
+little score, and the reason is visible here.
+
+**What this does and does not license.** Choosing the best of three seeds is
+legitimate for deciding what to submit. It is not a legitimate estimate of what
+the training procedure produces: that is the condition mean, 1.281 ± 0.081. The
+submitted checkpoint measures 1.345 on 10 boards. Both numbers belong in the
+report, and the second should never be quoted as the method's expected output.
+
+#### Part 5 — the submitted agent on all four tasks
+
+The table the log never had, for the checkpoint actually submitted
+(`model_exp30_curriculum_s1.pt`), 200 rounds x 5 seeds, greedy:
+
+| Task | Score/round | Coins/round | Opponents killed | Win rate |
+|---|---|---|---|---|
+| Task 1 — solo, coin-heaven | 4.024 ± 0.16 | 4.024 | 0.0 | 100.0 |
+| Task 2 — solo, classic | 0.409 ± 0.05 | 0.409 | 0.0 | 100.0 |
+| Task 3 — + peaceful + coin_collector | 1.478 ± 0.14 | 1.313 | 6.6 | 2.6 |
+| Task 4 — + rule_based | 1.468 ± 0.09 | 1.358 | 4.4 | 5.2 |
+
+For comparison on the two solo tasks, the Experiment 27 Task-2 checkpoint —
+the one actually *trained* for them — scores 13.251 on Task 1 and 0.229 on Task 2.
+
+Two things worth reporting from this. First, the submitted agent is the best
+Task 2 agent measured here (0.409 vs 0.229), despite Task 2 not being what it
+was trained for and despite the previous submission scoring 0.001 on it: the
+opponent-dependence defect diagnosed in Part 2 is a property of the seed-0
+checkpoint, not of the curriculum condition. That correction matters, because
+an earlier draft of this entry generalised it to the condition on the strength
+of Task 1 alone, where the two checkpoints happen to look alike (4.02 vs 4.32).
+
+Second, Task 4's win rate of 5.2% is the highest figure in this column
+anywhere in the log — the agent is at its most competitive one-on-one, and
+degrades in the three-opponent tournament (2.6% on Task 3, 3.2% in the
+tournament configuration). That is the expected direction, but it does mean
+the configuration being graded is the one it handles worst.
