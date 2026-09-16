@@ -1,0 +1,1258 @@
+{
+    "by_agent": {
+        "rule_based_agent_0": {
+            "bombs": 4434,
+            "coins": 564,
+            "crates": 7248,
+            "invalid": 1441,
+            "kills": 43,
+            "moves": 44808,
+            "rounds": 200,
+            "score": 779,
+            "steps": 50850,
+            "suicides": 91,
+            "time": 53.21129488945007
+        },
+        "rule_based_agent_1": {
+            "bombs": 4538,
+            "coins": 507,
+            "crates": 7133,
+            "invalid": 1483,
+            "kills": 46,
+            "moves": 44970,
+            "rounds": 200,
+            "score": 737,
+            "steps": 51102,
+            "suicides": 93,
+            "time": 52.792885303497314
+        },
+        "rule_based_agent_2": {
+            "bombs": 4253,
+            "coins": 541,
+            "crates": 6961,
+            "invalid": 1359,
+            "kills": 45,
+            "moves": 42775,
+            "rounds": 200,
+            "score": 766,
+            "steps": 48481,
+            "suicides": 99,
+            "time": 48.65116310119629
+        },
+        "sarsa_agent": {
+            "bombs": 1142,
+            "coins": 169,
+            "crates": 3067,
+            "invalid": 381,
+            "kills": 4,
+            "moves": 25041,
+            "rounds": 200,
+            "score": 189,
+            "steps": 27276,
+            "suicides": 126,
+            "time": 13.217143535614014
+        }
+    },
+    "by_round": {
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 01 (2026-09-02 00-16-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 02 (2026-09-02 00-16-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 289,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 03 (2026-09-02 00-16-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 345,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 04 (2026-09-02 00-16-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 05 (2026-09-02 00-16-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 06 (2026-09-02 00-16-32)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 259,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 07 (2026-09-02 00-16-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 224,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 08 (2026-09-02 00-16-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 09 (2026-09-02 00-16-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 314,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 10 (2026-09-02 00-16-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 100 (2026-09-02 00-17-57)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 101 (2026-09-02 00-17-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 102 (2026-09-02 00-17-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 103 (2026-09-02 00-18-00)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 245,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 104 (2026-09-02 00-18-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 256,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 105 (2026-09-02 00-18-01)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 106 (2026-09-02 00-18-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 233,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 107 (2026-09-02 00-18-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 108 (2026-09-02 00-18-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 109 (2026-09-02 00-18-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 254,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 11 (2026-09-02 00-16-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 284,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 110 (2026-09-02 00-18-05)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 111 (2026-09-02 00-18-06)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 112 (2026-09-02 00-18-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 113 (2026-09-02 00-18-08)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 333,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 114 (2026-09-02 00-18-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 329,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 115 (2026-09-02 00-18-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 308,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 116 (2026-09-02 00-18-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 117 (2026-09-02 00-18-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 256,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 118 (2026-09-02 00-18-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 218,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 119 (2026-09-02 00-18-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 210,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 12 (2026-09-02 00-16-37)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 120 (2026-09-02 00-18-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 315,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 121 (2026-09-02 00-18-14)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 334,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 122 (2026-09-02 00-18-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 123 (2026-09-02 00-18-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 124 (2026-09-02 00-18-17)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 256,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 125 (2026-09-02 00-18-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 126 (2026-09-02 00-18-19)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 127 (2026-09-02 00-18-20)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 300,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 128 (2026-09-02 00-18-21)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 295,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 129 (2026-09-02 00-18-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 13 (2026-09-02 00-16-37)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 130 (2026-09-02 00-18-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 131 (2026-09-02 00-18-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 292,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 132 (2026-09-02 00-18-26)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 319,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 133 (2026-09-02 00-18-27)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 375,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 134 (2026-09-02 00-18-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 135 (2026-09-02 00-18-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 136 (2026-09-02 00-18-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 235,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 137 (2026-09-02 00-18-31)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 269,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 138 (2026-09-02 00-18-32)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 139 (2026-09-02 00-18-33)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 14 (2026-09-02 00-16-39)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 140 (2026-09-02 00-18-34)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 141 (2026-09-02 00-18-35)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 142 (2026-09-02 00-18-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 143 (2026-09-02 00-18-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 144 (2026-09-02 00-18-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 351,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 145 (2026-09-02 00-18-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 146 (2026-09-02 00-18-39)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 147 (2026-09-02 00-18-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 148 (2026-09-02 00-18-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 149 (2026-09-02 00-18-42)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 15 (2026-09-02 00-16-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 150 (2026-09-02 00-18-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 151 (2026-09-02 00-18-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 278,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 152 (2026-09-02 00-18-45)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 153 (2026-09-02 00-18-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 355,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 154 (2026-09-02 00-18-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 250,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 155 (2026-09-02 00-18-48)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 156 (2026-09-02 00-18-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 223,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 157 (2026-09-02 00-18-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 271,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 158 (2026-09-02 00-18-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 159 (2026-09-02 00-18-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 374,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 16 (2026-09-02 00-16-42)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 278,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 160 (2026-09-02 00-18-52)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 226,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 161 (2026-09-02 00-18-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 288,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 162 (2026-09-02 00-18-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 163 (2026-09-02 00-18-55)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 164 (2026-09-02 00-18-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 165 (2026-09-02 00-18-57)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 166 (2026-09-02 00-18-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 302,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 167 (2026-09-02 00-18-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 168 (2026-09-02 00-19-00)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 169 (2026-09-02 00-19-01)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 344,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 17 (2026-09-02 00-16-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 170 (2026-09-02 00-19-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 294,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 171 (2026-09-02 00-19-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 172 (2026-09-02 00-19-04)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 173 (2026-09-02 00-19-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 313,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 174 (2026-09-02 00-19-05)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 248,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 175 (2026-09-02 00-19-06)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 176 (2026-09-02 00-19-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 294,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 177 (2026-09-02 00-19-08)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 315,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 178 (2026-09-02 00-19-09)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 179 (2026-09-02 00-19-10)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 18 (2026-09-02 00-16-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 394,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 180 (2026-09-02 00-19-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 333,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 181 (2026-09-02 00-19-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 182 (2026-09-02 00-19-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 183 (2026-09-02 00-19-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 184 (2026-09-02 00-19-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 185 (2026-09-02 00-19-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 323,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 186 (2026-09-02 00-19-17)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 187 (2026-09-02 00-19-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 188 (2026-09-02 00-19-19)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 245,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 189 (2026-09-02 00-19-20)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 19 (2026-09-02 00-16-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 279,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 190 (2026-09-02 00-19-21)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 191 (2026-09-02 00-19-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 192 (2026-09-02 00-19-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 193 (2026-09-02 00-19-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 194 (2026-09-02 00-19-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 290,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 195 (2026-09-02 00-19-26)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 196 (2026-09-02 00-19-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 275,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 197 (2026-09-02 00-19-28)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 356,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 198 (2026-09-02 00-19-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 247,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 199 (2026-09-02 00-19-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 279,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 20 (2026-09-02 00-16-45)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 200 (2026-09-02 00-19-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 21 (2026-09-02 00-16-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 232,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 22 (2026-09-02 00-16-47)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 247,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 23 (2026-09-02 00-16-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 24 (2026-09-02 00-16-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 25 (2026-09-02 00-16-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 289,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 26 (2026-09-02 00-16-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 27 (2026-09-02 00-16-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 227,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 28 (2026-09-02 00-16-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 255,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 29 (2026-09-02 00-16-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 266,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 30 (2026-09-02 00-16-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 31 (2026-09-02 00-16-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 275,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 32 (2026-09-02 00-16-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 299,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 33 (2026-09-02 00-16-57)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 34 (2026-09-02 00-16-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 35 (2026-09-02 00-16-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 364,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 36 (2026-09-02 00-16-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 342,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 37 (2026-09-02 00-17-00)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 381,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 38 (2026-09-02 00-17-01)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 39 (2026-09-02 00-17-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 40 (2026-09-02 00-17-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 41 (2026-09-02 00-17-05)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 265,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 42 (2026-09-02 00-17-06)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 43 (2026-09-02 00-17-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 261,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 44 (2026-09-02 00-17-07)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 277,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 45 (2026-09-02 00-17-08)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 227,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 46 (2026-09-02 00-17-08)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 47 (2026-09-02 00-17-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 332,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 48 (2026-09-02 00-17-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 49 (2026-09-02 00-17-11)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 259,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 50 (2026-09-02 00-17-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 249,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 51 (2026-09-02 00-17-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 52 (2026-09-02 00-17-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 260,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 53 (2026-09-02 00-17-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 213,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 54 (2026-09-02 00-17-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 55 (2026-09-02 00-17-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 56 (2026-09-02 00-17-17)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 57 (2026-09-02 00-17-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 289,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 58 (2026-09-02 00-17-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 297,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 59 (2026-09-02 00-17-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 268,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 60 (2026-09-02 00-17-20)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 61 (2026-09-02 00-17-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 62 (2026-09-02 00-17-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 206,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 63 (2026-09-02 00-17-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 64 (2026-09-02 00-17-24)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 372,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 65 (2026-09-02 00-17-25)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 290,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 66 (2026-09-02 00-17-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 243,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 67 (2026-09-02 00-17-26)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 299,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 68 (2026-09-02 00-17-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 340,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 69 (2026-09-02 00-17-28)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 70 (2026-09-02 00-17-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 379,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 71 (2026-09-02 00-17-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 368,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 72 (2026-09-02 00-17-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 73 (2026-09-02 00-17-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 370,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 74 (2026-09-02 00-17-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 75 (2026-09-02 00-17-34)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 76 (2026-09-02 00-17-35)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 235,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 77 (2026-09-02 00-17-36)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 78 (2026-09-02 00-17-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 279,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 79 (2026-09-02 00-17-38)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 80 (2026-09-02 00-17-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 268,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 81 (2026-09-02 00-17-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 292,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 82 (2026-09-02 00-17-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 83 (2026-09-02 00-17-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 84 (2026-09-02 00-17-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 85 (2026-09-02 00-17-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 86 (2026-09-02 00-17-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 87 (2026-09-02 00-17-45)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 318,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 88 (2026-09-02 00-17-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 89 (2026-09-02 00-17-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 90 (2026-09-02 00-17-47)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 365,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 91 (2026-09-02 00-17-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 246,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 92 (2026-09-02 00-17-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 93 (2026-09-02 00-17-50)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 94 (2026-09-02 00-17-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 259,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 95 (2026-09-02 00-17-52)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 271,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 96 (2026-09-02 00-17-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 360,
+            "suicides": 3
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 97 (2026-09-02 00-17-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 98 (2026-09-02 00-17-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_sarsa_agent_tournament_3x_rulebased_seed4 | Round 99 (2026-09-02 00-17-55)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        }
+    }
+}

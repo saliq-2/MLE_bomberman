@@ -1,0 +1,86 @@
+{
+    "by_agent": {
+        "qlearn_agent": {
+            "bombs": 23,
+            "coins": 1,
+            "crates": 70,
+            "invalid": 9,
+            "moves": 832,
+            "rounds": 5,
+            "score": 1,
+            "steps": 965,
+            "suicides": 1,
+            "time": 0.4490690231323242
+        },
+        "rule_based_agent_0": {
+            "bombs": 92,
+            "coins": 14,
+            "crates": 172,
+            "invalid": 31,
+            "kills": 4,
+            "moves": 864,
+            "rounds": 5,
+            "score": 34,
+            "steps": 991,
+            "suicides": 3,
+            "time": 1.045436143875122
+        },
+        "rule_based_agent_1": {
+            "bombs": 112,
+            "coins": 15,
+            "crates": 185,
+            "invalid": 27,
+            "moves": 1120,
+            "rounds": 5,
+            "score": 15,
+            "steps": 1259,
+            "suicides": 1,
+            "time": 1.4450328350067139
+        },
+        "rule_based_agent_2": {
+            "bombs": 118,
+            "coins": 10,
+            "crates": 164,
+            "invalid": 42,
+            "kills": 2,
+            "moves": 1192,
+            "rounds": 5,
+            "score": 20,
+            "steps": 1352,
+            "suicides": 2,
+            "time": 1.6281962394714355
+        }
+    },
+    "by_round": {
+        "smoketest23 | Round 01 (2026-09-01 23-43-41)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 265,
+            "suicides": 2
+        },
+        "smoketest23 | Round 02 (2026-09-01 23-43-42)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 400,
+            "suicides": 0
+        },
+        "smoketest23 | Round 03 (2026-09-01 23-43-43)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "smoketest23 | Round 04 (2026-09-01 23-43-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "smoketest23 | Round 05 (2026-09-01 23-43-46)": {
+            "coins": 4,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        }
+    }
+}

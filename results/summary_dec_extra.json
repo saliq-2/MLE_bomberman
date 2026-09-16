@@ -1,0 +1,224 @@
+{
+ "seeds": [
+  400,
+  401
+ ],
+ "runs": [
+  {
+   "label": "Baseline 23-feat",
+   "agent": "sarsa_agent",
+   "tag_prefix": "dec_baseline",
+   "configs": {
+    "tournament": {
+     "score_per_round": {
+      "mean": 0.975,
+      "sd": 0.007071067811865481,
+      "per_seed": [
+       0.97,
+       0.98
+      ]
+     },
+     "win_rate": {
+      "mean": 0.025,
+      "sd": 0.007071067811865474,
+      "per_seed": [
+       0.03,
+       0.02
+      ]
+     },
+     "self_kills": {
+      "mean": 115.5,
+      "sd": 4.949747468305833,
+      "per_seed": [
+       119,
+       112
+      ]
+     },
+     "deaths_by_opponent": {
+      "mean": 57.5,
+      "sd": 0.7071067811865476,
+      "per_seed": [
+       57,
+       58
+      ]
+     },
+     "opponents_killed": {
+      "mean": 4,
+      "sd": 2.8284271247461903,
+      "per_seed": [
+       6,
+       2
+      ]
+     },
+     "bombs_per_round": {
+      "mean": 5.535,
+      "sd": 0.1343502884254437,
+      "per_seed": [
+       5.44,
+       5.63
+      ]
+     },
+     "crates_per_round": {
+      "mean": 15.035,
+      "sd": 0.898025612106915,
+      "per_seed": [
+       14.4,
+       15.67
+      ]
+     },
+     "coins_per_round": {
+      "mean": 0.875,
+      "sd": 0.0777817459305203,
+      "per_seed": [
+       0.82,
+       0.93
+      ]
+     },
+     "avg_steps": {
+      "mean": 338.69,
+      "sd": 7.636753236814681,
+      "per_seed": [
+       333.29,
+       344.09
+      ]
+     },
+     "w": {
+      "mean": 5,
+      "sd": 1.4142135623730951,
+      "per_seed": [
+       6,
+       4
+      ]
+     },
+     "d": {
+      "mean": 3,
+      "sd": 0.0,
+      "per_seed": [
+       3,
+       3
+      ]
+     },
+     "l": {
+      "mean": 192,
+      "sd": 1.4142135623730951,
+      "per_seed": [
+       191,
+       193
+      ]
+     },
+     "n_seeds": 2,
+     "missing": [],
+     "score_check_ok": true
+    }
+   }
+  },
+  {
+   "label": "32 feat fixed",
+   "agent": "sarsa_fixed",
+   "tag_prefix": "dec_fixed32",
+   "configs": {
+    "tournament": {
+     "score_per_round": {
+      "mean": 1.075,
+      "sd": 0.21920310216782968,
+      "per_seed": [
+       0.92,
+       1.23
+      ]
+     },
+     "win_rate": {
+      "mean": 0.02,
+      "sd": 0.021213203435596427,
+      "per_seed": [
+       0.005,
+       0.035
+      ]
+     },
+     "self_kills": {
+      "mean": 32,
+      "sd": 5.656854249492381,
+      "per_seed": [
+       28,
+       36
+      ]
+     },
+     "deaths_by_opponent": {
+      "mean": 159,
+      "sd": 2.8284271247461903,
+      "per_seed": [
+       161,
+       157
+      ]
+     },
+     "opponents_killed": {
+      "mean": 4.5,
+      "sd": 3.5355339059327378,
+      "per_seed": [
+       2,
+       7
+      ]
+     },
+     "bombs_per_round": {
+      "mean": 4.02,
+      "sd": 0.042426406871192576,
+      "per_seed": [
+       3.99,
+       4.05
+      ]
+     },
+     "crates_per_round": {
+      "mean": 9.61,
+      "sd": 0.4101219330881976,
+      "per_seed": [
+       9.32,
+       9.9
+      ]
+     },
+     "coins_per_round": {
+      "mean": 0.9624999999999999,
+      "sd": 0.13081475451951124,
+      "per_seed": [
+       0.87,
+       1.055
+      ]
+     },
+     "avg_steps": {
+      "mean": 332.1325,
+      "sd": 0.003535533905929522,
+      "per_seed": [
+       332.135,
+       332.13
+      ]
+     },
+     "w": {
+      "mean": 4,
+      "sd": 4.242640687119285,
+      "per_seed": [
+       1,
+       7
+      ]
+     },
+     "d": {
+      "mean": 2.5,
+      "sd": 2.1213203435596424,
+      "per_seed": [
+       1,
+       4
+      ]
+     },
+     "l": {
+      "mean": 193.5,
+      "sd": 6.363961030678928,
+      "per_seed": [
+       198,
+       189
+      ]
+     },
+     "n_seeds": 2,
+     "missing": [],
+     "score_check_ok": true
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "seeds": [
+  300,
+  301,
+  302,
+  303,
+  304
+ ],
+ "runs": [
+  {
+   "label": "Submitted seed-1",
+   "agent": "sarsa_rb3_s1",
+   "tag_prefix": "exp30_final_alltasks",
+   "configs": {
+    "task1": {
+     "score_per_round": {
+      "mean": 4.024,
+      "sd": 0.16398932892112214,
+      "per_seed": [
+       4.3,
+       3.895,
+       4.0,
+       3.905,
+       4.02
+      ]
+     },
+     "win_rate": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "per_seed": [
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "self_kills": {
+      "mean": 0,
+      "sd": 0.0,
+      "per_seed": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     },
+     "deaths_by_opponent": {
+      "mean": 0,
+      "sd": 0.0,
+      "per_seed": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     },
+     "opponents_killed": {
+      "mean": 0,
+      "sd": 0.0,
+      "per_seed": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     },
+     "bombs_per_round": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "per_seed": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "crates_per_round": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "per_seed": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "coins_per_round": {
+      "mean": 4.024,
+      "sd": 0.16398932892112214,
+      "per_seed": [
+       4.3,
+       3.895,
+       4.0,
+       3.905,
+       4.02
+      ]
+     },
+     "avg_steps": {
+      "mean": 400.0,
+      "sd": 0.0,
+      "per_seed": [
+       400.0,
+       400.0,
+       400.0,
+       400.0,
+       400.0
+      ]
+     },
+     "w": {
+      "mean": 200,
+      "sd": 0.0,
+      "per_seed": [
+       200,
+       200,
+       200,
+       200,
+       200
+      ]
+     },
+     "d": {
+      "mean": 0,
+      "sd": 0.0,
+      "per_seed": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     },
+     "l": {
+      "mean": 0,
+      "sd": 0.0,
+      "per_seed": [
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     },
+     "n_seeds": 5,
+     "missing": [],
+     "score_check_ok": true
+    }
+   }
+  }
+ ]
+}

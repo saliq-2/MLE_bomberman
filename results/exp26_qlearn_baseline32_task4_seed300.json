@@ -1,0 +1,1232 @@
+{
+    "by_agent": {
+        "qlearn_agent": {
+            "bombs": 884,
+            "coins": 123,
+            "crates": 2995,
+            "invalid": 277,
+            "kills": 2,
+            "moves": 43205,
+            "rounds": 200,
+            "score": 133,
+            "steps": 48313,
+            "suicides": 78,
+            "time": 31.33232831954956
+        },
+        "rule_based_agent": {
+            "bombs": 6554,
+            "coins": 1446,
+            "crates": 19034,
+            "invalid": 636,
+            "kills": 53,
+            "moves": 65041,
+            "rounds": 200,
+            "score": 1711,
+            "steps": 72355,
+            "suicides": 44,
+            "time": 73.89061999320984
+        }
+    },
+    "by_round": {
+        "exp26_qlearn_baseline32_task4_seed300 | Round 01 (2026-09-16 14-23-31)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 02 (2026-09-16 14-23-32)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 03 (2026-09-16 14-23-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 377,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 04 (2026-09-16 14-23-34)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 05 (2026-09-16 14-23-34)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 06 (2026-09-16 14-23-35)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 07 (2026-09-16 14-23-36)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 08 (2026-09-16 14-23-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 09 (2026-09-16 14-23-37)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 10 (2026-09-16 14-23-38)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 100 (2026-09-16 14-24-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 354,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 101 (2026-09-16 14-24-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 102 (2026-09-16 14-24-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 103 (2026-09-16 14-24-39)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 104 (2026-09-16 14-24-40)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 105 (2026-09-16 14-24-41)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 106 (2026-09-16 14-24-42)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 107 (2026-09-16 14-24-42)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 108 (2026-09-16 14-24-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 109 (2026-09-16 14-24-44)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 11 (2026-09-16 14-23-38)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 110 (2026-09-16 14-24-44)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 111 (2026-09-16 14-24-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 112 (2026-09-16 14-24-45)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 113 (2026-09-16 14-24-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 114 (2026-09-16 14-24-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 115 (2026-09-16 14-24-48)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 116 (2026-09-16 14-24-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 117 (2026-09-16 14-24-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 388,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 118 (2026-09-16 14-24-50)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 119 (2026-09-16 14-24-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 12 (2026-09-16 14-23-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 120 (2026-09-16 14-24-51)": {
+            "coins": 4,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 121 (2026-09-16 14-24-51)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 122 (2026-09-16 14-24-52)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 123 (2026-09-16 14-24-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 124 (2026-09-16 14-24-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 125 (2026-09-16 14-24-54)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 126 (2026-09-16 14-24-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 127 (2026-09-16 14-24-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 128 (2026-09-16 14-24-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 391,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 129 (2026-09-16 14-24-57)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 13 (2026-09-16 14-23-40)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 130 (2026-09-16 14-24-57)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 131 (2026-09-16 14-24-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 132 (2026-09-16 14-24-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 133 (2026-09-16 14-24-59)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 134 (2026-09-16 14-25-00)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 135 (2026-09-16 14-25-01)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 136 (2026-09-16 14-25-01)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 137 (2026-09-16 14-25-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 138 (2026-09-16 14-25-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 139 (2026-09-16 14-25-03)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 14 (2026-09-16 14-23-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 140 (2026-09-16 14-25-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 141 (2026-09-16 14-25-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 142 (2026-09-16 14-25-05)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 256,
+            "suicides": 2
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 143 (2026-09-16 14-25-06)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 144 (2026-09-16 14-25-07)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 145 (2026-09-16 14-25-07)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 146 (2026-09-16 14-25-08)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 352,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 147 (2026-09-16 14-25-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 370,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 148 (2026-09-16 14-25-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 149 (2026-09-16 14-25-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 365,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 15 (2026-09-16 14-23-41)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 345,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 150 (2026-09-16 14-25-11)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 151 (2026-09-16 14-25-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 152 (2026-09-16 14-25-12)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 153 (2026-09-16 14-25-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 359,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 154 (2026-09-16 14-25-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 155 (2026-09-16 14-25-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 156 (2026-09-16 14-25-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 340,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 157 (2026-09-16 14-25-15)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 158 (2026-09-16 14-25-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 383,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 159 (2026-09-16 14-25-17)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 398,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 16 (2026-09-16 14-23-42)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 160 (2026-09-16 14-25-18)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 161 (2026-09-16 14-25-18)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 162 (2026-09-16 14-25-19)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 163 (2026-09-16 14-25-20)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 164 (2026-09-16 14-25-20)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 165 (2026-09-16 14-25-21)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 166 (2026-09-16 14-25-21)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 368,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 167 (2026-09-16 14-25-22)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 168 (2026-09-16 14-25-22)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 169 (2026-09-16 14-25-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 17 (2026-09-16 14-23-42)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 170 (2026-09-16 14-25-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 364,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 171 (2026-09-16 14-25-24)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 172 (2026-09-16 14-25-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 173 (2026-09-16 14-25-26)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 174 (2026-09-16 14-25-26)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 175 (2026-09-16 14-25-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 176 (2026-09-16 14-25-27)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 177 (2026-09-16 14-25-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 385,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 178 (2026-09-16 14-25-29)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 179 (2026-09-16 14-25-29)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 18 (2026-09-16 14-23-43)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 180 (2026-09-16 14-25-30)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 126,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 181 (2026-09-16 14-25-30)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 182 (2026-09-16 14-25-31)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 183 (2026-09-16 14-25-32)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 184 (2026-09-16 14-25-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 185 (2026-09-16 14-25-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 186 (2026-09-16 14-25-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 351,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 187 (2026-09-16 14-25-35)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 188 (2026-09-16 14-25-35)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 189 (2026-09-16 14-25-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 19 (2026-09-16 14-23-44)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 190 (2026-09-16 14-25-36)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 191 (2026-09-16 14-25-37)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 192 (2026-09-16 14-25-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 193 (2026-09-16 14-25-38)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 194 (2026-09-16 14-25-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 195 (2026-09-16 14-25-40)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 196 (2026-09-16 14-25-40)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 197 (2026-09-16 14-25-41)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 340,
+            "suicides": 2
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 198 (2026-09-16 14-25-42)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 199 (2026-09-16 14-25-42)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 20 (2026-09-16 14-23-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 200 (2026-09-16 14-25-43)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 21 (2026-09-16 14-23-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 396,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 22 (2026-09-16 14-23-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 356,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 23 (2026-09-16 14-23-47)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 24 (2026-09-16 14-23-47)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 25 (2026-09-16 14-23-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 376,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 26 (2026-09-16 14-23-49)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 27 (2026-09-16 14-23-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 28 (2026-09-16 14-23-50)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 29 (2026-09-16 14-23-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 30 (2026-09-16 14-23-52)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 31 (2026-09-16 14-23-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 32 (2026-09-16 14-23-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 330,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 33 (2026-09-16 14-23-53)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 34 (2026-09-16 14-23-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 35 (2026-09-16 14-23-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 36 (2026-09-16 14-23-55)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 37 (2026-09-16 14-23-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 38 (2026-09-16 14-23-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 39 (2026-09-16 14-23-57)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 40 (2026-09-16 14-23-58)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 41 (2026-09-16 14-23-59)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 42 (2026-09-16 14-23-59)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 43 (2026-09-16 14-24-00)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 44 (2026-09-16 14-24-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 386,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 45 (2026-09-16 14-24-01)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 46 (2026-09-16 14-24-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 47 (2026-09-16 14-24-02)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 48 (2026-09-16 14-24-03)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 43,
+            "suicides": 2
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 49 (2026-09-16 14-24-03)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 50 (2026-09-16 14-24-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 51 (2026-09-16 14-24-05)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 52 (2026-09-16 14-24-06)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 53 (2026-09-16 14-24-07)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 74,
+            "suicides": 2
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 54 (2026-09-16 14-24-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 55 (2026-09-16 14-24-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 378,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 56 (2026-09-16 14-24-08)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 57 (2026-09-16 14-24-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 374,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 58 (2026-09-16 14-24-09)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 59 (2026-09-16 14-24-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 335,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 60 (2026-09-16 14-24-11)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 61 (2026-09-16 14-24-12)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 62 (2026-09-16 14-24-13)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 63 (2026-09-16 14-24-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 64 (2026-09-16 14-24-14)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 65 (2026-09-16 14-24-14)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 66 (2026-09-16 14-24-15)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 67 (2026-09-16 14-24-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 68 (2026-09-16 14-24-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 69 (2026-09-16 14-24-17)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 70 (2026-09-16 14-24-17)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 71 (2026-09-16 14-24-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 72 (2026-09-16 14-24-18)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 73 (2026-09-16 14-24-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 74 (2026-09-16 14-24-20)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 75 (2026-09-16 14-24-20)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 76 (2026-09-16 14-24-21)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 77 (2026-09-16 14-24-22)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 78 (2026-09-16 14-24-22)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 79 (2026-09-16 14-24-23)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 80 (2026-09-16 14-24-24)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 328,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 81 (2026-09-16 14-24-24)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 82 (2026-09-16 14-24-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 374,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 83 (2026-09-16 14-24-26)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 84 (2026-09-16 14-24-26)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 377,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 85 (2026-09-16 14-24-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 86 (2026-09-16 14-24-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 385,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 87 (2026-09-16 14-24-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 88 (2026-09-16 14-24-29)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 89 (2026-09-16 14-24-30)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 90 (2026-09-16 14-24-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 91 (2026-09-16 14-24-32)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 397,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 92 (2026-09-16 14-24-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 388,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 93 (2026-09-16 14-24-33)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 94 (2026-09-16 14-24-34)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 95 (2026-09-16 14-24-34)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 96 (2026-09-16 14-24-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 350,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 97 (2026-09-16 14-24-36)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 98 (2026-09-16 14-24-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_qlearn_baseline32_task4_seed300 | Round 99 (2026-09-16 14-24-37)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        }
+    }
+}

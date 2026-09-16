@@ -1,0 +1,1258 @@
+{
+    "by_agent": {
+        "rule_based_agent_0": {
+            "bombs": 4273,
+            "coins": 566,
+            "crates": 7234,
+            "invalid": 1276,
+            "kills": 40,
+            "moves": 42765,
+            "rounds": 200,
+            "score": 766,
+            "steps": 48462,
+            "suicides": 99,
+            "time": 52.97317409515381
+        },
+        "rule_based_agent_1": {
+            "bombs": 4030,
+            "coins": 537,
+            "crates": 7101,
+            "invalid": 1287,
+            "kills": 43,
+            "moves": 40283,
+            "rounds": 200,
+            "score": 752,
+            "steps": 45734,
+            "suicides": 106,
+            "time": 49.14419174194336
+        },
+        "rule_based_agent_2": {
+            "bombs": 4156,
+            "coins": 523,
+            "crates": 7242,
+            "invalid": 1289,
+            "kills": 42,
+            "moves": 42231,
+            "rounds": 200,
+            "score": 733,
+            "steps": 47822,
+            "suicides": 97,
+            "time": 51.45292520523071
+        },
+        "sarsa_agent": {
+            "bombs": 1088,
+            "coins": 164,
+            "crates": 2880,
+            "invalid": 359,
+            "kills": 6,
+            "moves": 24144,
+            "rounds": 200,
+            "score": 194,
+            "steps": 26288,
+            "suicides": 119,
+            "time": 24.977211713790894
+        }
+    },
+    "by_round": {
+        "dec_baseline_tournament_seed400 | Round 01 (2026-09-16 14-49-37)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 288,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 02 (2026-09-16 14-49-38)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 03 (2026-09-16 14-49-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 04 (2026-09-16 14-49-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 354,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 05 (2026-09-16 14-49-42)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 311,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 06 (2026-09-16 14-49-43)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 07 (2026-09-16 14-49-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 322,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 08 (2026-09-16 14-49-45)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 09 (2026-09-16 14-49-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 10 (2026-09-16 14-49-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 100 (2026-09-16 14-51-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 240,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 101 (2026-09-16 14-51-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 244,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 102 (2026-09-16 14-51-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 249,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 103 (2026-09-16 14-51-24)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 229,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 104 (2026-09-16 14-51-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 105 (2026-09-16 14-51-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 106 (2026-09-16 14-51-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 107 (2026-09-16 14-51-28)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 108 (2026-09-16 14-51-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 323,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 109 (2026-09-16 14-51-31)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 255,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 11 (2026-09-16 14-49-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 110 (2026-09-16 14-51-31)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 285,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 111 (2026-09-16 14-51-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 325,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 112 (2026-09-16 14-51-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 113 (2026-09-16 14-51-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 208,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 114 (2026-09-16 14-51-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 370,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 115 (2026-09-16 14-51-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 116 (2026-09-16 14-51-37)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 267,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 117 (2026-09-16 14-51-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 331,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 118 (2026-09-16 14-51-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 119 (2026-09-16 14-51-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 353,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 12 (2026-09-16 14-49-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 329,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 120 (2026-09-16 14-51-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 121 (2026-09-16 14-51-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 122 (2026-09-16 14-51-43)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 261,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 123 (2026-09-16 14-51-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 124 (2026-09-16 14-51-45)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 309,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 125 (2026-09-16 14-51-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 126 (2026-09-16 14-51-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "dec_baseline_tournament_seed400 | Round 127 (2026-09-16 14-51-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 278,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 128 (2026-09-16 14-51-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 203,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 129 (2026-09-16 14-51-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 13 (2026-09-16 14-49-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 130 (2026-09-16 14-51-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 352,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 131 (2026-09-16 14-51-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 309,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 132 (2026-09-16 14-51-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 318,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 133 (2026-09-16 14-51-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 217,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 134 (2026-09-16 14-51-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 135 (2026-09-16 14-51-58)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 335,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 136 (2026-09-16 14-51-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 220,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 137 (2026-09-16 14-52-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "dec_baseline_tournament_seed400 | Round 138 (2026-09-16 14-52-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 383,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 139 (2026-09-16 14-52-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 315,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 14 (2026-09-16 14-49-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 140 (2026-09-16 14-52-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 141 (2026-09-16 14-52-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 142 (2026-09-16 14-52-08)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 263,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 143 (2026-09-16 14-52-08)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 338,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 144 (2026-09-16 14-52-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 399,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 145 (2026-09-16 14-52-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 146 (2026-09-16 14-52-12)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 250,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 147 (2026-09-16 14-52-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 338,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 148 (2026-09-16 14-52-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 149 (2026-09-16 14-52-15)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 250,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 15 (2026-09-16 14-49-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 315,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 150 (2026-09-16 14-52-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 330,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 151 (2026-09-16 14-52-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 152 (2026-09-16 14-52-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 153 (2026-09-16 14-52-19)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 154 (2026-09-16 14-52-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 155 (2026-09-16 14-52-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 282,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 156 (2026-09-16 14-52-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 269,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 157 (2026-09-16 14-52-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 372,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 158 (2026-09-16 14-52-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 159 (2026-09-16 14-52-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 16 (2026-09-16 14-49-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 160 (2026-09-16 14-52-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 165,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 161 (2026-09-16 14-52-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 295,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 162 (2026-09-16 14-52-29)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 400,
+            "suicides": 0
+        },
+        "dec_baseline_tournament_seed400 | Round 163 (2026-09-16 14-52-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 164 (2026-09-16 14-52-31)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 165 (2026-09-16 14-52-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 274,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 166 (2026-09-16 14-52-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 167 (2026-09-16 14-52-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 327,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 168 (2026-09-16 14-52-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 286,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 169 (2026-09-16 14-52-37)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 17 (2026-09-16 14-49-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 261,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 170 (2026-09-16 14-52-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 171 (2026-09-16 14-52-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 172 (2026-09-16 14-52-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 198,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 173 (2026-09-16 14-52-41)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 234,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 174 (2026-09-16 14-52-42)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 175 (2026-09-16 14-52-43)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 176 (2026-09-16 14-52-45)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 258,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 177 (2026-09-16 14-52-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 269,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 178 (2026-09-16 14-52-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 275,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 179 (2026-09-16 14-52-47)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 249,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 18 (2026-09-16 14-49-59)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 180 (2026-09-16 14-52-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 181 (2026-09-16 14-52-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 182 (2026-09-16 14-52-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 239,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 183 (2026-09-16 14-52-51)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 400,
+            "suicides": 0
+        },
+        "dec_baseline_tournament_seed400 | Round 184 (2026-09-16 14-52-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 185 (2026-09-16 14-52-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 377,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 186 (2026-09-16 14-52-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 187 (2026-09-16 14-52-57)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 188 (2026-09-16 14-52-59)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 189 (2026-09-16 14-53-00)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 350,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 19 (2026-09-16 14-50-00)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 248,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 190 (2026-09-16 14-53-01)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 242,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 191 (2026-09-16 14-53-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 192 (2026-09-16 14-53-03)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 260,
+            "suicides": 0
+        },
+        "dec_baseline_tournament_seed400 | Round 193 (2026-09-16 14-53-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 311,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 194 (2026-09-16 14-53-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 269,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 195 (2026-09-16 14-53-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 253,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 196 (2026-09-16 14-53-07)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 197 (2026-09-16 14-53-08)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 325,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 198 (2026-09-16 14-53-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 201,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 199 (2026-09-16 14-53-10)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 20 (2026-09-16 14-50-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 264,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 200 (2026-09-16 14-53-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 21 (2026-09-16 14-50-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 274,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 22 (2026-09-16 14-50-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 279,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 23 (2026-09-16 14-50-03)": {
+            "coins": 7,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "dec_baseline_tournament_seed400 | Round 24 (2026-09-16 14-50-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 283,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 25 (2026-09-16 14-50-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 26 (2026-09-16 14-50-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 227,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 27 (2026-09-16 14-50-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 286,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 28 (2026-09-16 14-50-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 29 (2026-09-16 14-50-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 30 (2026-09-16 14-50-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 265,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 31 (2026-09-16 14-50-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 32 (2026-09-16 14-50-11)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 247,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 33 (2026-09-16 14-50-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 34 (2026-09-16 14-50-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 271,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 35 (2026-09-16 14-50-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 256,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 36 (2026-09-16 14-50-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 37 (2026-09-16 14-50-17)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 38 (2026-09-16 14-50-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 39 (2026-09-16 14-50-20)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 241,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 40 (2026-09-16 14-50-21)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 41 (2026-09-16 14-50-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 335,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 42 (2026-09-16 14-50-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 247,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 43 (2026-09-16 14-50-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 310,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 44 (2026-09-16 14-50-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 45 (2026-09-16 14-50-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 183,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 46 (2026-09-16 14-50-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 47 (2026-09-16 14-50-28)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 48 (2026-09-16 14-50-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 264,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 49 (2026-09-16 14-50-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 247,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 50 (2026-09-16 14-50-31)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 251,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 51 (2026-09-16 14-50-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 213,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 52 (2026-09-16 14-50-32)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 301,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 53 (2026-09-16 14-50-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 293,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 54 (2026-09-16 14-50-34)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 55 (2026-09-16 14-50-35)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 56 (2026-09-16 14-50-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 259,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 57 (2026-09-16 14-50-37)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 313,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 58 (2026-09-16 14-50-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 309,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 59 (2026-09-16 14-50-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 250,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 60 (2026-09-16 14-50-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 273,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 61 (2026-09-16 14-50-41)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 62 (2026-09-16 14-50-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "dec_baseline_tournament_seed400 | Round 63 (2026-09-16 14-50-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 315,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 64 (2026-09-16 14-50-45)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 65 (2026-09-16 14-50-45)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 336,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 66 (2026-09-16 14-50-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 323,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 67 (2026-09-16 14-50-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 234,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 68 (2026-09-16 14-50-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 69 (2026-09-16 14-50-49)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 70 (2026-09-16 14-50-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 289,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 71 (2026-09-16 14-50-52)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 72 (2026-09-16 14-50-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 73 (2026-09-16 14-50-54)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 333,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 74 (2026-09-16 14-50-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 266,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 75 (2026-09-16 14-50-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 311,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 76 (2026-09-16 14-50-57)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 326,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 77 (2026-09-16 14-50-58)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 324,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 78 (2026-09-16 14-50-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 274,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 79 (2026-09-16 14-51-00)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 288,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 80 (2026-09-16 14-51-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 245,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 81 (2026-09-16 14-51-01)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 367,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 82 (2026-09-16 14-51-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 385,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 83 (2026-09-16 14-51-04)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 346,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 84 (2026-09-16 14-51-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 85 (2026-09-16 14-51-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 86 (2026-09-16 14-51-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 238,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 87 (2026-09-16 14-51-08)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 88 (2026-09-16 14-51-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "dec_baseline_tournament_seed400 | Round 89 (2026-09-16 14-51-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 321,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 90 (2026-09-16 14-51-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 341,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 91 (2026-09-16 14-51-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 223,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 92 (2026-09-16 14-51-14)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 236,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 93 (2026-09-16 14-51-15)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 304,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 94 (2026-09-16 14-51-16)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 272,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 95 (2026-09-16 14-51-17)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 234,
+            "suicides": 3
+        },
+        "dec_baseline_tournament_seed400 | Round 96 (2026-09-16 14-51-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 97 (2026-09-16 14-51-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 98 (2026-09-16 14-51-20)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 363,
+            "suicides": 1
+        },
+        "dec_baseline_tournament_seed400 | Round 99 (2026-09-16 14-51-21)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 268,
+            "suicides": 2
+        }
+    }
+}

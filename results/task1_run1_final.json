@@ -1,0 +1,1815 @@
+{
+    "by_agent": {
+        "qlearn_agent": {
+            "coins": 14329,
+            "invalid": 3188,
+            "moves": 61251,
+            "rounds": 300,
+            "score": 14329,
+            "steps": 69573,
+            "time": 5.096973180770874
+        }
+    },
+    "by_round": {
+        "task1_run1_final | Round 01 (2026-08-22 16-03-11)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 347,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 02 (2026-08-22 16-03-11)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 198,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 03 (2026-08-22 16-03-11)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 256,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 04 (2026-08-22 16-03-11)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 301,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 05 (2026-08-22 16-03-11)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 243,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 06 (2026-08-22 16-03-11)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 222,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 07 (2026-08-22 16-03-12)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 263,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 08 (2026-08-22 16-03-12)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 329,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 09 (2026-08-22 16-03-12)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 204,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 10 (2026-08-22 16-03-12)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 273,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 100 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 256,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 101 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 225,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 102 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 240,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 103 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 182,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 104 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 171,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 105 (2026-08-22 16-03-22)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 185,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 106 (2026-08-22 16-03-22)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 225,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 107 (2026-08-22 16-03-22)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 350,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 108 (2026-08-22 16-03-22)": {
+            "coins": 23,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 109 (2026-08-22 16-03-22)": {
+            "coins": 28,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 11 (2026-08-22 16-03-12)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 236,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 110 (2026-08-22 16-03-22)": {
+            "coins": 23,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 111 (2026-08-22 16-03-22)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 219,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 112 (2026-08-22 16-03-22)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 163,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 113 (2026-08-22 16-03-22)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 216,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 114 (2026-08-22 16-03-22)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 133,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 115 (2026-08-22 16-03-22)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 275,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 116 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 184,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 117 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 195,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 118 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 179,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 119 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 245,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 12 (2026-08-22 16-03-12)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 224,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 120 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 314,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 121 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 155,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 122 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 183,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 123 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 224,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 124 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 219,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 125 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 196,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 126 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 309,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 127 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 135,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 128 (2026-08-22 16-03-23)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 209,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 129 (2026-08-22 16-03-24)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 227,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 13 (2026-08-22 16-03-12)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 240,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 130 (2026-08-22 16-03-24)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 156,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 131 (2026-08-22 16-03-24)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 196,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 132 (2026-08-22 16-03-24)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 177,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 133 (2026-08-22 16-03-24)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 183,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 134 (2026-08-22 16-03-24)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 250,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 135 (2026-08-22 16-03-24)": {
+            "coins": 26,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 136 (2026-08-22 16-03-24)": {
+            "coins": 28,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 137 (2026-08-22 16-03-24)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 138 (2026-08-22 16-03-24)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 148,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 139 (2026-08-22 16-03-24)": {
+            "coins": 25,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 14 (2026-08-22 16-03-12)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 212,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 140 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 219,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 141 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 199,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 142 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 211,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 143 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 213,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 144 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 152,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 145 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 265,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 146 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 167,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 147 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 188,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 148 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 206,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 149 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 200,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 15 (2026-08-22 16-03-12)": {
+            "coins": 32,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 150 (2026-08-22 16-03-25)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 254,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 151 (2026-08-22 16-03-25)": {
+            "coins": 18,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 152 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 218,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 153 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 210,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 154 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 278,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 155 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 144,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 156 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 205,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 157 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 156,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 158 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 180,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 159 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 217,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 16 (2026-08-22 16-03-12)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 374,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 160 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 304,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 161 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 172,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 162 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 151,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 163 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 186,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 164 (2026-08-22 16-03-26)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 252,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 165 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 176,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 166 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 171,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 167 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 201,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 168 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 259,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 169 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 157,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 17 (2026-08-22 16-03-13)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 251,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 170 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 180,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 171 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 210,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 172 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 202,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 173 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 237,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 174 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 168,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 175 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 197,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 176 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 156,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 177 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 223,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 178 (2026-08-22 16-03-27)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 171,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 179 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 269,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 18 (2026-08-22 16-03-13)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 234,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 180 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 248,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 181 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 164,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 182 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 204,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 183 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 263,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 184 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 149,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 185 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 177,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 186 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 141,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 187 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 262,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 188 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 189,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 189 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 223,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 19 (2026-08-22 16-03-13)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 298,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 190 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 200,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 191 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 185,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 192 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 126,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 193 (2026-08-22 16-03-28)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 170,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 194 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 238,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 195 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 247,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 196 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 259,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 197 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 176,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 198 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 298,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 199 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 171,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 20 (2026-08-22 16-03-13)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 214,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 200 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 162,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 201 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 192,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 202 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 305,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 203 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 187,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 204 (2026-08-22 16-03-29)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 144,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 205 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 206,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 206 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 134,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 207 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 309,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 208 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 168,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 209 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 143,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 21 (2026-08-22 16-03-13)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 369,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 210 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 180,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 211 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 268,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 212 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 198,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 213 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 256,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 214 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 181,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 215 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 132,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 216 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 171,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 217 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 167,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 218 (2026-08-22 16-03-30)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 145,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 219 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 161,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 22 (2026-08-22 16-03-13)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 183,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 220 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 182,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 221 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 211,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 222 (2026-08-22 16-03-31)": {
+            "coins": 21,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 223 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 279,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 224 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 181,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 225 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 137,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 226 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 159,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 227 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 192,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 228 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 133,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 229 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 211,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 23 (2026-08-22 16-03-13)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 190,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 230 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 189,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 231 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 168,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 232 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 147,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 233 (2026-08-22 16-03-31)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 217,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 234 (2026-08-22 16-03-32)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 125,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 235 (2026-08-22 16-03-32)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 174,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 236 (2026-08-22 16-03-32)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 157,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 237 (2026-08-22 16-03-32)": {
+            "coins": 39,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 238 (2026-08-22 16-03-32)": {
+            "coins": 17,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 239 (2026-08-22 16-03-32)": {
+            "coins": 22,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 24 (2026-08-22 16-03-13)": {
+            "coins": 45,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 240 (2026-08-22 16-03-32)": {
+            "coins": 13,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 241 (2026-08-22 16-03-32)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 242 (2026-08-22 16-03-32)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 377,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 243 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 121,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 244 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 148,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 245 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 159,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 246 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 176,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 247 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 221,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 248 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 187,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 249 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 218,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 25 (2026-08-22 16-03-13)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 316,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 250 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 163,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 251 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 169,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 252 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 169,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 253 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 177,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 254 (2026-08-22 16-03-33)": {
+            "coins": 49,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 255 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 219,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 256 (2026-08-22 16-03-33)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 136,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 257 (2026-08-22 16-03-34)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 173,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 258 (2026-08-22 16-03-34)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 163,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 259 (2026-08-22 16-03-34)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 135,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 26 (2026-08-22 16-03-14)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 218,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 260 (2026-08-22 16-03-34)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 142,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 261 (2026-08-22 16-03-34)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 179,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 262 (2026-08-22 16-03-34)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 215,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 263 (2026-08-22 16-03-34)": {
+            "coins": 22,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 264 (2026-08-22 16-03-34)": {
+            "coins": 38,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 265 (2026-08-22 16-03-34)": {
+            "coins": 49,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 266 (2026-08-22 16-03-34)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 123,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 267 (2026-08-22 16-03-34)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 135,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 268 (2026-08-22 16-03-34)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 138,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 269 (2026-08-22 16-03-34)": {
+            "coins": 37,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 27 (2026-08-22 16-03-14)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 187,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 270 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 144,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 271 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 124,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 272 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 136,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 273 (2026-08-22 16-03-35)": {
+            "coins": 21,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 274 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 382,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 275 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 154,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 276 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 146,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 277 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 125,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 278 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 177,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 279 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 339,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 28 (2026-08-22 16-03-14)": {
+            "coins": 49,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 280 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 133,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 281 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 133,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 282 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 165,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 283 (2026-08-22 16-03-35)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 265,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 284 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 171,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 285 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 140,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 286 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 200,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 287 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 268,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 288 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 144,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 289 (2026-08-22 16-03-36)": {
+            "coins": 49,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 29 (2026-08-22 16-03-14)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 240,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 290 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 324,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 291 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 156,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 292 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 125,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 293 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 191,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 294 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 202,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 295 (2026-08-22 16-03-36)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 358,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 296 (2026-08-22 16-03-37)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 163,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 297 (2026-08-22 16-03-37)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 167,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 298 (2026-08-22 16-03-37)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 253,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 299 (2026-08-22 16-03-37)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 176,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 30 (2026-08-22 16-03-14)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 263,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 300 (2026-08-22 16-03-37)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 154,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 31 (2026-08-22 16-03-14)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 210,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 32 (2026-08-22 16-03-14)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 217,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 33 (2026-08-22 16-03-14)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 208,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 34 (2026-08-22 16-03-14)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 220,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 35 (2026-08-22 16-03-14)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 219,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 36 (2026-08-22 16-03-14)": {
+            "coins": 49,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 37 (2026-08-22 16-03-15)": {
+            "coins": 26,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 38 (2026-08-22 16-03-15)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 378,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 39 (2026-08-22 16-03-15)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 288,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 40 (2026-08-22 16-03-15)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 197,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 41 (2026-08-22 16-03-15)": {
+            "coins": 48,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 42 (2026-08-22 16-03-15)": {
+            "coins": 44,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 43 (2026-08-22 16-03-16)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 320,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 44 (2026-08-22 16-03-16)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 173,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 45 (2026-08-22 16-03-16)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 227,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 46 (2026-08-22 16-03-16)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 212,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 47 (2026-08-22 16-03-16)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 270,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 48 (2026-08-22 16-03-16)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 210,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 49 (2026-08-22 16-03-16)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 278,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 50 (2026-08-22 16-03-16)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 215,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 51 (2026-08-22 16-03-16)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 205,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 52 (2026-08-22 16-03-16)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 240,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 53 (2026-08-22 16-03-17)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 195,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 54 (2026-08-22 16-03-17)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 229,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 55 (2026-08-22 16-03-17)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 347,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 56 (2026-08-22 16-03-17)": {
+            "coins": 34,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 57 (2026-08-22 16-03-17)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 329,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 58 (2026-08-22 16-03-17)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 195,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 59 (2026-08-22 16-03-17)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 269,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 60 (2026-08-22 16-03-17)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 172,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 61 (2026-08-22 16-03-17)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 213,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 62 (2026-08-22 16-03-17)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 240,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 63 (2026-08-22 16-03-17)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 205,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 64 (2026-08-22 16-03-18)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 266,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 65 (2026-08-22 16-03-18)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 260,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 66 (2026-08-22 16-03-18)": {
+            "coins": 48,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 67 (2026-08-22 16-03-18)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 188,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 68 (2026-08-22 16-03-18)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 188,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 69 (2026-08-22 16-03-18)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 252,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 70 (2026-08-22 16-03-18)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 237,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 71 (2026-08-22 16-03-18)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 168,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 72 (2026-08-22 16-03-18)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 258,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 73 (2026-08-22 16-03-18)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 200,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 74 (2026-08-22 16-03-18)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 318,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 75 (2026-08-22 16-03-19)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 266,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 76 (2026-08-22 16-03-19)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 222,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 77 (2026-08-22 16-03-19)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 169,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 78 (2026-08-22 16-03-19)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 213,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 79 (2026-08-22 16-03-19)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 180,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 80 (2026-08-22 16-03-19)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 356,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 81 (2026-08-22 16-03-19)": {
+            "coins": 26,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 82 (2026-08-22 16-03-19)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 355,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 83 (2026-08-22 16-03-20)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 170,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 84 (2026-08-22 16-03-20)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 250,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 85 (2026-08-22 16-03-20)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 185,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 86 (2026-08-22 16-03-20)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 243,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 87 (2026-08-22 16-03-20)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 198,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 88 (2026-08-22 16-03-20)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 89 (2026-08-22 16-03-20)": {
+            "coins": 14,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 90 (2026-08-22 16-03-20)": {
+            "coins": 18,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 91 (2026-08-22 16-03-20)": {
+            "coins": 34,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 92 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 154,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 93 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 235,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 94 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 188,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 95 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 228,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 96 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 221,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 97 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 233,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 98 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 180,
+            "suicides": 0
+        },
+        "task1_run1_final | Round 99 (2026-08-22 16-03-21)": {
+            "coins": 50,
+            "kills": 0,
+            "steps": 159,
+            "suicides": 0
+        }
+    }
+}

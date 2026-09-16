@@ -1,0 +1,1241 @@
+{
+    "by_agent": {
+        "coin_collector_agent": {
+            "bombs": 6668,
+            "coins": 1435,
+            "crates": 20330,
+            "invalid": 517,
+            "kills": 137,
+            "moves": 68019,
+            "rounds": 200,
+            "score": 2120,
+            "steps": 76737,
+            "suicides": 15,
+            "time": 55.18123769760132
+        },
+        "peaceful_agent": {
+            "coins": 14,
+            "invalid": 32618,
+            "moves": 24685,
+            "rounds": 200,
+            "score": 14,
+            "steps": 57303,
+            "time": 2.488504648208618
+        },
+        "sarsa_agent": {
+            "bombs": 724,
+            "coins": 179,
+            "crates": 2339,
+            "invalid": 102,
+            "kills": 2,
+            "moves": 71083,
+            "rounds": 200,
+            "score": 189,
+            "steps": 74569,
+            "suicides": 13,
+            "time": 38.80940389633179
+        }
+    },
+    "by_round": {
+        "exp30_submitted_alltasks_task3_seed304 | Round 01 (2026-09-16 22-10-11)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 02 (2026-09-16 22-10-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 03 (2026-09-16 22-10-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 04 (2026-09-16 22-10-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 398,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 05 (2026-09-16 22-10-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 06 (2026-09-16 22-10-13)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 07 (2026-09-16 22-10-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 08 (2026-09-16 22-10-15)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 09 (2026-09-16 22-10-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 10 (2026-09-16 22-10-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 100 (2026-09-16 22-11-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 383,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 101 (2026-09-16 22-11-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 102 (2026-09-16 22-11-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 103 (2026-09-16 22-11-11)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 104 (2026-09-16 22-11-11)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 105 (2026-09-16 22-11-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 106 (2026-09-16 22-11-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 107 (2026-09-16 22-11-13)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 108 (2026-09-16 22-11-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 109 (2026-09-16 22-11-14)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 387,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 11 (2026-09-16 22-10-17)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 110 (2026-09-16 22-11-15)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 111 (2026-09-16 22-11-16)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 112 (2026-09-16 22-11-16)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 113 (2026-09-16 22-11-17)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 114 (2026-09-16 22-11-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 115 (2026-09-16 22-11-18)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 116 (2026-09-16 22-11-19)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 117 (2026-09-16 22-11-19)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 118 (2026-09-16 22-11-20)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 119 (2026-09-16 22-11-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 12 (2026-09-16 22-10-17)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 120 (2026-09-16 22-11-21)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 121 (2026-09-16 22-11-22)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 122 (2026-09-16 22-11-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 123 (2026-09-16 22-11-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 124 (2026-09-16 22-11-24)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 125 (2026-09-16 22-11-24)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 126 (2026-09-16 22-11-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 127 (2026-09-16 22-11-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 128 (2026-09-16 22-11-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 129 (2026-09-16 22-11-27)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 13 (2026-09-16 22-10-18)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 130 (2026-09-16 22-11-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 131 (2026-09-16 22-11-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 132 (2026-09-16 22-11-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 133 (2026-09-16 22-11-29)": {
+            "coins": 4,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 134 (2026-09-16 22-11-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 135 (2026-09-16 22-11-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 136 (2026-09-16 22-11-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 137 (2026-09-16 22-11-32)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 138 (2026-09-16 22-11-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 139 (2026-09-16 22-11-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 14 (2026-09-16 22-10-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 140 (2026-09-16 22-11-34)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 141 (2026-09-16 22-11-34)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 142 (2026-09-16 22-11-35)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 143 (2026-09-16 22-11-36)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 144 (2026-09-16 22-11-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 145 (2026-09-16 22-11-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 146 (2026-09-16 22-11-37)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 147 (2026-09-16 22-11-38)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 148 (2026-09-16 22-11-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 149 (2026-09-16 22-11-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 15 (2026-09-16 22-10-19)": {
+            "coins": 2,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 150 (2026-09-16 22-11-39)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 151 (2026-09-16 22-11-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 152 (2026-09-16 22-11-41)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 153 (2026-09-16 22-11-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 154 (2026-09-16 22-11-42)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 155 (2026-09-16 22-11-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 156 (2026-09-16 22-11-43)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 157 (2026-09-16 22-11-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 158 (2026-09-16 22-11-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 159 (2026-09-16 22-11-45)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 16 (2026-09-16 22-10-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 160 (2026-09-16 22-11-45)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 161 (2026-09-16 22-11-46)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 383,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 162 (2026-09-16 22-11-47)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 163 (2026-09-16 22-11-47)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 164 (2026-09-16 22-11-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 165 (2026-09-16 22-11-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 166 (2026-09-16 22-11-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 167 (2026-09-16 22-11-50)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 168 (2026-09-16 22-11-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 169 (2026-09-16 22-11-51)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 17 (2026-09-16 22-10-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 170 (2026-09-16 22-11-52)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 171 (2026-09-16 22-11-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 172 (2026-09-16 22-11-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 173 (2026-09-16 22-11-54)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 174 (2026-09-16 22-11-54)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 175 (2026-09-16 22-11-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 176 (2026-09-16 22-11-55)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 177 (2026-09-16 22-11-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 178 (2026-09-16 22-11-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 179 (2026-09-16 22-11-57)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 18 (2026-09-16 22-10-21)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 180 (2026-09-16 22-11-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 181 (2026-09-16 22-11-58)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 182 (2026-09-16 22-11-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 183 (2026-09-16 22-12-00)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 184 (2026-09-16 22-12-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 185 (2026-09-16 22-12-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 186 (2026-09-16 22-12-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 187 (2026-09-16 22-12-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 188 (2026-09-16 22-12-03)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 189 (2026-09-16 22-12-03)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 19 (2026-09-16 22-10-21)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 190 (2026-09-16 22-12-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 191 (2026-09-16 22-12-04)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 192 (2026-09-16 22-12-05)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 379,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 193 (2026-09-16 22-12-05)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 194 (2026-09-16 22-12-06)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 383,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 195 (2026-09-16 22-12-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 196 (2026-09-16 22-12-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 396,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 197 (2026-09-16 22-12-08)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 198 (2026-09-16 22-12-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 199 (2026-09-16 22-12-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 20 (2026-09-16 22-10-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 200 (2026-09-16 22-12-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 21 (2026-09-16 22-10-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 22 (2026-09-16 22-10-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 23 (2026-09-16 22-10-24)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 24 (2026-09-16 22-10-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 25 (2026-09-16 22-10-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 26 (2026-09-16 22-10-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 27 (2026-09-16 22-10-26)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 28 (2026-09-16 22-10-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 29 (2026-09-16 22-10-27)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 384,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 30 (2026-09-16 22-10-28)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 31 (2026-09-16 22-10-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 32 (2026-09-16 22-10-29)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 33 (2026-09-16 22-10-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 34 (2026-09-16 22-10-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 35 (2026-09-16 22-10-31)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 36 (2026-09-16 22-10-31)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 37 (2026-09-16 22-10-32)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 38 (2026-09-16 22-10-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 39 (2026-09-16 22-10-33)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 40 (2026-09-16 22-10-34)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 41 (2026-09-16 22-10-35)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 42 (2026-09-16 22-10-35)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 43 (2026-09-16 22-10-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 44 (2026-09-16 22-10-36)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 45 (2026-09-16 22-10-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 46 (2026-09-16 22-10-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 47 (2026-09-16 22-10-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 48 (2026-09-16 22-10-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 49 (2026-09-16 22-10-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 50 (2026-09-16 22-10-40)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 51 (2026-09-16 22-10-40)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 52 (2026-09-16 22-10-41)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 53 (2026-09-16 22-10-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 54 (2026-09-16 22-10-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 55 (2026-09-16 22-10-43)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 56 (2026-09-16 22-10-43)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 57 (2026-09-16 22-10-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 58 (2026-09-16 22-10-44)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 59 (2026-09-16 22-10-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 60 (2026-09-16 22-10-45)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 61 (2026-09-16 22-10-45)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 62 (2026-09-16 22-10-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 63 (2026-09-16 22-10-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 64 (2026-09-16 22-10-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 65 (2026-09-16 22-10-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 66 (2026-09-16 22-10-49)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 67 (2026-09-16 22-10-49)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 68 (2026-09-16 22-10-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 69 (2026-09-16 22-10-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 70 (2026-09-16 22-10-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 71 (2026-09-16 22-10-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 72 (2026-09-16 22-10-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 73 (2026-09-16 22-10-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 74 (2026-09-16 22-10-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 75 (2026-09-16 22-10-54)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 76 (2026-09-16 22-10-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 77 (2026-09-16 22-10-55)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 78 (2026-09-16 22-10-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 79 (2026-09-16 22-10-56)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 80 (2026-09-16 22-10-57)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 81 (2026-09-16 22-10-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 82 (2026-09-16 22-10-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 83 (2026-09-16 22-10-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 84 (2026-09-16 22-11-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 85 (2026-09-16 22-11-00)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 86 (2026-09-16 22-11-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 87 (2026-09-16 22-11-01)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 88 (2026-09-16 22-11-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 89 (2026-09-16 22-11-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 90 (2026-09-16 22-11-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 91 (2026-09-16 22-11-04)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 92 (2026-09-16 22-11-04)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 93 (2026-09-16 22-11-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 94 (2026-09-16 22-11-05)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 95 (2026-09-16 22-11-06)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 96 (2026-09-16 22-11-06)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 97 (2026-09-16 22-11-07)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 98 (2026-09-16 22-11-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_submitted_alltasks_task3_seed304 | Round 99 (2026-09-16 22-11-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        }
+    }
+}

@@ -1,0 +1,1232 @@
+{
+    "by_agent": {
+        "rule_based_agent": {
+            "bombs": 6821,
+            "coins": 1490,
+            "crates": 20715,
+            "invalid": 478,
+            "kills": 75,
+            "moves": 64948,
+            "rounds": 200,
+            "score": 1865,
+            "steps": 72378,
+            "suicides": 41,
+            "time": 65.27683067321777
+        },
+        "sarsa_agent": {
+            "bombs": 800,
+            "coins": 104,
+            "crates": 1526,
+            "invalid": 285,
+            "kills": 1,
+            "moves": 26520,
+            "rounds": 200,
+            "score": 109,
+            "steps": 41985,
+            "suicides": 104,
+            "time": 18.520543336868286
+        }
+    },
+    "by_round": {
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 01 (2026-09-16 13-49-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 02 (2026-09-16 13-49-52)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 03 (2026-09-16 13-49-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 04 (2026-09-16 13-49-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 05 (2026-09-16 13-49-54)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 06 (2026-09-16 13-49-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 07 (2026-09-16 13-49-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 08 (2026-09-16 13-49-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 09 (2026-09-16 13-49-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 398,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 10 (2026-09-16 13-49-57)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 328,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 100 (2026-09-16 13-50-43)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 101 (2026-09-16 13-50-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 372,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 102 (2026-09-16 13-50-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 103 (2026-09-16 13-50-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 378,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 104 (2026-09-16 13-50-45)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 105 (2026-09-16 13-50-46)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 106 (2026-09-16 13-50-47)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 381,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 107 (2026-09-16 13-50-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 108 (2026-09-16 13-50-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 109 (2026-09-16 13-50-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 393,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 11 (2026-09-16 13-49-57)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 110 (2026-09-16 13-50-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 388,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 111 (2026-09-16 13-50-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 112 (2026-09-16 13-50-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 113 (2026-09-16 13-50-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 114 (2026-09-16 13-50-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 115 (2026-09-16 13-50-52)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 116 (2026-09-16 13-50-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 117 (2026-09-16 13-50-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 369,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 118 (2026-09-16 13-50-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 119 (2026-09-16 13-50-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 12 (2026-09-16 13-49-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 120 (2026-09-16 13-50-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 121 (2026-09-16 13-50-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 122 (2026-09-16 13-50-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 123 (2026-09-16 13-50-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 124 (2026-09-16 13-50-57)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 125 (2026-09-16 13-50-57)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 126 (2026-09-16 13-50-58)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 127 (2026-09-16 13-50-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 128 (2026-09-16 13-50-59)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 129 (2026-09-16 13-50-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 387,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 13 (2026-09-16 13-49-58)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 130 (2026-09-16 13-51-00)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 131 (2026-09-16 13-51-00)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 132 (2026-09-16 13-51-01)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 392,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 133 (2026-09-16 13-51-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 134 (2026-09-16 13-51-02)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 135 (2026-09-16 13-51-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 136 (2026-09-16 13-51-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 137 (2026-09-16 13-51-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 138 (2026-09-16 13-51-04)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 399,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 139 (2026-09-16 13-51-05)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 14 (2026-09-16 13-49-59)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 140 (2026-09-16 13-51-05)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 141 (2026-09-16 13-51-06)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 391,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 142 (2026-09-16 13-51-06)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 143 (2026-09-16 13-51-07)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 205,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 144 (2026-09-16 13-51-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 145 (2026-09-16 13-51-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 371,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 146 (2026-09-16 13-51-08)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 147 (2026-09-16 13-51-09)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 148 (2026-09-16 13-51-10)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 149 (2026-09-16 13-51-10)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 15 (2026-09-16 13-50-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 150 (2026-09-16 13-51-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 151 (2026-09-16 13-51-11)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 152 (2026-09-16 13-51-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 153 (2026-09-16 13-51-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 391,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 154 (2026-09-16 13-51-13)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 155 (2026-09-16 13-51-13)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 156 (2026-09-16 13-51-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 157 (2026-09-16 13-51-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 158 (2026-09-16 13-51-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 159 (2026-09-16 13-51-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 388,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 16 (2026-09-16 13-50-00)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 160 (2026-09-16 13-51-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 161 (2026-09-16 13-51-17)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 334,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 162 (2026-09-16 13-51-17)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 163 (2026-09-16 13-51-18)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 164 (2026-09-16 13-51-18)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 165 (2026-09-16 13-51-19)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 166 (2026-09-16 13-51-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 167 (2026-09-16 13-51-20)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 168 (2026-09-16 13-51-20)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 169 (2026-09-16 13-51-21)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 17 (2026-09-16 13-50-01)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 375,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 170 (2026-09-16 13-51-21)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 171 (2026-09-16 13-51-22)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 172 (2026-09-16 13-51-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 173 (2026-09-16 13-51-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 381,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 174 (2026-09-16 13-51-23)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 175 (2026-09-16 13-51-24)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 176 (2026-09-16 13-51-25)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 177 (2026-09-16 13-51-25)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 278,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 178 (2026-09-16 13-51-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 179 (2026-09-16 13-51-26)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 18 (2026-09-16 13-50-01)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 180 (2026-09-16 13-51-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 181 (2026-09-16 13-51-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 182 (2026-09-16 13-51-28)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 183 (2026-09-16 13-51-28)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 184 (2026-09-16 13-51-29)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 185 (2026-09-16 13-51-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 186 (2026-09-16 13-51-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 187 (2026-09-16 13-51-31)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 315,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 188 (2026-09-16 13-51-31)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 189 (2026-09-16 13-51-32)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 19 (2026-09-16 13-50-02)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 174,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 190 (2026-09-16 13-51-32)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 395,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 191 (2026-09-16 13-51-33)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 192 (2026-09-16 13-51-34)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 193 (2026-09-16 13-51-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 194 (2026-09-16 13-51-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 376,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 195 (2026-09-16 13-51-35)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 196 (2026-09-16 13-51-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 197 (2026-09-16 13-51-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 388,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 198 (2026-09-16 13-51-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 199 (2026-09-16 13-51-38)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 20 (2026-09-16 13-50-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 363,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 200 (2026-09-16 13-51-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 21 (2026-09-16 13-50-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 22 (2026-09-16 13-50-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 23 (2026-09-16 13-50-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 393,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 24 (2026-09-16 13-50-04)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 25 (2026-09-16 13-50-05)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 26 (2026-09-16 13-50-06)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 399,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 27 (2026-09-16 13-50-06)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 28 (2026-09-16 13-50-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 29 (2026-09-16 13-50-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 397,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 30 (2026-09-16 13-50-08)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 347,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 31 (2026-09-16 13-50-08)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 32 (2026-09-16 13-50-09)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 33 (2026-09-16 13-50-09)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 96,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 34 (2026-09-16 13-50-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 362,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 35 (2026-09-16 13-50-10)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 36 (2026-09-16 13-50-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 388,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 37 (2026-09-16 13-50-11)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 38 (2026-09-16 13-50-11)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 119,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 39 (2026-09-16 13-50-11)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 40 (2026-09-16 13-50-12)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 292,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 41 (2026-09-16 13-50-13)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 42 (2026-09-16 13-50-13)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 287,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 43 (2026-09-16 13-50-14)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 44 (2026-09-16 13-50-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 381,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 45 (2026-09-16 13-50-15)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 46 (2026-09-16 13-50-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 47 (2026-09-16 13-50-15)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 48 (2026-09-16 13-50-16)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 49 (2026-09-16 13-50-16)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 50 (2026-09-16 13-50-17)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 51 (2026-09-16 13-50-18)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 52 (2026-09-16 13-50-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 381,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 53 (2026-09-16 13-50-19)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 54 (2026-09-16 13-50-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 55 (2026-09-16 13-50-20)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 56 (2026-09-16 13-50-21)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 57 (2026-09-16 13-50-21)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 395,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 58 (2026-09-16 13-50-21)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 59 (2026-09-16 13-50-22)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 346,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 60 (2026-09-16 13-50-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 61 (2026-09-16 13-50-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 62 (2026-09-16 13-50-24)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 63 (2026-09-16 13-50-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 64 (2026-09-16 13-50-25)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 214,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 65 (2026-09-16 13-50-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 386,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 66 (2026-09-16 13-50-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 398,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 67 (2026-09-16 13-50-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 68 (2026-09-16 13-50-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 69 (2026-09-16 13-50-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 70 (2026-09-16 13-50-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 71 (2026-09-16 13-50-28)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 72 (2026-09-16 13-50-29)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 73 (2026-09-16 13-50-29)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 142,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 74 (2026-09-16 13-50-30)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 265,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 75 (2026-09-16 13-50-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 76 (2026-09-16 13-50-31)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 77 (2026-09-16 13-50-31)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 78 (2026-09-16 13-50-32)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 366,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 79 (2026-09-16 13-50-32)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 394,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 80 (2026-09-16 13-50-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 81 (2026-09-16 13-50-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 82 (2026-09-16 13-50-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 83 (2026-09-16 13-50-35)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 84 (2026-09-16 13-50-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 362,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 85 (2026-09-16 13-50-35)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 95,
+            "suicides": 2
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 86 (2026-09-16 13-50-35)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 87 (2026-09-16 13-50-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 88 (2026-09-16 13-50-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 89 (2026-09-16 13-50-37)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 90 (2026-09-16 13-50-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 91 (2026-09-16 13-50-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 343,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 92 (2026-09-16 13-50-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 356,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 93 (2026-09-16 13-50-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 380,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 94 (2026-09-16 13-50-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 95 (2026-09-16 13-50-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 96 (2026-09-16 13-50-41)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 97 (2026-09-16 13-50-41)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 98 (2026-09-16 13-50-42)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_escape_robust_task4_seed304 | Round 99 (2026-09-16 13-50-43)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        }
+    }
+}

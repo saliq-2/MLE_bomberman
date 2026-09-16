@@ -1,0 +1,621 @@
+{
+  "by_agent": {
+    "sarsa_agent": {
+      "coins": 683,
+      "moves": 40000,
+      "rounds": 100,
+      "score": 683,
+      "steps": 40000,
+      "time": 51.49827170372009
+    }
+  },
+  "by_round": {
+    "task1_sarsa_seed5 | Round 01 (2026-09-01 22-37-14)": {
+      "coins": 2,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 02 (2026-09-01 22-37-15)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 03 (2026-09-01 22-37-15)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 04 (2026-09-01 22-37-16)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 05 (2026-09-01 22-37-17)": {
+      "coins": 18,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 06 (2026-09-01 22-37-17)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 07 (2026-09-01 22-37-18)": {
+      "coins": 17,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 08 (2026-09-01 22-37-18)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 09 (2026-09-01 22-37-19)": {
+      "coins": 12,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 10 (2026-09-01 22-37-19)": {
+      "coins": 12,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 100 (2026-09-01 22-38-10)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 11 (2026-09-01 22-37-20)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 12 (2026-09-01 22-37-20)": {
+      "coins": 8,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 13 (2026-09-01 22-37-21)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 14 (2026-09-01 22-37-22)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 15 (2026-09-01 22-37-22)": {
+      "coins": 8,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 16 (2026-09-01 22-37-23)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 17 (2026-09-01 22-37-23)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 18 (2026-09-01 22-37-24)": {
+      "coins": 8,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 19 (2026-09-01 22-37-24)": {
+      "coins": 25,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 20 (2026-09-01 22-37-25)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 21 (2026-09-01 22-37-25)": {
+      "coins": 9,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 22 (2026-09-01 22-37-26)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 23 (2026-09-01 22-37-27)": {
+      "coins": 2,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 24 (2026-09-01 22-37-27)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 25 (2026-09-01 22-37-28)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 26 (2026-09-01 22-37-28)": {
+      "coins": 16,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 27 (2026-09-01 22-37-29)": {
+      "coins": 1,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 28 (2026-09-01 22-37-29)": {
+      "coins": 10,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 29 (2026-09-01 22-37-30)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 30 (2026-09-01 22-37-30)": {
+      "coins": 16,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 31 (2026-09-01 22-37-31)": {
+      "coins": 9,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 32 (2026-09-01 22-37-32)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 33 (2026-09-01 22-37-32)": {
+      "coins": 10,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 34 (2026-09-01 22-37-33)": {
+      "coins": 12,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 35 (2026-09-01 22-37-33)": {
+      "coins": 2,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 36 (2026-09-01 22-37-34)": {
+      "coins": 20,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 37 (2026-09-01 22-37-34)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 38 (2026-09-01 22-37-35)": {
+      "coins": 11,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 39 (2026-09-01 22-37-36)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 40 (2026-09-01 22-37-36)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 41 (2026-09-01 22-37-37)": {
+      "coins": 21,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 42 (2026-09-01 22-37-37)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 43 (2026-09-01 22-37-38)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 44 (2026-09-01 22-37-38)": {
+      "coins": 9,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 45 (2026-09-01 22-37-39)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 46 (2026-09-01 22-37-39)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 47 (2026-09-01 22-37-40)": {
+      "coins": 7,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 48 (2026-09-01 22-37-41)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 49 (2026-09-01 22-37-41)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 50 (2026-09-01 22-37-42)": {
+      "coins": 11,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 51 (2026-09-01 22-37-42)": {
+      "coins": 2,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 52 (2026-09-01 22-37-43)": {
+      "coins": 9,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 53 (2026-09-01 22-37-43)": {
+      "coins": 2,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 54 (2026-09-01 22-37-44)": {
+      "coins": 0,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 55 (2026-09-01 22-37-44)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 56 (2026-09-01 22-37-45)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 57 (2026-09-01 22-37-46)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 58 (2026-09-01 22-37-46)": {
+      "coins": 2,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 59 (2026-09-01 22-37-47)": {
+      "coins": 8,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 60 (2026-09-01 22-37-47)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 61 (2026-09-01 22-37-48)": {
+      "coins": 13,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 62 (2026-09-01 22-37-48)": {
+      "coins": 10,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 63 (2026-09-01 22-37-49)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 64 (2026-09-01 22-37-50)": {
+      "coins": 2,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 65 (2026-09-01 22-37-50)": {
+      "coins": 17,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 66 (2026-09-01 22-37-51)": {
+      "coins": 7,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 67 (2026-09-01 22-37-51)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 68 (2026-09-01 22-37-52)": {
+      "coins": 1,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 69 (2026-09-01 22-37-52)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 70 (2026-09-01 22-37-53)": {
+      "coins": 0,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 71 (2026-09-01 22-37-54)": {
+      "coins": 15,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 72 (2026-09-01 22-37-54)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 73 (2026-09-01 22-37-55)": {
+      "coins": 18,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 74 (2026-09-01 22-37-55)": {
+      "coins": 8,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 75 (2026-09-01 22-37-56)": {
+      "coins": 1,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 76 (2026-09-01 22-37-57)": {
+      "coins": 9,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 77 (2026-09-01 22-37-57)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 78 (2026-09-01 22-37-58)": {
+      "coins": 1,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 79 (2026-09-01 22-37-58)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 80 (2026-09-01 22-37-59)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 81 (2026-09-01 22-37-59)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 82 (2026-09-01 22-38-00)": {
+      "coins": 2,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 83 (2026-09-01 22-38-01)": {
+      "coins": 2,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 84 (2026-09-01 22-38-01)": {
+      "coins": 4,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 85 (2026-09-01 22-38-02)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 86 (2026-09-01 22-38-02)": {
+      "coins": 2,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 87 (2026-09-01 22-38-03)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 88 (2026-09-01 22-38-03)": {
+      "coins": 7,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 89 (2026-09-01 22-38-04)": {
+      "coins": 8,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 90 (2026-09-01 22-38-05)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 91 (2026-09-01 22-38-05)": {
+      "coins": 17,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 92 (2026-09-01 22-38-06)": {
+      "coins": 11,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 93 (2026-09-01 22-38-06)": {
+      "coins": 5,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 94 (2026-09-01 22-38-07)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 95 (2026-09-01 22-38-07)": {
+      "coins": 16,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 96 (2026-09-01 22-38-08)": {
+      "coins": 0,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 97 (2026-09-01 22-38-08)": {
+      "coins": 6,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 98 (2026-09-01 22-38-09)": {
+      "coins": 3,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    },
+    "task1_sarsa_seed5 | Round 99 (2026-09-01 22-38-10)": {
+      "coins": 11,
+      "kills": 0,
+      "steps": 400,
+      "suicides": 0
+    }
+  },
+  "_meta": {
+    "board_seed_train": 5,
+    "board_seed_eval": 10005,
+    "agent_seed": 5,
+    "train_rounds": 300,
+    "eval_rounds": 100
+  }
+}

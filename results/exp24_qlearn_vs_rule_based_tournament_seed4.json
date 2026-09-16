@@ -1,0 +1,1258 @@
+{
+    "by_agent": {
+        "qlearn_agent": {
+            "bombs": 800,
+            "coins": 164,
+            "crates": 2752,
+            "invalid": 199,
+            "kills": 8,
+            "moves": 14918,
+            "rounds": 200,
+            "score": 204,
+            "steps": 16914,
+            "suicides": 124,
+            "time": 8.207834005355835
+        },
+        "rule_based_agent_0": {
+            "bombs": 4427,
+            "coins": 551,
+            "crates": 7118,
+            "invalid": 1398,
+            "kills": 41,
+            "moves": 43529,
+            "rounds": 200,
+            "score": 756,
+            "steps": 49516,
+            "suicides": 93,
+            "time": 50.048866510391235
+        },
+        "rule_based_agent_1": {
+            "bombs": 4202,
+            "coins": 512,
+            "crates": 7139,
+            "invalid": 1401,
+            "kills": 49,
+            "moves": 41935,
+            "rounds": 200,
+            "score": 757,
+            "steps": 47692,
+            "suicides": 99,
+            "time": 48.03679943084717
+        },
+        "rule_based_agent_2": {
+            "bombs": 4421,
+            "coins": 551,
+            "crates": 7266,
+            "invalid": 1413,
+            "kills": 52,
+            "moves": 43987,
+            "rounds": 200,
+            "score": 811,
+            "steps": 49974,
+            "suicides": 95,
+            "time": 50.68313479423523
+        }
+    },
+    "by_round": {
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 01 (2026-09-09 14-44-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 02 (2026-09-09 14-44-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 256,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 03 (2026-09-09 14-44-49)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 71,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 04 (2026-09-09 14-44-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 204,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 05 (2026-09-09 14-44-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 315,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 06 (2026-09-09 14-44-50)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 220,
+            "suicides": 0
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 07 (2026-09-09 14-44-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 327,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 08 (2026-09-09 14-44-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 232,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 09 (2026-09-09 14-44-52)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 10 (2026-09-09 14-44-54)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 100 (2026-09-09 14-46-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 245,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 101 (2026-09-09 14-46-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 241,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 102 (2026-09-09 14-46-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 103 (2026-09-09 14-46-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 296,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 104 (2026-09-09 14-46-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 105 (2026-09-09 14-46-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 278,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 106 (2026-09-09 14-46-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 276,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 107 (2026-09-09 14-46-15)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 108 (2026-09-09 14-46-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 109 (2026-09-09 14-46-17)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 11 (2026-09-09 14-44-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 322,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 110 (2026-09-09 14-46-18)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 259,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 111 (2026-09-09 14-46-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 242,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 112 (2026-09-09 14-46-19)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 279,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 113 (2026-09-09 14-46-20)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 286,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 114 (2026-09-09 14-46-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 115 (2026-09-09 14-46-22)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 116 (2026-09-09 14-46-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 117 (2026-09-09 14-46-24)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 118 (2026-09-09 14-46-25)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 119 (2026-09-09 14-46-26)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 12 (2026-09-09 14-44-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 257,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 120 (2026-09-09 14-46-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 121 (2026-09-09 14-46-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 351,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 122 (2026-09-09 14-46-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 230,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 123 (2026-09-09 14-46-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 124 (2026-09-09 14-46-31)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 282,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 125 (2026-09-09 14-46-32)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 126 (2026-09-09 14-46-32)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 127 (2026-09-09 14-46-34)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 128 (2026-09-09 14-46-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 129 (2026-09-09 14-46-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 13 (2026-09-09 14-44-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 248,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 130 (2026-09-09 14-46-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 131 (2026-09-09 14-46-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 271,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 132 (2026-09-09 14-46-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 133 (2026-09-09 14-46-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 134 (2026-09-09 14-46-41)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 135 (2026-09-09 14-46-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 136 (2026-09-09 14-46-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 137 (2026-09-09 14-46-45)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 329,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 138 (2026-09-09 14-46-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 279,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 139 (2026-09-09 14-46-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 203,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 14 (2026-09-09 14-44-57)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 140 (2026-09-09 14-46-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 141 (2026-09-09 14-46-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 142 (2026-09-09 14-46-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 293,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 143 (2026-09-09 14-46-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 295,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 144 (2026-09-09 14-46-50)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 145 (2026-09-09 14-46-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 146 (2026-09-09 14-46-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 322,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 147 (2026-09-09 14-46-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 148 (2026-09-09 14-46-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 395,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 149 (2026-09-09 14-46-57)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 15 (2026-09-09 14-44-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 263,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 150 (2026-09-09 14-46-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 254,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 151 (2026-09-09 14-46-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 152 (2026-09-09 14-46-59)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 248,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 153 (2026-09-09 14-47-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 154 (2026-09-09 14-47-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 243,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 155 (2026-09-09 14-47-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 156 (2026-09-09 14-47-03)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 227,
+            "suicides": 4
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 157 (2026-09-09 14-47-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 275,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 158 (2026-09-09 14-47-04)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 348,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 159 (2026-09-09 14-47-06)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 16 (2026-09-09 14-44-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 260,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 160 (2026-09-09 14-47-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 311,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 161 (2026-09-09 14-47-07)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 162 (2026-09-09 14-47-08)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 260,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 163 (2026-09-09 14-47-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 164 (2026-09-09 14-47-10)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 165 (2026-09-09 14-47-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 166 (2026-09-09 14-47-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 240,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 167 (2026-09-09 14-47-12)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 168 (2026-09-09 14-47-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 169 (2026-09-09 14-47-15)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 269,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 17 (2026-09-09 14-44-59)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 170 (2026-09-09 14-47-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 366,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 171 (2026-09-09 14-47-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 172 (2026-09-09 14-47-17)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 335,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 173 (2026-09-09 14-47-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 174 (2026-09-09 14-47-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 175 (2026-09-09 14-47-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 330,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 176 (2026-09-09 14-47-21)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 249,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 177 (2026-09-09 14-47-21)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 308,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 178 (2026-09-09 14-47-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 209,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 179 (2026-09-09 14-47-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 315,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 18 (2026-09-09 14-45-00)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 280,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 180 (2026-09-09 14-47-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 181 (2026-09-09 14-47-24)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 278,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 182 (2026-09-09 14-47-24)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 183 (2026-09-09 14-47-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 288,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 184 (2026-09-09 14-47-26)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 279,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 185 (2026-09-09 14-47-27)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 396,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 186 (2026-09-09 14-47-28)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 187 (2026-09-09 14-47-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 188 (2026-09-09 14-47-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 270,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 189 (2026-09-09 14-47-31)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 259,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 19 (2026-09-09 14-45-01)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 190 (2026-09-09 14-47-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 191 (2026-09-09 14-47-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 192 (2026-09-09 14-47-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 193 (2026-09-09 14-47-35)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 348,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 194 (2026-09-09 14-47-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 197,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 195 (2026-09-09 14-47-36)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 330,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 196 (2026-09-09 14-47-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 249,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 197 (2026-09-09 14-47-37)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 290,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 198 (2026-09-09 14-47-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 257,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 199 (2026-09-09 14-47-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 301,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 20 (2026-09-09 14-45-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 200 (2026-09-09 14-47-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 21 (2026-09-09 14-45-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 244,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 22 (2026-09-09 14-45-04)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 303,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 23 (2026-09-09 14-45-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 24 (2026-09-09 14-45-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 25 (2026-09-09 14-45-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 277,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 26 (2026-09-09 14-45-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 241,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 27 (2026-09-09 14-45-08)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 28 (2026-09-09 14-45-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 29 (2026-09-09 14-45-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 30 (2026-09-09 14-45-11)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 272,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 31 (2026-09-09 14-45-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 259,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 32 (2026-09-09 14-45-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 33 (2026-09-09 14-45-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 262,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 34 (2026-09-09 14-45-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 370,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 35 (2026-09-09 14-45-14)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 378,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 36 (2026-09-09 14-45-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 37 (2026-09-09 14-45-17)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 38 (2026-09-09 14-45-18)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 39 (2026-09-09 14-45-20)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 240,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 40 (2026-09-09 14-45-20)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 41 (2026-09-09 14-45-21)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 210,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 42 (2026-09-09 14-45-21)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 43 (2026-09-09 14-45-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 200,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 44 (2026-09-09 14-45-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 45 (2026-09-09 14-45-24)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 46 (2026-09-09 14-45-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 276,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 47 (2026-09-09 14-45-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 246,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 48 (2026-09-09 14-45-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 366,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 49 (2026-09-09 14-45-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 50 (2026-09-09 14-45-28)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 232,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 51 (2026-09-09 14-45-29)": {
+            "coins": 9,
+            "kills": 4,
+            "steps": 211,
+            "suicides": 0
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 52 (2026-09-09 14-45-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 371,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 53 (2026-09-09 14-45-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 212,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 54 (2026-09-09 14-45-31)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 55 (2026-09-09 14-45-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 257,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 56 (2026-09-09 14-45-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 57 (2026-09-09 14-45-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 58 (2026-09-09 14-45-35)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 59 (2026-09-09 14-45-36)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 208,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 60 (2026-09-09 14-45-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 61 (2026-09-09 14-45-38)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 62 (2026-09-09 14-45-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 322,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 63 (2026-09-09 14-45-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 302,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 64 (2026-09-09 14-45-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 277,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 65 (2026-09-09 14-45-41)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 66 (2026-09-09 14-45-42)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 250,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 67 (2026-09-09 14-45-43)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 273,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 68 (2026-09-09 14-45-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 339,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 69 (2026-09-09 14-45-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 70 (2026-09-09 14-45-45)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 261,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 71 (2026-09-09 14-45-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 249,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 72 (2026-09-09 14-45-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 260,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 73 (2026-09-09 14-45-47)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 260,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 74 (2026-09-09 14-45-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 276,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 75 (2026-09-09 14-45-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 315,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 76 (2026-09-09 14-45-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 278,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 77 (2026-09-09 14-45-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 268,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 78 (2026-09-09 14-45-51)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 282,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 79 (2026-09-09 14-45-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 310,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 80 (2026-09-09 14-45-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 206,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 81 (2026-09-09 14-45-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 82 (2026-09-09 14-45-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 224,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 83 (2026-09-09 14-45-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 84 (2026-09-09 14-45-57)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 85 (2026-09-09 14-45-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 200,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 86 (2026-09-09 14-45-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 87 (2026-09-09 14-45-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 88 (2026-09-09 14-46-00)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 266,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 89 (2026-09-09 14-46-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 279,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 90 (2026-09-09 14-46-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 231,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 91 (2026-09-09 14-46-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 344,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 92 (2026-09-09 14-46-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 264,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 93 (2026-09-09 14-46-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 374,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 94 (2026-09-09 14-46-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 244,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 95 (2026-09-09 14-46-05)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 248,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 96 (2026-09-09 14-46-06)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 97 (2026-09-09 14-46-07)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 98 (2026-09-09 14-46-08)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 331,
+            "suicides": 3
+        },
+        "exp24_qlearn_vs_rule_based_tournament_seed4 | Round 99 (2026-09-09 14-46-09)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 230,
+            "suicides": 1
+        }
+    }
+}

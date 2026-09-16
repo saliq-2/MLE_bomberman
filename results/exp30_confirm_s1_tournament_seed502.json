@@ -1,0 +1,1258 @@
+{
+    "by_agent": {
+        "rule_based_agent_0": {
+            "bombs": 4270,
+            "coins": 496,
+            "crates": 7045,
+            "invalid": 1379,
+            "kills": 51,
+            "moves": 42414,
+            "rounds": 200,
+            "score": 751,
+            "steps": 48187,
+            "suicides": 103,
+            "time": 47.24436020851135
+        },
+        "rule_based_agent_1": {
+            "bombs": 4466,
+            "coins": 514,
+            "crates": 7537,
+            "invalid": 1492,
+            "kills": 52,
+            "moves": 44874,
+            "rounds": 200,
+            "score": 774,
+            "steps": 50940,
+            "suicides": 97,
+            "time": 50.21824669837952
+        },
+        "rule_based_agent_2": {
+            "bombs": 4232,
+            "coins": 521,
+            "crates": 7041,
+            "invalid": 1412,
+            "kills": 49,
+            "moves": 42534,
+            "rounds": 200,
+            "score": 766,
+            "steps": 48258,
+            "suicides": 104,
+            "time": 45.60850548744202
+        },
+        "sarsa_rb3_s1": {
+            "bombs": 908,
+            "coins": 251,
+            "crates": 2751,
+            "invalid": 479,
+            "kills": 5,
+            "moves": 37308,
+            "rounds": 200,
+            "score": 276,
+            "steps": 40552,
+            "suicides": 62,
+            "time": 29.543895959854126
+        }
+    },
+    "by_round": {
+        "exp30_confirm_s1_tournament_seed502 | Round 01 (2026-09-16 22-20-32)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 02 (2026-09-16 22-20-34)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 03 (2026-09-16 22-20-35)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 322,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 04 (2026-09-16 22-20-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 05 (2026-09-16 22-20-37)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 06 (2026-09-16 22-20-38)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 07 (2026-09-16 22-20-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 244,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 08 (2026-09-16 22-20-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 09 (2026-09-16 22-20-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 10 (2026-09-16 22-20-42)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 100 (2026-09-16 22-22-13)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 397,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 101 (2026-09-16 22-22-15)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 240,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 102 (2026-09-16 22-22-15)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 269,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 103 (2026-09-16 22-22-16)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 104 (2026-09-16 22-22-17)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 279,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 105 (2026-09-16 22-22-18)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 106 (2026-09-16 22-22-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 107 (2026-09-16 22-22-20)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 108 (2026-09-16 22-22-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 109 (2026-09-16 22-22-23)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 11 (2026-09-16 22-20-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 288,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 110 (2026-09-16 22-22-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 252,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 111 (2026-09-16 22-22-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 229,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 112 (2026-09-16 22-22-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 113 (2026-09-16 22-22-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 114 (2026-09-16 22-22-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 115 (2026-09-16 22-22-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 116 (2026-09-16 22-22-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 117 (2026-09-16 22-22-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 245,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 118 (2026-09-16 22-22-32)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 329,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 119 (2026-09-16 22-22-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 12 (2026-09-16 22-20-45)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 120 (2026-09-16 22-22-34)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 121 (2026-09-16 22-22-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 258,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 122 (2026-09-16 22-22-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 261,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 123 (2026-09-16 22-22-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 235,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 124 (2026-09-16 22-22-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 125 (2026-09-16 22-22-38)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 126 (2026-09-16 22-22-39)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 249,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 127 (2026-09-16 22-22-40)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 294,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 128 (2026-09-16 22-22-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 129 (2026-09-16 22-22-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 229,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 13 (2026-09-16 22-20-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 256,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 130 (2026-09-16 22-22-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 131 (2026-09-16 22-22-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 132 (2026-09-16 22-22-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 133 (2026-09-16 22-22-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 295,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 134 (2026-09-16 22-22-47)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 135 (2026-09-16 22-22-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 286,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 136 (2026-09-16 22-22-49)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 295,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 137 (2026-09-16 22-22-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 280,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 138 (2026-09-16 22-22-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 297,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 139 (2026-09-16 22-22-52)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 14 (2026-09-16 22-20-47)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 140 (2026-09-16 22-22-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 363,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 141 (2026-09-16 22-22-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 142 (2026-09-16 22-22-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 143 (2026-09-16 22-22-57)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 144 (2026-09-16 22-22-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 145 (2026-09-16 22-22-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 146 (2026-09-16 22-23-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 147 (2026-09-16 22-23-02)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 266,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 148 (2026-09-16 22-23-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 149 (2026-09-16 22-23-04)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 15 (2026-09-16 22-20-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 257,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 150 (2026-09-16 22-23-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 151 (2026-09-16 22-23-07)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 307,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 152 (2026-09-16 22-23-08)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 247,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 153 (2026-09-16 22-23-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 154 (2026-09-16 22-23-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 155 (2026-09-16 22-23-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 284,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 156 (2026-09-16 22-23-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 315,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 157 (2026-09-16 22-23-13)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 158 (2026-09-16 22-23-15)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 159 (2026-09-16 22-23-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 16 (2026-09-16 22-20-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 276,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 160 (2026-09-16 22-23-17)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 359,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 161 (2026-09-16 22-23-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 329,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 162 (2026-09-16 22-23-19)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 163 (2026-09-16 22-23-21)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 205,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 164 (2026-09-16 22-23-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 165 (2026-09-16 22-23-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 315,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 166 (2026-09-16 22-23-24)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 167 (2026-09-16 22-23-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 251,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 168 (2026-09-16 22-23-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 357,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 169 (2026-09-16 22-23-26)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 17 (2026-09-16 22-20-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 170 (2026-09-16 22-23-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 171 (2026-09-16 22-23-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 288,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 172 (2026-09-16 22-23-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 173 (2026-09-16 22-23-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 174 (2026-09-16 22-23-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 339,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 175 (2026-09-16 22-23-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 310,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 176 (2026-09-16 22-23-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 341,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 177 (2026-09-16 22-23-34)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 241,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 178 (2026-09-16 22-23-34)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 179 (2026-09-16 22-23-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 302,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 18 (2026-09-16 22-20-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 180 (2026-09-16 22-23-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 298,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 181 (2026-09-16 22-23-37)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 182 (2026-09-16 22-23-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 183 (2026-09-16 22-23-39)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 264,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 184 (2026-09-16 22-23-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 260,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 185 (2026-09-16 22-23-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 186 (2026-09-16 22-23-42)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 187 (2026-09-16 22-23-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 188 (2026-09-16 22-23-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 337,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 189 (2026-09-16 22-23-45)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 19 (2026-09-16 22-20-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 190 (2026-09-16 22-23-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 239,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 191 (2026-09-16 22-23-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 192 (2026-09-16 22-23-48)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 193 (2026-09-16 22-23-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 275,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 194 (2026-09-16 22-23-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 195 (2026-09-16 22-23-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 196 (2026-09-16 22-23-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 197 (2026-09-16 22-23-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 368,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 198 (2026-09-16 22-23-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 314,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 199 (2026-09-16 22-23-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 20 (2026-09-16 22-20-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 326,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 200 (2026-09-16 22-23-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 21 (2026-09-16 22-20-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 360,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 22 (2026-09-16 22-20-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 142,
+            "suicides": 4
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 23 (2026-09-16 22-20-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 24 (2026-09-16 22-20-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 25 (2026-09-16 22-20-57)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 26 (2026-09-16 22-20-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 27 (2026-09-16 22-21-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 28 (2026-09-16 22-21-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 29 (2026-09-16 22-21-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 30 (2026-09-16 22-21-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 217,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 31 (2026-09-16 22-21-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 32 (2026-09-16 22-21-04)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 33 (2026-09-16 22-21-06)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 34 (2026-09-16 22-21-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 227,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 35 (2026-09-16 22-21-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 36 (2026-09-16 22-21-08)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 37 (2026-09-16 22-21-10)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 38 (2026-09-16 22-21-11)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 39 (2026-09-16 22-21-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 40 (2026-09-16 22-21-13)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 309,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 41 (2026-09-16 22-21-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 247,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 42 (2026-09-16 22-21-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 43 (2026-09-16 22-21-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 44 (2026-09-16 22-21-17)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 45 (2026-09-16 22-21-18)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 46 (2026-09-16 22-21-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 47 (2026-09-16 22-21-21)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 48 (2026-09-16 22-21-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 265,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 49 (2026-09-16 22-21-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 50 (2026-09-16 22-21-24)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 377,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 51 (2026-09-16 22-21-25)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 52 (2026-09-16 22-21-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 53 (2026-09-16 22-21-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 309,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 54 (2026-09-16 22-21-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 320,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 55 (2026-09-16 22-21-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 259,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 56 (2026-09-16 22-21-29)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 319,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 57 (2026-09-16 22-21-30)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 273,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 58 (2026-09-16 22-21-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 59 (2026-09-16 22-21-31)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 236,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 60 (2026-09-16 22-21-32)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 317,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 61 (2026-09-16 22-21-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 62 (2026-09-16 22-21-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 63 (2026-09-16 22-21-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 377,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 64 (2026-09-16 22-21-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 261,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 65 (2026-09-16 22-21-37)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 380,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 66 (2026-09-16 22-21-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 67 (2026-09-16 22-21-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 321,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 68 (2026-09-16 22-21-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 307,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 69 (2026-09-16 22-21-41)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 337,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 70 (2026-09-16 22-21-42)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 71 (2026-09-16 22-21-43)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 72 (2026-09-16 22-21-45)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 293,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 73 (2026-09-16 22-21-45)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 74 (2026-09-16 22-21-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 75 (2026-09-16 22-21-47)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 292,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 76 (2026-09-16 22-21-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 77 (2026-09-16 22-21-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 78 (2026-09-16 22-21-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 79 (2026-09-16 22-21-52)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 291,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 80 (2026-09-16 22-21-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 81 (2026-09-16 22-21-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 82 (2026-09-16 22-21-55)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 83 (2026-09-16 22-21-57)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 269,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 84 (2026-09-16 22-21-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 85 (2026-09-16 22-21-59)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 346,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 86 (2026-09-16 22-22-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 87 (2026-09-16 22-22-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 88 (2026-09-16 22-22-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 89 (2026-09-16 22-22-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 334,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 90 (2026-09-16 22-22-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 220,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 91 (2026-09-16 22-22-05)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 92 (2026-09-16 22-22-06)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 93 (2026-09-16 22-22-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 327,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 94 (2026-09-16 22-22-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 95 (2026-09-16 22-22-09)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 239,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 96 (2026-09-16 22-22-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 97 (2026-09-16 22-22-11)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 98 (2026-09-16 22-22-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 332,
+            "suicides": 2
+        },
+        "exp30_confirm_s1_tournament_seed502 | Round 99 (2026-09-16 22-22-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 244,
+            "suicides": 2
+        }
+    }
+}
