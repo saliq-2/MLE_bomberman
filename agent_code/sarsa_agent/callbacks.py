@@ -183,7 +183,41 @@ def setup(self):
     self.rng = np.random.default_rng(seed)
     self.logger.info(f"Using QLEARN_SEED={seed}")
 
-    if self.train or not os.path.isfile(MODEL_FILE):
+    # Warm start for curriculum training (Experiment 28). Training otherwise
+    # always begins from zero weights, which means every opponent-training run
+    # in this log so far (Experiment 24's included) had to learn navigation,
+    # bomb safety and opponent play simultaneously inside 1000 rounds, from
+    # nothing. Pointing QLEARN_INIT_FROM at an existing checkpoint starts the
+    # run from a policy that already solves Task 2 and lets the opponent
+    # rounds do only the work they are actually for.
+    #
+    # Only consulted while training, so evaluation and tournament play are
+    # bit-for-bit unaffected whether or not the variable is set. A width
+    # mismatch is a hard error rather than a silent reshape: loading a
+    # narrower checkpoint would misalign every feature index, and the
+    # zero-padding that makes widths compatible belongs in
+    # scripts/pad_checkpoints.py, where it is verified, not here.
+    init_from = os.environ.get("QLEARN_INIT_FROM", "")
+    if self.train and init_from:
+        # The framework runs agent callbacks in a separate process whose
+        # working directory is not the repo root, so a relative path handed in
+        # through the environment does not resolve the way it would in the
+        # shell that set it. Resolve against the repo root (two levels up from
+        # this file) rather than against the caller's cwd.
+        if not os.path.isabs(init_from):
+            init_from = os.path.join(
+                os.path.dirname(os.path.dirname(os.path.dirname(
+                    os.path.abspath(__file__)))), init_from)
+        with open(init_from, "rb") as file:
+            warm = pickle.load(file)
+        if warm.shape != (len(ACTIONS), N_FEATURES):
+            raise ValueError(
+                f"QLEARN_INIT_FROM checkpoint has shape {warm.shape}, "
+                f"expected {(len(ACTIONS), N_FEATURES)} -- pad it first "
+                f"(scripts/pad_checkpoints.py)")
+        self.logger.info(f"Warm-starting from {init_from}")
+        self.weights = warm.copy()
+    elif self.train or not os.path.isfile(MODEL_FILE):
         self.logger.info("Setting up fresh linear Q-model.")
         self.weights = np.zeros((len(ACTIONS), N_FEATURES))
     else:

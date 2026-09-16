@@ -45,7 +45,12 @@ ALPHA = 0.01           # learning rate
 # objective the features can't represent, and "do nothing" becomes locally
 # optimal -- the same failure shape as our on-target/6-step-commute loop.
 GAMMA = float(os.environ.get("QLEARN_GAMMA", "0.9"))
-EPSILON_START = 0.3
+# Overridable for curriculum stages (Experiment 28), matching sarsa_agent: a
+# warm-started run is fine-tuning an already-competent policy, so re-opening at
+# the from-scratch exploration rate of 0.3 would spend its first rounds
+# unlearning what it was given. Default unchanged, so every earlier experiment
+# reproduces exactly.
+EPSILON_START = float(os.environ.get("QLEARN_EPSILON_START", "0.3"))
 EPSILON_MIN = 0.05
 EPSILON_DECAY = 0.995  # multiplied in after every round
 

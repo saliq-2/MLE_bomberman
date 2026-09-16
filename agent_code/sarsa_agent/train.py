@@ -1,3 +1,4 @@
+import os
 import pickle
 from collections import deque
 from typing import List
@@ -26,7 +27,11 @@ from .callbacks import (
 
 ALPHA = 0.01
 GAMMA = 0.9
-EPSILON_START = 0.3
+# Overridable for curriculum stages (Experiment 28): a warm-started run is
+# fine-tuning an already-competent policy, so re-opening at the from-scratch
+# exploration rate of 0.3 would spend its first rounds unlearning what it was
+# given. Default is unchanged, so every earlier experiment reproduces exactly.
+EPSILON_START = float(os.environ.get("QLEARN_EPSILON_START", "0.3"))
 EPSILON_MIN = 0.05
 EPSILON_DECAY = 0.995
 
