@@ -29,6 +29,13 @@ uploaded, plus three account settings that are easy to overlook.
 | `model_exp28_curriculum_rb3.pt` | earlier candidate, kept so the choice is reversible |
 | `model_exp27_decollinearized.pt` | earlier candidate, and the better agent on the two solo tasks |
 
+`requirements.txt` sits at the root of the archive, not inside `sarsa_agent/`,
+because the graders install it at step 2 and only look for the agent directory
+at step 3. It lists `numpy` unpinned: their environment already has it from
+conda, so `pip install -r` reports "already satisfied" and changes nothing,
+whereas a pinned version could install a second copy over the conda one.
+Verified in the course container -- numpy 2.4.6 before and after, same path.
+
 Verified before packing:
 
 - Unzipped into a pristine copy of the framework and run exactly as section 8
@@ -41,9 +48,9 @@ Verified before packing:
 - No `__pycache__`, `.DS_Store` or other junk in the archive.
 - No absolute paths anywhere in the agent code (section 8 calls this out as a
   common error); every path is built from `os.path.dirname(__file__)`.
-- No `requirements.txt` needed: the only third-party import is `numpy`, which
-  the course Dockerfile already installs. Section 8 only requires one for
-  libraries that are *not* in the Dockerfile.
+- `requirements.txt` included and exercised: the full section 8 sequence was
+  run in the container, including `pip install -r requirements.txt` at step 2,
+  with numpy unchanged afterwards and the game exiting 0.
 - No `multiprocessing` anywhere in the agent, per section 1 "Development".
 
 ### The account settings — not done, and only you can do them

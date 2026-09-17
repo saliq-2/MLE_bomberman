@@ -1,0 +1,19 @@
+# Runtime dependencies of the submitted agent.
+#
+# Section 8 of the project brief only requires this file for libraries that
+# are *not* already installed in the course Dockerfile. The agent imports one
+# third-party package, numpy, which the Dockerfile installs via conda, so
+# strictly speaking this file is not needed. It is included to state the
+# dependency explicitly rather than leave it implied.
+#
+# Deliberately unpinned. The graders run `pip install -r requirements.txt`
+# against an environment where numpy is already present from conda; an
+# unpinned requirement is reported as already satisfied and nothing is
+# touched, whereas a pinned version could make pip install a second copy of
+# numpy over the conda one, which is a well known way to break a conda
+# environment. Verified against the course image, which ships numpy 2.4.6.
+#
+# Everything else the agent uses is in the Python standard library
+# (os, pickle, collections, typing) or is part of the game framework itself
+# (settings, events), which is supplied by the graders and not installable.
+numpy
