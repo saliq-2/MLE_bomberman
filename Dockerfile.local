@@ -1,0 +1,61 @@
+# Local pre-submission testing only. NOT part of the submission.
+#
+# The project's own Dockerfile (unmodified, upstream, last touched by the
+# course staff in 2023) no longer builds: `FROM continuumio/miniconda3` is an
+# unpinned tag, so it now resolves to an image carrying Python 3.14, and
+# TensorFlow publishes no wheels for 3.14 yet. The build dies on
+#
+#   ERROR: Could not find a version that satisfies the requirement tensorflow
+#
+# Nothing about that failure is specific to this repository, and the course
+# team has been asked for an official fix. This file exists so the submission
+# test in section 8 of the brief can be run in the meantime.
+#
+# The upstream Dockerfile is deliberately left untouched: it is tracked
+# upstream, so editing it would conflict with the official fix on the next
+# `git pull`, and the brief states that the graders run their own copy of
+# everything outside agent_code -- so changes here are never present during
+# grading anyway.
+#
+# Build and run:
+#   docker build -f Dockerfile.local -t bomberman-local .
+#   docker run -it bomberman-local
+#   python main.py play --agents sarsa_agent rule_based_agent --no-gui
+#
+# On Apple silicon add --platform linux/amd64 to both commands.
+
+# Pinned rather than floating. This is the one change that actually fixes the
+# reported error: this tag ships Python 3.12, which TensorFlow supports.
+# Downgrading with `conda install python=3.12` after the fact also works, but
+# makes conda re-solve an environment that is already built, which is slower
+# and can pull the other pinned packages around with it.
+FROM continuumio/miniconda3:24.5.0-0
+
+WORKDIR /home/bomberman
+
+# Recent conda refuses to run non-interactively until its channel Terms of
+# Service are accepted. Harmless on versions that do not require it.
+ENV CONDA_PLUGINS_AUTO_ACCEPT_TOS=true
+
+RUN apt-get update && apt-get install -y --no-install-recommends gcc g++ \
+    && rm -rf /var/lib/apt/lists/*
+
+# -y on every conda call: without it these prompt, and a prompt in a
+# non-interactive build is a hang or a failure depending on the conda version.
+RUN conda install -y scipy numpy matplotlib numba
+RUN conda install -y pytorch torchvision -c pytorch
+RUN pip install --no-cache-dir scikit-learn tqdm tensorflow keras tensorboardX xgboost lightgbm
+RUN pip install --no-cache-dir pathfinding pyaml igraph ujson
+RUN conda install -y pandas
+RUN pip install --no-cache-dir networkx dill pyastar2d easydict sympy pygame
+
+COPY . .
+
+# environment.py writes logs/game.log through a FileHandler without creating
+# the directory first, so guarantee it exists rather than relying on the build
+# context to carry an otherwise-empty folder.
+RUN mkdir -p /home/bomberman/logs
+
+# JSON form, so the shell receives OS signals properly and Ctrl-C works.
+# The upstream shell form is what triggers Docker's JSONArgsRecommended warning.
+CMD ["/bin/bash"]

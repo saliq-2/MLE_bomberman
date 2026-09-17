@@ -141,3 +141,8 @@ final-project-agent-code.zip
 
 # Course handout, not part of this code base.
 final_project*.pdf
+
+# Output of scripts/docker_submission_test.sh -- regenerated on each run.
+docker_test_output.txt
+docker_game.log
+docker_agent_logs/
