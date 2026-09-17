@@ -146,3 +146,7 @@ final_project*.pdf
 docker_test_output.txt
 docker_game.log
 docker_agent_logs/
+
+# ...but the packaged archive under submission/ is tracked on purpose, so the
+# folder is self-contained and the exact bytes that were uploaded are recorded.
+!submission/final-project-agent-code.zip
