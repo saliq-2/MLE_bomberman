@@ -99,18 +99,40 @@ planning and the per-section author attribution.
 
 If the agent changes, rebuild rather than editing the zip:
 
+The file list is explicit rather than a glob. `agent_code/sarsa_agent/` also
+holds five older checkpoints from Experiments 24-26 that are kept in the
+repository for reproducibility but have no business in the submission -- a
+`*.pt` glob would sweep them in.
+
 ```bash
 python - <<'EOF'
 import shutil, os, tempfile
+SHIP = ['callbacks.py', 'train.py',
+        'model.pt',                            # the weights callbacks.py loads
+        'model_exp30_curriculum_s1.pt',        # same weights, experiment name
+        'model_exp28_curriculum_rb3.pt',       # earlier candidate
+        'model_exp27_decollinearized.pt']      # earlier candidate
 src = 'agent_code/sarsa_agent'
 tmp = tempfile.mkdtemp()
 dst = os.path.join(tmp, 'sarsa_agent')
 os.makedirs(dst)
-for f in os.listdir(src):
-    if f.endswith(('.py', '.pt')):
-        shutil.copy(os.path.join(src, f), dst)
+for f in SHIP:
+    shutil.copy(os.path.join(src, f), dst)
+shutil.copy('requirements.txt', tmp)   # ROOT of the archive, not inside sarsa_agent/
 shutil.make_archive('submission/final-project-agent-code', 'zip', tmp)
 EOF
+```
+
+The archive must come out as exactly this, and nothing else:
+
+```
+requirements.txt
+sarsa_agent/callbacks.py
+sarsa_agent/train.py
+sarsa_agent/model.pt
+sarsa_agent/model_exp30_curriculum_s1.pt
+sarsa_agent/model_exp28_curriculum_rb3.pt
+sarsa_agent/model_exp27_decollinearized.pt
 ```
 
 Then re-run the submission test before uploading:
