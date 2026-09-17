@@ -1,0 +1,614 @@
+{
+    "by_agent": {
+        "qlearn_agent": {
+            "coins": 56,
+            "moves": 4881,
+            "rounds": 100,
+            "score": 56,
+            "steps": 40000,
+            "time": 8.001410484313965
+        }
+    },
+    "by_round": {
+        "task1_shaping_replay_seed4 | Round 01 (2026-08-22 16-41-31)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 02 (2026-08-22 16-41-31)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 03 (2026-08-22 16-41-31)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 04 (2026-08-22 16-41-32)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 05 (2026-08-22 16-41-32)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 06 (2026-08-22 16-41-32)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 07 (2026-08-22 16-41-32)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 08 (2026-08-22 16-41-32)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 09 (2026-08-22 16-41-32)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 10 (2026-08-22 16-41-32)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 100 (2026-08-22 16-41-47)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 11 (2026-08-22 16-41-32)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 12 (2026-08-22 16-41-33)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 13 (2026-08-22 16-41-33)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 14 (2026-08-22 16-41-33)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 15 (2026-08-22 16-41-33)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 16 (2026-08-22 16-41-33)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 17 (2026-08-22 16-41-33)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 18 (2026-08-22 16-41-33)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 19 (2026-08-22 16-41-34)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 20 (2026-08-22 16-41-34)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 21 (2026-08-22 16-41-34)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 22 (2026-08-22 16-41-34)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 23 (2026-08-22 16-41-34)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 24 (2026-08-22 16-41-34)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 25 (2026-08-22 16-41-34)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 26 (2026-08-22 16-41-35)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 27 (2026-08-22 16-41-35)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 28 (2026-08-22 16-41-35)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 29 (2026-08-22 16-41-35)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 30 (2026-08-22 16-41-35)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 31 (2026-08-22 16-41-35)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 32 (2026-08-22 16-41-35)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 33 (2026-08-22 16-41-36)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 34 (2026-08-22 16-41-36)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 35 (2026-08-22 16-41-36)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 36 (2026-08-22 16-41-36)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 37 (2026-08-22 16-41-36)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 38 (2026-08-22 16-41-36)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 39 (2026-08-22 16-41-36)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 40 (2026-08-22 16-41-36)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 41 (2026-08-22 16-41-37)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 42 (2026-08-22 16-41-37)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 43 (2026-08-22 16-41-37)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 44 (2026-08-22 16-41-37)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 45 (2026-08-22 16-41-37)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 46 (2026-08-22 16-41-37)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 47 (2026-08-22 16-41-37)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 48 (2026-08-22 16-41-38)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 49 (2026-08-22 16-41-38)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 50 (2026-08-22 16-41-38)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 51 (2026-08-22 16-41-38)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 52 (2026-08-22 16-41-38)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 53 (2026-08-22 16-41-38)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 54 (2026-08-22 16-41-39)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 55 (2026-08-22 16-41-39)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 56 (2026-08-22 16-41-39)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 57 (2026-08-22 16-41-39)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 58 (2026-08-22 16-41-39)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 59 (2026-08-22 16-41-39)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 60 (2026-08-22 16-41-40)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 61 (2026-08-22 16-41-40)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 62 (2026-08-22 16-41-40)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 63 (2026-08-22 16-41-40)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 64 (2026-08-22 16-41-40)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 65 (2026-08-22 16-41-40)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 66 (2026-08-22 16-41-40)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 67 (2026-08-22 16-41-41)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 68 (2026-08-22 16-41-41)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 69 (2026-08-22 16-41-41)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 70 (2026-08-22 16-41-41)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 71 (2026-08-22 16-41-41)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 72 (2026-08-22 16-41-41)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 73 (2026-08-22 16-41-41)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 74 (2026-08-22 16-41-42)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 75 (2026-08-22 16-41-42)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 76 (2026-08-22 16-41-42)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 77 (2026-08-22 16-41-42)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 78 (2026-08-22 16-41-42)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 79 (2026-08-22 16-41-42)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 80 (2026-08-22 16-41-43)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 81 (2026-08-22 16-41-44)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 82 (2026-08-22 16-41-44)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 83 (2026-08-22 16-41-44)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 84 (2026-08-22 16-41-44)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 85 (2026-08-22 16-41-44)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 86 (2026-08-22 16-41-45)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 87 (2026-08-22 16-41-45)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 88 (2026-08-22 16-41-45)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 89 (2026-08-22 16-41-45)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 90 (2026-08-22 16-41-45)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 91 (2026-08-22 16-41-45)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 92 (2026-08-22 16-41-45)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 93 (2026-08-22 16-41-46)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 94 (2026-08-22 16-41-46)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 95 (2026-08-22 16-41-46)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 96 (2026-08-22 16-41-46)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 97 (2026-08-22 16-41-46)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 98 (2026-08-22 16-41-46)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "task1_shaping_replay_seed4 | Round 99 (2026-08-22 16-41-46)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        }
+    }
+}

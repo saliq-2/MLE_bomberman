@@ -110,4 +110,34 @@ screenshots/*.mp4
 screenshots/*.webm
 
 replays/
-results/
+
+# results/ is deliberately NOT ignored (it used to be). docs/experiments.md
+# cites these run artifacts by filename and scripts/make_report_figures.py
+# reads them to regenerate every figure, so a clone without them cannot
+# reproduce anything the report claims. ~13 MB over ~320 JSON files.
+
+# Per-run game logs, on the other hand, are 5.7 GB and must stay out. They are
+# the input to the win/draw/loss and self-kill-cause reconstruction, so the
+# numbers derived from them are committed instead, as results/summary_*.json
+# (see scripts/summarize_runs.py). Regenerate the logs by re-running the
+# evaluation if they are ever needed again.
+logs_by_tag/
+logs_sarsa/
+logs_exp*/
+logs_smoke/
+logs_*.txt
+logs/
+
+# macOS metadata
+.DS_Store
+._*
+
+# Editor/tooling state
+.vscode/
+
+# Build artifact: the submission archive is regenerated from agent_code/,
+# so it is not source. Rebuild with the command in README.md.
+final-project-agent-code.zip
+
+# Course handout, not part of this code base.
+final_project*.pdf

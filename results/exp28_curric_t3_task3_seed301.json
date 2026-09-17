@@ -1,0 +1,1241 @@
+{
+    "by_agent": {
+        "coin_collector_agent": {
+            "bombs": 6361,
+            "coins": 1387,
+            "crates": 19820,
+            "invalid": 488,
+            "kills": 189,
+            "moves": 64845,
+            "rounds": 200,
+            "score": 2332,
+            "steps": 72105,
+            "suicides": 41,
+            "time": 51.14903378486633
+        },
+        "peaceful_agent": {
+            "coins": 14,
+            "invalid": 33023,
+            "moves": 23355,
+            "rounds": 200,
+            "score": 14,
+            "steps": 56378,
+            "time": 2.4724996089935303
+        },
+        "sarsa_vs_t3": {
+            "bombs": 675,
+            "coins": 147,
+            "crates": 1963,
+            "invalid": 98,
+            "kills": 15,
+            "moves": 41327,
+            "rounds": 200,
+            "score": 222,
+            "steps": 56911,
+            "suicides": 40,
+            "time": 23.753483057022095
+        }
+    },
+    "by_round": {
+        "exp28_curric_t3_task3_seed301 | Round 01 (2026-09-16 18-08-50)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 02 (2026-09-16 18-08-51)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 03 (2026-09-16 18-08-51)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 04 (2026-09-16 18-08-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 05 (2026-09-16 18-08-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 379,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 06 (2026-09-16 18-08-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 07 (2026-09-16 18-08-53)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_t3_task3_seed301 | Round 08 (2026-09-16 18-08-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 09 (2026-09-16 18-08-54)": {
+            "coins": 2,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 10 (2026-09-16 18-08-54)": {
+            "coins": 2,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 100 (2026-09-16 18-09-39)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 101 (2026-09-16 18-09-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 102 (2026-09-16 18-09-41)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 103 (2026-09-16 18-09-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 104 (2026-09-16 18-09-42)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 105 (2026-09-16 18-09-42)": {
+            "coins": 4,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 106 (2026-09-16 18-09-43)": {
+            "coins": 4,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 107 (2026-09-16 18-09-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 108 (2026-09-16 18-09-43)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 109 (2026-09-16 18-09-44)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 371,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 11 (2026-09-16 18-08-54)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 110 (2026-09-16 18-09-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 111 (2026-09-16 18-09-45)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 368,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 112 (2026-09-16 18-09-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 113 (2026-09-16 18-09-46)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 114 (2026-09-16 18-09-46)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 115 (2026-09-16 18-09-47)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 116 (2026-09-16 18-09-47)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 117 (2026-09-16 18-09-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 398,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 118 (2026-09-16 18-09-49)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 119 (2026-09-16 18-09-49)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 12 (2026-09-16 18-08-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 120 (2026-09-16 18-09-50)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 121 (2026-09-16 18-09-50)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 122 (2026-09-16 18-09-51)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 123 (2026-09-16 18-09-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 382,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 124 (2026-09-16 18-09-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 389,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 125 (2026-09-16 18-09-52)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 126 (2026-09-16 18-09-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 127 (2026-09-16 18-09-53)": {
+            "coins": 3,
+            "kills": 2,
+            "steps": 230,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 128 (2026-09-16 18-09-53)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 129 (2026-09-16 18-09-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 13 (2026-09-16 18-08-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 130 (2026-09-16 18-09-54)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 131 (2026-09-16 18-09-55)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 132 (2026-09-16 18-09-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 133 (2026-09-16 18-09-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 134 (2026-09-16 18-09-56)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 135 (2026-09-16 18-09-57)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 136 (2026-09-16 18-09-57)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 137 (2026-09-16 18-09-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 138 (2026-09-16 18-09-58)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 139 (2026-09-16 18-09-59)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 14 (2026-09-16 18-08-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 140 (2026-09-16 18-09-59)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 141 (2026-09-16 18-10-00)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 362,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 142 (2026-09-16 18-10-00)": {
+            "coins": 0,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 143 (2026-09-16 18-10-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 347,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 144 (2026-09-16 18-10-01)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 145 (2026-09-16 18-10-02)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 146 (2026-09-16 18-10-02)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 147 (2026-09-16 18-10-03)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 148 (2026-09-16 18-10-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 149 (2026-09-16 18-10-04)": {
+            "coins": 7,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 15 (2026-09-16 18-08-57)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 150 (2026-09-16 18-10-04)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 151 (2026-09-16 18-10-05)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 152 (2026-09-16 18-10-05)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 153 (2026-09-16 18-10-06)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 154 (2026-09-16 18-10-06)": {
+            "coins": 5,
+            "kills": 2,
+            "steps": 282,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 155 (2026-09-16 18-10-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 156 (2026-09-16 18-10-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 157 (2026-09-16 18-10-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 158 (2026-09-16 18-10-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 159 (2026-09-16 18-10-09)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 16 (2026-09-16 18-08-57)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 399,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 160 (2026-09-16 18-10-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 161 (2026-09-16 18-10-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 162 (2026-09-16 18-10-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 163 (2026-09-16 18-10-11)": {
+            "coins": 7,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 164 (2026-09-16 18-10-11)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 165 (2026-09-16 18-10-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 166 (2026-09-16 18-10-12)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 167 (2026-09-16 18-10-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 168 (2026-09-16 18-10-13)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 169 (2026-09-16 18-10-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 17 (2026-09-16 18-08-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 378,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 170 (2026-09-16 18-10-15)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 171 (2026-09-16 18-10-15)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 172 (2026-09-16 18-10-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 173 (2026-09-16 18-10-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 174 (2026-09-16 18-10-17)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 378,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 175 (2026-09-16 18-10-17)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 395,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 176 (2026-09-16 18-10-18)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 177 (2026-09-16 18-10-18)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 178 (2026-09-16 18-10-19)": {
+            "coins": 6,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 179 (2026-09-16 18-10-19)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 18 (2026-09-16 18-08-58)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 180 (2026-09-16 18-10-19)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 181 (2026-09-16 18-10-20)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 182 (2026-09-16 18-10-20)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 183 (2026-09-16 18-10-21)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 184 (2026-09-16 18-10-21)": {
+            "coins": 4,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 185 (2026-09-16 18-10-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 186 (2026-09-16 18-10-22)": {
+            "coins": 7,
+            "kills": 2,
+            "steps": 240,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 187 (2026-09-16 18-10-22)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 188 (2026-09-16 18-10-23)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 189 (2026-09-16 18-10-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 19 (2026-09-16 18-08-58)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 190 (2026-09-16 18-10-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 191 (2026-09-16 18-10-24)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 192 (2026-09-16 18-10-25)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 372,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 193 (2026-09-16 18-10-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 194 (2026-09-16 18-10-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 195 (2026-09-16 18-10-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 196 (2026-09-16 18-10-27)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 197 (2026-09-16 18-10-28)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 198 (2026-09-16 18-10-28)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 199 (2026-09-16 18-10-29)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 20 (2026-09-16 18-08-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 200 (2026-09-16 18-10-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 21 (2026-09-16 18-08-59)": {
+            "coins": 5,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 22 (2026-09-16 18-08-59)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 334,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 23 (2026-09-16 18-09-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 24 (2026-09-16 18-09-00)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 398,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 25 (2026-09-16 18-09-01)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 26 (2026-09-16 18-09-01)": {
+            "coins": 7,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 27 (2026-09-16 18-09-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 28 (2026-09-16 18-09-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 29 (2026-09-16 18-09-03)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 390,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 30 (2026-09-16 18-09-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 395,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 31 (2026-09-16 18-09-04)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 32 (2026-09-16 18-09-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 33 (2026-09-16 18-09-05)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 34 (2026-09-16 18-09-05)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 35 (2026-09-16 18-09-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 397,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 36 (2026-09-16 18-09-06)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 37 (2026-09-16 18-09-07)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 38 (2026-09-16 18-09-07)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 39 (2026-09-16 18-09-08)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 40 (2026-09-16 18-09-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 41 (2026-09-16 18-09-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 42 (2026-09-16 18-09-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 43 (2026-09-16 18-09-10)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 44 (2026-09-16 18-09-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 386,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 45 (2026-09-16 18-09-11)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 46 (2026-09-16 18-09-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 47 (2026-09-16 18-09-12)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 48 (2026-09-16 18-09-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 49 (2026-09-16 18-09-13)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 50 (2026-09-16 18-09-13)": {
+            "coins": 4,
+            "kills": 2,
+            "steps": 188,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 51 (2026-09-16 18-09-14)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 52 (2026-09-16 18-09-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 53 (2026-09-16 18-09-14)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 54 (2026-09-16 18-09-15)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 55 (2026-09-16 18-09-15)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 56 (2026-09-16 18-09-16)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 57 (2026-09-16 18-09-16)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 58 (2026-09-16 18-09-17)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 59 (2026-09-16 18-09-17)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 60 (2026-09-16 18-09-18)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 61 (2026-09-16 18-09-18)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 62 (2026-09-16 18-09-19)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 63 (2026-09-16 18-09-19)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 64 (2026-09-16 18-09-19)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 65 (2026-09-16 18-09-20)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 389,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 66 (2026-09-16 18-09-21)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 67 (2026-09-16 18-09-21)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 68 (2026-09-16 18-09-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 69 (2026-09-16 18-09-22)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 70 (2026-09-16 18-09-23)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 71 (2026-09-16 18-09-23)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 72 (2026-09-16 18-09-24)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 73 (2026-09-16 18-09-24)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 361,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 74 (2026-09-16 18-09-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 75 (2026-09-16 18-09-26)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 398,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 76 (2026-09-16 18-09-26)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 77 (2026-09-16 18-09-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 380,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 78 (2026-09-16 18-09-27)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 79 (2026-09-16 18-09-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 348,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 80 (2026-09-16 18-09-28)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 81 (2026-09-16 18-09-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 82 (2026-09-16 18-09-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 83 (2026-09-16 18-09-30)": {
+            "coins": 7,
+            "kills": 2,
+            "steps": 252,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 84 (2026-09-16 18-09-30)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 85 (2026-09-16 18-09-31)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 86 (2026-09-16 18-09-31)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 87 (2026-09-16 18-09-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 88 (2026-09-16 18-09-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 89 (2026-09-16 18-09-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 90 (2026-09-16 18-09-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 91 (2026-09-16 18-09-35)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 92 (2026-09-16 18-09-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 93 (2026-09-16 18-09-36)": {
+            "coins": 4,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 94 (2026-09-16 18-09-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 382,
+            "suicides": 1
+        },
+        "exp28_curric_t3_task3_seed301 | Round 95 (2026-09-16 18-09-37)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 96 (2026-09-16 18-09-37)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 378,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 97 (2026-09-16 18-09-38)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 98 (2026-09-16 18-09-38)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_t3_task3_seed301 | Round 99 (2026-09-16 18-09-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        }
+    }
+}

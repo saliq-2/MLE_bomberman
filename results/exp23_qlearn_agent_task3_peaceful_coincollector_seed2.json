@@ -1,0 +1,1241 @@
+{
+    "by_agent": {
+        "coin_collector_agent": {
+            "bombs": 6684,
+            "coins": 1533,
+            "crates": 20220,
+            "invalid": 437,
+            "kills": 170,
+            "moves": 66958,
+            "rounds": 200,
+            "score": 2383,
+            "steps": 76486,
+            "suicides": 16,
+            "time": 81.34262323379517
+        },
+        "peaceful_agent": {
+            "coins": 14,
+            "invalid": 30237,
+            "moves": 24164,
+            "rounds": 200,
+            "score": 14,
+            "steps": 54401,
+            "time": 2.117910861968994
+        },
+        "qlearn_agent": {
+            "bombs": 730,
+            "coins": 98,
+            "crates": 2431,
+            "invalid": 59,
+            "kills": 5,
+            "moves": 48107,
+            "rounds": 200,
+            "score": 123,
+            "steps": 54204,
+            "suicides": 59,
+            "time": 21.905354738235474
+        }
+    },
+    "by_round": {
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 01 (2026-09-01 23-48-45)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 02 (2026-09-01 23-48-46)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 03 (2026-09-01 23-48-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 04 (2026-09-01 23-48-47)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 05 (2026-09-01 23-48-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 06 (2026-09-01 23-48-48)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 07 (2026-09-01 23-48-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 08 (2026-09-01 23-48-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 09 (2026-09-01 23-48-50)": {
+            "coins": 1,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 10 (2026-09-01 23-48-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 100 (2026-09-01 23-49-46)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 101 (2026-09-01 23-49-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 102 (2026-09-01 23-49-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 103 (2026-09-01 23-49-48)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 104 (2026-09-01 23-49-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 105 (2026-09-01 23-49-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 106 (2026-09-01 23-49-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 107 (2026-09-01 23-49-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 108 (2026-09-01 23-49-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 109 (2026-09-01 23-49-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 11 (2026-09-01 23-48-51)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 383,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 110 (2026-09-01 23-49-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 111 (2026-09-01 23-49-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 112 (2026-09-01 23-49-54)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 113 (2026-09-01 23-49-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 114 (2026-09-01 23-49-55)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 115 (2026-09-01 23-49-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 116 (2026-09-01 23-49-56)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 117 (2026-09-01 23-49-57)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 118 (2026-09-01 23-49-57)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 119 (2026-09-01 23-49-58)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 12 (2026-09-01 23-48-52)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 397,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 120 (2026-09-01 23-49-59)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 121 (2026-09-01 23-49-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 122 (2026-09-01 23-50-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 123 (2026-09-01 23-50-01)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 124 (2026-09-01 23-50-01)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 125 (2026-09-01 23-50-02)": {
+            "coins": 4,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 126 (2026-09-01 23-50-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 127 (2026-09-01 23-50-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 128 (2026-09-01 23-50-04)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 129 (2026-09-01 23-50-04)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 13 (2026-09-01 23-48-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 130 (2026-09-01 23-50-05)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 131 (2026-09-01 23-50-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 132 (2026-09-01 23-50-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 133 (2026-09-01 23-50-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 134 (2026-09-01 23-50-08)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 135 (2026-09-01 23-50-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 136 (2026-09-01 23-50-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 137 (2026-09-01 23-50-10)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 138 (2026-09-01 23-50-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 139 (2026-09-01 23-50-11)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 14 (2026-09-01 23-48-53)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 140 (2026-09-01 23-50-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 141 (2026-09-01 23-50-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 142 (2026-09-01 23-50-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 388,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 143 (2026-09-01 23-50-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 144 (2026-09-01 23-50-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 145 (2026-09-01 23-50-15)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 146 (2026-09-01 23-50-15)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 147 (2026-09-01 23-50-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 148 (2026-09-01 23-50-17)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 149 (2026-09-01 23-50-17)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 323,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 15 (2026-09-01 23-48-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 150 (2026-09-01 23-50-18)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 151 (2026-09-01 23-50-18)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 152 (2026-09-01 23-50-19)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 153 (2026-09-01 23-50-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 154 (2026-09-01 23-50-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 155 (2026-09-01 23-50-21)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 156 (2026-09-01 23-50-21)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 157 (2026-09-01 23-50-22)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 158 (2026-09-01 23-50-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 159 (2026-09-01 23-50-23)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 391,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 16 (2026-09-01 23-48-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 160 (2026-09-01 23-50-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 161 (2026-09-01 23-50-24)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 162 (2026-09-01 23-50-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 163 (2026-09-01 23-50-25)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 334,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 164 (2026-09-01 23-50-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 165 (2026-09-01 23-50-26)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 166 (2026-09-01 23-50-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 167 (2026-09-01 23-50-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 168 (2026-09-01 23-50-28)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 169 (2026-09-01 23-50-29)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 17 (2026-09-01 23-48-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 170 (2026-09-01 23-50-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 171 (2026-09-01 23-50-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 172 (2026-09-01 23-50-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 173 (2026-09-01 23-50-31)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 174 (2026-09-01 23-50-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 175 (2026-09-01 23-50-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 176 (2026-09-01 23-50-33)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 177 (2026-09-01 23-50-34)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 356,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 178 (2026-09-01 23-50-34)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 179 (2026-09-01 23-50-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 18 (2026-09-01 23-48-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 180 (2026-09-01 23-50-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 181 (2026-09-01 23-50-37)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 182 (2026-09-01 23-50-37)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 183 (2026-09-01 23-50-37)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 184 (2026-09-01 23-50-38)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 185 (2026-09-01 23-50-39)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 186 (2026-09-01 23-50-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 187 (2026-09-01 23-50-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 397,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 188 (2026-09-01 23-50-40)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 189 (2026-09-01 23-50-41)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 19 (2026-09-01 23-48-56)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 190 (2026-09-01 23-50-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 191 (2026-09-01 23-50-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 192 (2026-09-01 23-50-43)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 391,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 193 (2026-09-01 23-50-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 194 (2026-09-01 23-50-44)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 195 (2026-09-01 23-50-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 196 (2026-09-01 23-50-45)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 220,
+            "suicides": 2
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 197 (2026-09-01 23-50-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 198 (2026-09-01 23-50-46)": {
+            "coins": 3,
+            "kills": 1,
+            "steps": 191,
+            "suicides": 2
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 199 (2026-09-01 23-50-46)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 20 (2026-09-01 23-48-57)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 200 (2026-09-01 23-50-47)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 21 (2026-09-01 23-48-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 22 (2026-09-01 23-48-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 23 (2026-09-01 23-48-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 24 (2026-09-01 23-49-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 25 (2026-09-01 23-49-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 26 (2026-09-01 23-49-01)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 27 (2026-09-01 23-49-02)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 28 (2026-09-01 23-49-02)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 29 (2026-09-01 23-49-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 30 (2026-09-01 23-49-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 394,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 31 (2026-09-01 23-49-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 32 (2026-09-01 23-49-05)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 369,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 33 (2026-09-01 23-49-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 34 (2026-09-01 23-49-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 35 (2026-09-01 23-49-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 36 (2026-09-01 23-49-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 37 (2026-09-01 23-49-08)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 38 (2026-09-01 23-49-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 39 (2026-09-01 23-49-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 40 (2026-09-01 23-49-10)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 41 (2026-09-01 23-49-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 42 (2026-09-01 23-49-11)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 43 (2026-09-01 23-49-11)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 44 (2026-09-01 23-49-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 45 (2026-09-01 23-49-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 375,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 46 (2026-09-01 23-49-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 47 (2026-09-01 23-49-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 48 (2026-09-01 23-49-14)": {
+            "coins": 5,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 49 (2026-09-01 23-49-15)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 393,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 50 (2026-09-01 23-49-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 51 (2026-09-01 23-49-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 52 (2026-09-01 23-49-17)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 53 (2026-09-01 23-49-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 390,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 54 (2026-09-01 23-49-18)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 55 (2026-09-01 23-49-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 56 (2026-09-01 23-49-20)": {
+            "coins": 4,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 57 (2026-09-01 23-49-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 58 (2026-09-01 23-49-21)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 367,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 59 (2026-09-01 23-49-22)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 60 (2026-09-01 23-49-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 371,
+            "suicides": 2
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 61 (2026-09-01 23-49-22)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 62 (2026-09-01 23-49-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 63 (2026-09-01 23-49-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 64 (2026-09-01 23-49-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 65 (2026-09-01 23-49-25)": {
+            "coins": 4,
+            "kills": 2,
+            "steps": 113,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 66 (2026-09-01 23-49-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 67 (2026-09-01 23-49-26)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 68 (2026-09-01 23-49-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 365,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 69 (2026-09-01 23-49-27)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 70 (2026-09-01 23-49-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 71 (2026-09-01 23-49-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 72 (2026-09-01 23-49-29)": {
+            "coins": 2,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 73 (2026-09-01 23-49-29)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 74 (2026-09-01 23-49-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 75 (2026-09-01 23-49-30)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 76 (2026-09-01 23-49-31)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 77 (2026-09-01 23-49-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 78 (2026-09-01 23-49-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 79 (2026-09-01 23-49-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 80 (2026-09-01 23-49-34)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 399,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 81 (2026-09-01 23-49-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 82 (2026-09-01 23-49-35)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 83 (2026-09-01 23-49-35)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 398,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 84 (2026-09-01 23-49-36)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 399,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 85 (2026-09-01 23-49-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 86 (2026-09-01 23-49-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 87 (2026-09-01 23-49-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 88 (2026-09-01 23-49-38)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 89 (2026-09-01 23-49-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 90 (2026-09-01 23-49-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 91 (2026-09-01 23-49-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 92 (2026-09-01 23-49-41)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 93 (2026-09-01 23-49-42)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 94 (2026-09-01 23-49-42)": {
+            "coins": 7,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 95 (2026-09-01 23-49-43)": {
+            "coins": 2,
+            "kills": 1,
+            "steps": 125,
+            "suicides": 2
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 96 (2026-09-01 23-49-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 97 (2026-09-01 23-49-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 98 (2026-09-01 23-49-44)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 363,
+            "suicides": 0
+        },
+        "exp23_qlearn_agent_task3_peaceful_coincollector_seed2 | Round 99 (2026-09-01 23-49-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        }
+    }
+}

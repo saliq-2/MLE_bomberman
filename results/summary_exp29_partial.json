@@ -1,0 +1,332 @@
+{
+ "seeds": [
+  300,
+  301
+ ],
+ "runs": [
+  {
+   "label": "threat s0",
+   "agent": "sarsa_threat_s0",
+   "tag_prefix": "exp29_threat_s0",
+   "configs": {
+    "tournament": {
+     "score_per_round": {
+      "mean": 0.7324999999999999,
+      "sd": 0.0035355339059327407,
+      "per_seed": [
+       0.735,
+       0.73
+      ]
+     },
+     "win_rate": {
+      "mean": 0.0125,
+      "sd": 0.003535533905932737,
+      "per_seed": [
+       0.01,
+       0.015
+      ]
+     },
+     "self_kills": {
+      "mean": 29,
+      "sd": 1.4142135623730951,
+      "per_seed": [
+       28,
+       30
+      ]
+     },
+     "deaths_by_opponent": {
+      "mean": 75,
+      "sd": 2.8284271247461903,
+      "per_seed": [
+       77,
+       73
+      ]
+     },
+     "opponents_killed": {
+      "mean": 5,
+      "sd": 1.4142135623730951,
+      "per_seed": [
+       6,
+       4
+      ]
+     },
+     "bombs_per_round": {
+      "mean": 2.9675000000000002,
+      "sd": 0.04596194077712555,
+      "per_seed": [
+       2.935,
+       3.0
+      ]
+     },
+     "crates_per_round": {
+      "mean": 8.620000000000001,
+      "sd": 0.254558441227158,
+      "per_seed": [
+       8.44,
+       8.8
+      ]
+     },
+     "coins_per_round": {
+      "mean": 0.6074999999999999,
+      "sd": 0.03181980515339467,
+      "per_seed": [
+       0.585,
+       0.63
+      ]
+     },
+     "avg_steps": {
+      "mean": 367.225,
+      "sd": 0.8768124086713254,
+      "per_seed": [
+       367.845,
+       366.605
+      ]
+     },
+     "w": {
+      "mean": 2.5,
+      "sd": 0.7071067811865476,
+      "per_seed": [
+       2,
+       3
+      ]
+     },
+     "d": {
+      "mean": 1,
+      "sd": 0.0,
+      "per_seed": [
+       1,
+       1
+      ]
+     },
+     "l": {
+      "mean": 196.5,
+      "sd": 0.7071067811865476,
+      "per_seed": [
+       197,
+       196
+      ]
+     },
+     "n_seeds": 2,
+     "missing": [],
+     "score_check_ok": true
+    }
+   }
+  },
+  {
+   "label": "threat s1",
+   "agent": "sarsa_threat_s1",
+   "tag_prefix": "exp29_threat_s1",
+   "configs": {
+    "tournament": {
+     "score_per_round": {
+      "mean": 0.925,
+      "sd": 0.02828427124746185,
+      "per_seed": [
+       0.905,
+       0.945
+      ]
+     },
+     "win_rate": {
+      "mean": 0.0075,
+      "sd": 0.0035355339059327377,
+      "per_seed": [
+       0.005,
+       0.01
+      ]
+     },
+     "self_kills": {
+      "mean": 38,
+      "sd": 4.242640687119285,
+      "per_seed": [
+       41,
+       35
+      ]
+     },
+     "deaths_by_opponent": {
+      "mean": 141.5,
+      "sd": 3.5355339059327378,
+      "per_seed": [
+       144,
+       139
+      ]
+     },
+     "opponents_killed": {
+      "mean": 1,
+      "sd": 0.0,
+      "per_seed": [
+       1,
+       1
+      ]
+     },
+     "bombs_per_round": {
+      "mean": 2.67,
+      "sd": 0.10606601717798206,
+      "per_seed": [
+       2.595,
+       2.745
+      ]
+     },
+     "crates_per_round": {
+      "mean": 7.525,
+      "sd": 0.4313351365237942,
+      "per_seed": [
+       7.22,
+       7.83
+      ]
+     },
+     "coins_per_round": {
+      "mean": 0.9,
+      "sd": 0.028284271247461926,
+      "per_seed": [
+       0.88,
+       0.92
+      ]
+     },
+     "avg_steps": {
+      "mean": 344.5075,
+      "sd": 3.524927304214949,
+      "per_seed": [
+       347.0,
+       342.015
+      ]
+     },
+     "w": {
+      "mean": 1.5,
+      "sd": 0.7071067811865476,
+      "per_seed": [
+       1,
+       2
+      ]
+     },
+     "d": {
+      "mean": 1,
+      "sd": 0.0,
+      "per_seed": [
+       1,
+       1
+      ]
+     },
+     "l": {
+      "mean": 197.5,
+      "sd": 0.7071067811865476,
+      "per_seed": [
+       198,
+       197
+      ]
+     },
+     "n_seeds": 2,
+     "missing": [],
+     "score_check_ok": true
+    }
+   }
+  },
+  {
+   "label": "threat s2",
+   "agent": "sarsa_threat_s2",
+   "tag_prefix": "exp29_threat_s2",
+   "configs": {
+    "tournament": {
+     "score_per_round": {
+      "mean": 0.39,
+      "sd": 0.0636396103067893,
+      "per_seed": [
+       0.435,
+       0.345
+      ]
+     },
+     "win_rate": {
+      "mean": 0.0025,
+      "sd": 0.0035355339059327377,
+      "per_seed": [
+       0.005,
+       0.0
+      ]
+     },
+     "self_kills": {
+      "mean": 133,
+      "sd": 15.556349186104045,
+      "per_seed": [
+       122,
+       144
+      ]
+     },
+     "deaths_by_opponent": {
+      "mean": 62,
+      "sd": 12.727922061357855,
+      "per_seed": [
+       71,
+       53
+      ]
+     },
+     "opponents_killed": {
+      "mean": 2,
+      "sd": 0.0,
+      "per_seed": [
+       2,
+       2
+      ]
+     },
+     "bombs_per_round": {
+      "mean": 1.9475,
+      "sd": 0.13788582233137667,
+      "per_seed": [
+       2.045,
+       1.85
+      ]
+     },
+     "crates_per_round": {
+      "mean": 6.0649999999999995,
+      "sd": 0.4666904755831208,
+      "per_seed": [
+       6.395,
+       5.735
+      ]
+     },
+     "coins_per_round": {
+      "mean": 0.33999999999999997,
+      "sd": 0.0636396103067893,
+      "per_seed": [
+       0.385,
+       0.295
+      ]
+     },
+     "avg_steps": {
+      "mean": 329.3175,
+      "sd": 0.9793428919433619,
+      "per_seed": [
+       330.01,
+       328.625
+      ]
+     },
+     "w": {
+      "mean": 0.5,
+      "sd": 0.7071067811865476,
+      "per_seed": [
+       1,
+       0
+      ]
+     },
+     "d": {
+      "mean": 1.5,
+      "sd": 0.7071067811865476,
+      "per_seed": [
+       1,
+       2
+      ]
+     },
+     "l": {
+      "mean": 198,
+      "sd": 0.0,
+      "per_seed": [
+       198,
+       198
+      ]
+     },
+     "n_seeds": 2,
+     "missing": [],
+     "score_check_ok": true
+    }
+   }
+  }
+ ]
+}

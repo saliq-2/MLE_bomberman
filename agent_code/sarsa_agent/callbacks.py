@@ -103,7 +103,31 @@ OPPONENT_DIST_CAP = 15   # BFS steps to the committed opponent, capped (Experime
 #     origin, so the same correctness work from Experiment 13/14 (per-step
 #     danger timing, explosion residue, other active bombs) applies to
 #     "can *they* escape *our* bomb", not just "can we escape our own".
-N_FEATURES = 30
+#
+# Escape-robustness features, added as a group (Experiment 26): IDX_SAFE_BOMB
+# answers "does *a* route out exist", which is the right question in a solo
+# game and the wrong one with three other bombers on the board -- a
+# single-route escape holds only until someone drops a bomb across that one
+# corridor while ours is still ticking. Experiment 25 measured how often
+# that situation actually arises (bucket (a): an opponent bomb dropped
+# inside our own drop-to-death window) at 66.3% of the submitted sarsa
+# baseline's self-kills. What Experiment 25 ruled out was the narrower
+# claim that bucket (a) explained the *increase* in qlearn's self-kill rate
+# under opponent training -- not that bucket (a) is irreducible in absolute
+# terms, which is what these features go after.
+#
+# Two dimensions rather than one, because the obvious single answer is too
+# sparse to learn from: "two or more distinct escape corridors" fires in
+# only 1.6% of randomly sampled classic-density states (measured before
+# training anything, scripts/check_escape_equivalence.py) -- a feature that
+# is off 98.4% of the time gives the weight vector almost nothing to attach
+# to. So the binary redundancy signal is paired with a graded one, escape
+# slack, which is defined everywhere a bomb is droppable at all and
+# degrades smoothly instead of switching. Added as a group for the same
+# reason Experiment 24 added its seven opponent features as a group; the
+# per-dimension attribution that buys is traded away knowingly, and the
+# ablation that would recover it is listed in "Next steps".
+N_FEATURES = 32
 
 # Named indices into the feature vector state_to_features returns, so
 # train.py's shaping/instrumentation code doesn't hardcode magic numbers
@@ -126,6 +150,8 @@ IDX_OPPONENT_DIST = 23
 IDX_OPPONENT_DIR_BASE = 24  # + MOVE_ACTIONS.index(action), 4 slots: 24-27
 IDX_OPPONENT_IN_BLAST = 28
 IDX_OPPONENT_TRAPPED = 29
+IDX_SAFE_BOMB_ROBUST = 30
+IDX_ESCAPE_SLACK = 31
 
 MODEL_FILE = os.path.join(os.path.dirname(__file__), 'model.pt')
 
@@ -157,7 +183,41 @@ def setup(self):
     self.rng = np.random.default_rng(seed)
     self.logger.info(f"Using QLEARN_SEED={seed}")
 
-    if self.train or not os.path.isfile(MODEL_FILE):
+    # Warm start for curriculum training (Experiment 28). Training otherwise
+    # always begins from zero weights, which means every opponent-training run
+    # in this log so far (Experiment 24's included) had to learn navigation,
+    # bomb safety and opponent play simultaneously inside 1000 rounds, from
+    # nothing. Pointing QLEARN_INIT_FROM at an existing checkpoint starts the
+    # run from a policy that already solves Task 2 and lets the opponent
+    # rounds do only the work they are actually for.
+    #
+    # Only consulted while training, so evaluation and tournament play are
+    # bit-for-bit unaffected whether or not the variable is set. A width
+    # mismatch is a hard error rather than a silent reshape: loading a
+    # narrower checkpoint would misalign every feature index, and the
+    # zero-padding that makes widths compatible belongs in
+    # scripts/pad_checkpoints.py, where it is verified, not here.
+    init_from = os.environ.get("QLEARN_INIT_FROM", "")
+    if self.train and init_from:
+        # The framework runs agent callbacks in a separate process whose
+        # working directory is not the repo root, so a relative path handed in
+        # through the environment does not resolve the way it would in the
+        # shell that set it. Resolve against the repo root (two levels up from
+        # this file) rather than against the caller's cwd.
+        if not os.path.isabs(init_from):
+            init_from = os.path.join(
+                os.path.dirname(os.path.dirname(os.path.dirname(
+                    os.path.abspath(__file__)))), init_from)
+        with open(init_from, "rb") as file:
+            warm = pickle.load(file)
+        if warm.shape != (len(ACTIONS), N_FEATURES):
+            raise ValueError(
+                f"QLEARN_INIT_FROM checkpoint has shape {warm.shape}, "
+                f"expected {(len(ACTIONS), N_FEATURES)} -- pad it first "
+                f"(scripts/pad_checkpoints.py)")
+        self.logger.info(f"Warm-starting from {init_from}")
+        self.weights = warm.copy()
+    elif self.train or not os.path.isfile(MODEL_FILE):
         self.logger.info("Setting up fresh linear Q-model.")
         self.weights = np.zeros((len(ACTIONS), N_FEATURES))
     else:
@@ -397,6 +457,73 @@ def _can_escape_own_bomb(field, occupied, pos, bombs, start_pos=None):
             visited.add((nxt, nt))
             queue.append((nxt, nt))
     return False
+
+
+def _escape_options(field, occupied, pos, bombs):
+    """If a bomb were dropped at `pos` right now: which first moves still
+    lead to a genuine escape, and how early can safety be reached?
+
+    Returns `(first_steps, earliest_t)` -- the set of action names that work
+    as an opening move, and the smallest number of steps after which we
+    could be standing somewhere that stays safe through the whole blast,
+    or None if there is no escape at all.
+
+    The search itself is the same one _can_escape_own_bomb runs: same
+    hypothetical bomb, same per-step danger windows, same horizon, same
+    rule that the resting tile must survive the residue round. The only
+    change is that it is run once per opening direction and reports which
+    ones succeeded, instead of collapsing everything to a single bool. A
+    path may wander freely after its first step; the commitment being
+    measured is only to that first move, which is exactly the question the
+    redundancy feature asks (if this corridor is taken from me, is there a
+    second one?).
+
+    Kept deliberately separate from _can_escape_own_bomb rather than folded
+    into it. That function feeds features 0-29, and Experiment 25's
+    zero-padding equivalence argument for every pre-Experiment-26
+    checkpoint rests on the computation of those features being
+    bit-identical -- so it is left untouched, and the two are checked
+    against each other (len(first_steps) >= 1 must equal
+    _can_escape_own_bomb) in scripts/check_escape_equivalence.py instead of
+    the agreement being assumed.
+    """
+    hypothetical = list(bombs) + [(pos, s.BOMB_TIMER)]
+    windows = _bomb_danger_windows(field, hypothetical)
+    horizon = s.BOMB_TIMER + (s.EXPLOSION_TIMER - 1)
+
+    def safe_to_rest(p, t_reach):
+        return all(not _dangerous_at(p, t, windows) for t in range(t_reach, horizon + 1))
+
+    first_steps = set()
+    earliest_t = None
+
+    for action, (dx, dy) in DIRECTIONS.items():
+        first = (pos[0] + dx, pos[1] + dy)
+        if not _is_free(field, occupied, first) or _dangerous_at(first, 1, windows):
+            continue
+        visited = {(first, 1)}
+        queue = deque([(first, 1)])
+        while queue:
+            # Uniform step cost, so the queue pops in non-decreasing t and
+            # the first resting tile found down this branch is its earliest.
+            cur, t = queue.popleft()
+            if safe_to_rest(cur, t):
+                first_steps.add(action)
+                earliest_t = t if earliest_t is None else min(earliest_t, t)
+                break
+            if t == s.BOMB_TIMER:
+                continue
+            for ddx, ddy in DIRECTIONS.values():
+                nxt = (cur[0] + ddx, cur[1] + ddy)
+                nt = t + 1
+                if (nxt, nt) in visited or not _is_free(field, occupied, nxt):
+                    continue
+                if _dangerous_at(nxt, nt, windows):
+                    continue
+                visited.add((nxt, nt))
+                queue.append((nxt, nt))
+
+    return first_steps, earliest_t
 
 
 def _distance_to_safety(field, occupied, pos, bombs):
@@ -639,6 +766,23 @@ def state_to_features(self, game_state: dict) -> np.array:
 
     features[IDX_SAFE_BOMB] = 1.0 if (bombs_left and _can_escape_own_bomb(field, occupied, pos, bombs)) else 0.0
 
+    # Experiment 26. Both gated on bombs_left for the same reason
+    # IDX_SAFE_BOMB is: with no bomb in hand the question is hypothetical,
+    # so they read 0 and INVALID_ACTION stays the thing that teaches "don't
+    # try to bomb with none left" (Experiment 10).
+    if bombs_left:
+        _first_steps, _earliest_t = _escape_options(field, occupied, pos, bombs)
+        features[IDX_SAFE_BOMB_ROBUST] = 1.0 if len(_first_steps) >= 2 else 0.0
+        # Slack, scaled to [0, 1]: 1 would be escaping instantly, 0 is
+        # reaching safety only on the step the bomb goes off. Reads 0 when
+        # there is no escape at all, which coincides with the worst
+        # survivable case rather than being distinguishable from it -- that
+        # distinction is already carried by IDX_SAFE_BOMB, so this dimension
+        # does not need to repeat it.
+        if _earliest_t is not None:
+            features[IDX_ESCAPE_SLACK] = max(
+                0.0, (s.BOMB_TIMER - _earliest_t) / s.BOMB_TIMER)
+
     crates_hit = sum(1 for (bx, by) in get_blast_coords(field, pos, s.BOMB_POWER) if field[bx, by] == 1)
     features[IDX_CRATE_PAYOFF] = min(crates_hit, CRATE_PAYOFF_CAP) / CRATE_PAYOFF_CAP
 
@@ -680,7 +824,32 @@ def state_to_features(self, game_state: dict) -> np.array:
             occupied_for_opponent = occupied | {pos}  # we block their escape route too
             features[IDX_OPPONENT_TRAPPED] = 0.0 if _can_escape_own_bomb(
                 field, occupied_for_opponent, pos, bombs, start_pos=opponent_pos) else 1.0
-    else:
-        features[IDX_OPPONENT_DIST] = 1.0  # no opponents left -- treat as "maximally far"
+    # Experiment 27: when there is no opponent, the whole opponent block stays
+    # at zero, including IDX_OPPONENT_DIST. It used to be set to 1.0 here on
+    # the reading "no opponent == maximally far", which is the intuitive
+    # encoding and the wrong one for a linear model.
+    #
+    # In solo training (Task 1 and Task 2, which is how every submitted
+    # checkpoint was trained) `others` is empty on every single step, so that
+    # 1.0 was a constant -- and so is IDX_BIAS. Two features that are
+    # constantly 1.0 are perfectly collinear: they receive identical gradients
+    # on every update, so from a zero initialization they end up with exactly
+    # identical weights, and the intended bias is split evenly across the two.
+    # Confirmed on the Experiment 26 control checkpoint, where
+    # w[:, IDX_BIAS] == w[:, IDX_OPPONENT_DIST] holds exactly, to the bit, for
+    # all six actions.
+    #
+    # That is harmless during solo training and actively wrong at evaluation:
+    # with opponents on the board IDX_OPPONENT_DIST is no longer 1.0, so half
+    # of what the model learned as a constant bias silently turns into a term
+    # that varies with opponent distance and was never fitted as one.
+    #
+    # Zero is the correct "this feature is inactive" encoding here -- a zero
+    # feature contributes exactly 0 to every Q-value and receives exactly zero
+    # gradient, so the weight simply stays 0 and the bias stays clean. This is
+    # the same class of bug as Experiment 10's "bomb available" feature, which
+    # was removed for being collinear with safe-to-bomb; it reappeared in
+    # Experiment 24 and went unnoticed until the Experiment 26 control was
+    # built.
 
     return features

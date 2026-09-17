@@ -1,0 +1,1258 @@
+{
+    "by_agent": {
+        "rule_based_agent_0": {
+            "bombs": 4151,
+            "coins": 483,
+            "crates": 7303,
+            "invalid": 1471,
+            "kills": 52,
+            "moves": 40772,
+            "rounds": 200,
+            "score": 743,
+            "steps": 46477,
+            "suicides": 107,
+            "time": 29.626344919204712
+        },
+        "rule_based_agent_1": {
+            "bombs": 4412,
+            "coins": 541,
+            "crates": 7255,
+            "invalid": 1522,
+            "kills": 57,
+            "moves": 43834,
+            "rounds": 200,
+            "score": 826,
+            "steps": 49840,
+            "suicides": 98,
+            "time": 31.827502012252808
+        },
+        "rule_based_agent_2": {
+            "bombs": 4383,
+            "coins": 534,
+            "crates": 7396,
+            "invalid": 1522,
+            "kills": 62,
+            "moves": 44641,
+            "rounds": 200,
+            "score": 844,
+            "steps": 50628,
+            "suicides": 96,
+            "time": 32.06978416442871
+        },
+        "sarsa_vs_rb3": {
+            "bombs": 681,
+            "coins": 189,
+            "crates": 2008,
+            "invalid": 777,
+            "kills": 4,
+            "moves": 49235,
+            "rounds": 200,
+            "score": 209,
+            "steps": 52956,
+            "suicides": 15,
+            "time": 25.837113618850708
+        }
+    },
+    "by_round": {
+        "exp28_curric_rb3_tournament_seed304 | Round 01 (2026-09-16 18-26-13)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 02 (2026-09-16 18-26-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 03 (2026-09-16 18-26-14)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 04 (2026-09-16 18-26-15)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 05 (2026-09-16 18-26-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 06 (2026-09-16 18-26-17)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 07 (2026-09-16 18-26-17)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 08 (2026-09-16 18-26-18)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 09 (2026-09-16 18-26-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 10 (2026-09-16 18-26-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 282,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 100 (2026-09-16 18-27-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 101 (2026-09-16 18-27-26)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 336,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 102 (2026-09-16 18-27-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 303,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 103 (2026-09-16 18-27-27)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 246,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 104 (2026-09-16 18-27-28)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 105 (2026-09-16 18-27-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 106 (2026-09-16 18-27-29)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 301,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 107 (2026-09-16 18-27-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 108 (2026-09-16 18-27-31)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 297,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 109 (2026-09-16 18-27-31)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 335,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 11 (2026-09-16 18-26-20)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 110 (2026-09-16 18-27-32)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 111 (2026-09-16 18-27-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 112 (2026-09-16 18-27-33)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 113 (2026-09-16 18-27-34)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 114 (2026-09-16 18-27-35)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 115 (2026-09-16 18-27-35)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 116 (2026-09-16 18-27-36)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 117 (2026-09-16 18-27-37)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 277,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 118 (2026-09-16 18-27-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 342,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 119 (2026-09-16 18-27-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 12 (2026-09-16 18-26-21)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 120 (2026-09-16 18-27-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 275,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 121 (2026-09-16 18-27-39)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 122 (2026-09-16 18-27-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 123 (2026-09-16 18-27-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 288,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 124 (2026-09-16 18-27-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 125 (2026-09-16 18-27-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 220,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 126 (2026-09-16 18-27-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 283,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 127 (2026-09-16 18-27-44)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 128 (2026-09-16 18-27-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 129 (2026-09-16 18-27-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 13 (2026-09-16 18-26-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 130 (2026-09-16 18-27-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 131 (2026-09-16 18-27-47)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 132 (2026-09-16 18-27-47)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 133 (2026-09-16 18-27-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 316,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 134 (2026-09-16 18-27-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 287,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 135 (2026-09-16 18-27-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 364,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 136 (2026-09-16 18-27-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 288,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 137 (2026-09-16 18-27-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 138 (2026-09-16 18-27-51)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 139 (2026-09-16 18-27-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 246,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 14 (2026-09-16 18-26-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 302,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 140 (2026-09-16 18-27-52)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 278,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 141 (2026-09-16 18-27-53)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 323,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 142 (2026-09-16 18-27-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 143 (2026-09-16 18-27-54)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 356,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 144 (2026-09-16 18-27-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 145 (2026-09-16 18-27-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 146 (2026-09-16 18-27-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 147 (2026-09-16 18-27-57)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 148 (2026-09-16 18-27-58)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 149 (2026-09-16 18-27-59)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 361,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 15 (2026-09-16 18-26-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 150 (2026-09-16 18-27-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 151 (2026-09-16 18-28-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 254,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 152 (2026-09-16 18-28-01)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 153 (2026-09-16 18-28-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 323,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 154 (2026-09-16 18-28-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 155 (2026-09-16 18-28-03)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 156 (2026-09-16 18-28-03)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 257,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 157 (2026-09-16 18-28-04)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 158 (2026-09-16 18-28-05)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 159 (2026-09-16 18-28-05)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 16 (2026-09-16 18-26-24)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 160 (2026-09-16 18-28-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 161 (2026-09-16 18-28-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 341,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 162 (2026-09-16 18-28-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 163 (2026-09-16 18-28-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 164 (2026-09-16 18-28-09)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 299,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 165 (2026-09-16 18-28-09)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 166 (2026-09-16 18-28-10)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 167 (2026-09-16 18-28-11)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 377,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 168 (2026-09-16 18-28-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 169 (2026-09-16 18-28-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 17 (2026-09-16 18-26-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 170 (2026-09-16 18-28-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 171 (2026-09-16 18-28-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 172 (2026-09-16 18-28-15)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 250,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 173 (2026-09-16 18-28-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 174 (2026-09-16 18-28-16)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 175 (2026-09-16 18-28-17)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 176 (2026-09-16 18-28-17)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 177 (2026-09-16 18-28-19)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 225,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 178 (2026-09-16 18-28-19)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 179 (2026-09-16 18-28-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 261,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 18 (2026-09-16 18-26-25)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 396,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 180 (2026-09-16 18-28-20)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 181 (2026-09-16 18-28-21)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 292,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 182 (2026-09-16 18-28-21)": {
+            "coins": 9,
+            "kills": 4,
+            "steps": 248,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 183 (2026-09-16 18-28-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 184 (2026-09-16 18-28-23)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 185 (2026-09-16 18-28-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 186 (2026-09-16 18-28-24)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 379,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 187 (2026-09-16 18-28-25)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 188 (2026-09-16 18-28-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 300,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 189 (2026-09-16 18-28-26)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 19 (2026-09-16 18-26-26)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 282,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 190 (2026-09-16 18-28-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 191 (2026-09-16 18-28-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 308,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 192 (2026-09-16 18-28-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 193 (2026-09-16 18-28-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 194 (2026-09-16 18-28-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 237,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 195 (2026-09-16 18-28-30)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 196 (2026-09-16 18-28-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 197 (2026-09-16 18-28-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 332,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 198 (2026-09-16 18-28-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 346,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 199 (2026-09-16 18-28-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 20 (2026-09-16 18-26-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 200 (2026-09-16 18-28-33)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 21 (2026-09-16 18-26-27)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 22 (2026-09-16 18-26-28)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 23 (2026-09-16 18-26-29)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 24 (2026-09-16 18-26-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 269,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 25 (2026-09-16 18-26-30)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 26 (2026-09-16 18-26-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 260,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 27 (2026-09-16 18-26-32)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 250,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 28 (2026-09-16 18-26-32)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 29 (2026-09-16 18-26-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 30 (2026-09-16 18-26-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 31 (2026-09-16 18-26-34)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 32 (2026-09-16 18-26-35)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 399,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 33 (2026-09-16 18-26-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 34 (2026-09-16 18-26-37)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 35 (2026-09-16 18-26-37)": {
+            "coins": 6,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 36 (2026-09-16 18-26-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 37 (2026-09-16 18-26-39)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 38 (2026-09-16 18-26-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 39 (2026-09-16 18-26-41)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 40 (2026-09-16 18-26-41)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 379,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 41 (2026-09-16 18-26-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 171,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 42 (2026-09-16 18-26-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 281,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 43 (2026-09-16 18-26-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 44 (2026-09-16 18-26-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 45 (2026-09-16 18-26-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 46 (2026-09-16 18-26-46)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 47 (2026-09-16 18-26-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 354,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 48 (2026-09-16 18-26-47)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 49 (2026-09-16 18-26-48)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 282,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 50 (2026-09-16 18-26-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 51 (2026-09-16 18-26-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 52 (2026-09-16 18-26-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 53 (2026-09-16 18-26-51)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 54 (2026-09-16 18-26-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 55 (2026-09-16 18-26-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 56 (2026-09-16 18-26-53)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 57 (2026-09-16 18-26-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 58 (2026-09-16 18-26-55)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 59 (2026-09-16 18-26-55)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 60 (2026-09-16 18-26-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 281,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 61 (2026-09-16 18-26-57)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 62 (2026-09-16 18-26-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 63 (2026-09-16 18-26-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 340,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 64 (2026-09-16 18-26-59)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 65 (2026-09-16 18-27-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 275,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 66 (2026-09-16 18-27-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 67 (2026-09-16 18-27-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 68 (2026-09-16 18-27-02)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 280,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 69 (2026-09-16 18-27-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 70 (2026-09-16 18-27-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 348,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 71 (2026-09-16 18-27-04)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 303,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 72 (2026-09-16 18-27-05)": {
+            "coins": 4,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 73 (2026-09-16 18-27-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 74 (2026-09-16 18-27-06)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 75 (2026-09-16 18-27-07)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 271,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 76 (2026-09-16 18-27-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 77 (2026-09-16 18-27-08)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 78 (2026-09-16 18-27-09)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 79 (2026-09-16 18-27-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 80 (2026-09-16 18-27-11)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 81 (2026-09-16 18-27-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 82 (2026-09-16 18-27-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 83 (2026-09-16 18-27-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 84 (2026-09-16 18-27-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 85 (2026-09-16 18-27-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 287,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 86 (2026-09-16 18-27-15)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 309,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 87 (2026-09-16 18-27-16)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 88 (2026-09-16 18-27-17)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 329,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 89 (2026-09-16 18-27-17)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 90 (2026-09-16 18-27-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 91 (2026-09-16 18-27-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 92 (2026-09-16 18-27-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 93 (2026-09-16 18-27-21)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 94 (2026-09-16 18-27-21)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 266,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 95 (2026-09-16 18-27-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 96 (2026-09-16 18-27-22)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 97 (2026-09-16 18-27-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 98 (2026-09-16 18-27-24)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp28_curric_rb3_tournament_seed304 | Round 99 (2026-09-16 18-27-25)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 380,
+            "suicides": 1
+        }
+    }
+}

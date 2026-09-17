@@ -1,0 +1,1258 @@
+{
+    "by_agent": {
+        "rule_based_agent_0": {
+            "bombs": 4321,
+            "coins": 516,
+            "crates": 7253,
+            "invalid": 1322,
+            "kills": 37,
+            "moves": 42564,
+            "rounds": 200,
+            "score": 701,
+            "steps": 48358,
+            "suicides": 97,
+            "time": 50.64790153503418
+        },
+        "rule_based_agent_1": {
+            "bombs": 4395,
+            "coins": 551,
+            "crates": 6999,
+            "invalid": 1452,
+            "kills": 47,
+            "moves": 44673,
+            "rounds": 200,
+            "score": 786,
+            "steps": 50633,
+            "suicides": 100,
+            "time": 53.24314022064209
+        },
+        "rule_based_agent_2": {
+            "bombs": 4331,
+            "coins": 544,
+            "crates": 7103,
+            "invalid": 1419,
+            "kills": 35,
+            "moves": 42731,
+            "rounds": 200,
+            "score": 719,
+            "steps": 48585,
+            "suicides": 104,
+            "time": 48.59221601486206
+        },
+        "sarsa_agent": {
+            "bombs": 1176,
+            "coins": 169,
+            "crates": 3041,
+            "invalid": 423,
+            "kills": 6,
+            "moves": 26166,
+            "rounds": 200,
+            "score": 199,
+            "steps": 28492,
+            "suicides": 121,
+            "time": 25.64058756828308
+        }
+    },
+    "by_round": {
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 01 (2026-09-16 14-33-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 02 (2026-09-16 14-33-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 270,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 03 (2026-09-16 14-33-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 258,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 04 (2026-09-16 14-33-40)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 229,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 05 (2026-09-16 14-33-41)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 248,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 06 (2026-09-16 14-33-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 07 (2026-09-16 14-33-43)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 245,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 08 (2026-09-16 14-33-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 09 (2026-09-16 14-33-45)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 10 (2026-09-16 14-33-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 100 (2026-09-16 14-35-21)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 243,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 101 (2026-09-16 14-35-21)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 338,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 102 (2026-09-16 14-35-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 259,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 103 (2026-09-16 14-35-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 104 (2026-09-16 14-35-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 273,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 105 (2026-09-16 14-35-25)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 106 (2026-09-16 14-35-26)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 352,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 107 (2026-09-16 14-35-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 337,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 108 (2026-09-16 14-35-28)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 306,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 109 (2026-09-16 14-35-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 254,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 11 (2026-09-16 14-33-47)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 110 (2026-09-16 14-35-30)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 270,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 111 (2026-09-16 14-35-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 256,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 112 (2026-09-16 14-35-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 113 (2026-09-16 14-35-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 237,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 114 (2026-09-16 14-35-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 115 (2026-09-16 14-35-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 296,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 116 (2026-09-16 14-35-35)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 117 (2026-09-16 14-35-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 262,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 118 (2026-09-16 14-35-37)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 119 (2026-09-16 14-35-39)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 12 (2026-09-16 14-33-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 120 (2026-09-16 14-35-40)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 121 (2026-09-16 14-35-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 194,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 122 (2026-09-16 14-35-42)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 302,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 123 (2026-09-16 14-35-43)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 275,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 124 (2026-09-16 14-35-44)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 125 (2026-09-16 14-35-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 302,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 126 (2026-09-16 14-35-46)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 127 (2026-09-16 14-35-47)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 128 (2026-09-16 14-35-48)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 326,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 129 (2026-09-16 14-35-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 226,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 13 (2026-09-16 14-33-50)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 130 (2026-09-16 14-35-49)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 131 (2026-09-16 14-35-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 262,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 132 (2026-09-16 14-35-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 133 (2026-09-16 14-35-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 267,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 134 (2026-09-16 14-35-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 135 (2026-09-16 14-35-55)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 136 (2026-09-16 14-35-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 137 (2026-09-16 14-35-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 138 (2026-09-16 14-35-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 139 (2026-09-16 14-36-00)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 14 (2026-09-16 14-33-50)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 140 (2026-09-16 14-36-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 141 (2026-09-16 14-36-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 142 (2026-09-16 14-36-05)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 366,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 143 (2026-09-16 14-36-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 270,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 144 (2026-09-16 14-36-07)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 145 (2026-09-16 14-36-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 146 (2026-09-16 14-36-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 147 (2026-09-16 14-36-11)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 261,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 148 (2026-09-16 14-36-11)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 149 (2026-09-16 14-36-13)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 275,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 15 (2026-09-16 14-33-52)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 346,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 150 (2026-09-16 14-36-13)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 229,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 151 (2026-09-16 14-36-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 152 (2026-09-16 14-36-15)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 153 (2026-09-16 14-36-17)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 154 (2026-09-16 14-36-18)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 398,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 155 (2026-09-16 14-36-20)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 156 (2026-09-16 14-36-21)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 157 (2026-09-16 14-36-22)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 356,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 158 (2026-09-16 14-36-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 352,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 159 (2026-09-16 14-36-24)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 16 (2026-09-16 14-33-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 232,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 160 (2026-09-16 14-36-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 161 (2026-09-16 14-36-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 162 (2026-09-16 14-36-28)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 163 (2026-09-16 14-36-29)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 342,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 164 (2026-09-16 14-36-31)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 387,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 165 (2026-09-16 14-36-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 166 (2026-09-16 14-36-33)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 167 (2026-09-16 14-36-34)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 168 (2026-09-16 14-36-36)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 169 (2026-09-16 14-36-37)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 396,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 17 (2026-09-16 14-33-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 170 (2026-09-16 14-36-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 281,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 171 (2026-09-16 14-36-39)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 284,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 172 (2026-09-16 14-36-39)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 173 (2026-09-16 14-36-40)": {
+            "coins": 8,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 174 (2026-09-16 14-36-41)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 175 (2026-09-16 14-36-42)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 239,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 176 (2026-09-16 14-36-43)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 321,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 177 (2026-09-16 14-36-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 178 (2026-09-16 14-36-46)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 179 (2026-09-16 14-36-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 18 (2026-09-16 14-33-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 180 (2026-09-16 14-36-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 181 (2026-09-16 14-36-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 182 (2026-09-16 14-36-53)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 325,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 183 (2026-09-16 14-36-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 321,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 184 (2026-09-16 14-36-54)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 185 (2026-09-16 14-36-57)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 186 (2026-09-16 14-36-58)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 285,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 187 (2026-09-16 14-36-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 266,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 188 (2026-09-16 14-37-00)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 275,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 189 (2026-09-16 14-37-00)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 326,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 19 (2026-09-16 14-33-56)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 386,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 190 (2026-09-16 14-37-01)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 191 (2026-09-16 14-37-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 364,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 192 (2026-09-16 14-37-03)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 170,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 193 (2026-09-16 14-37-04)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 194 (2026-09-16 14-37-05)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 266,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 195 (2026-09-16 14-37-06)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 196 (2026-09-16 14-37-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 275,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 197 (2026-09-16 14-37-08)": {
+            "coins": 7,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 198 (2026-09-16 14-37-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 199 (2026-09-16 14-37-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 20 (2026-09-16 14-33-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 200 (2026-09-16 14-37-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 21 (2026-09-16 14-33-59)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 301,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 22 (2026-09-16 14-33-59)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 239,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 23 (2026-09-16 14-34-00)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 24 (2026-09-16 14-34-01)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 309,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 25 (2026-09-16 14-34-02)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 395,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 26 (2026-09-16 14-34-03)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 322,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 27 (2026-09-16 14-34-04)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 28 (2026-09-16 14-34-05)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 29 (2026-09-16 14-34-07)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 348,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 30 (2026-09-16 14-34-08)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 31 (2026-09-16 14-34-09)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 32 (2026-09-16 14-34-10)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 177,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 33 (2026-09-16 14-34-11)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 34 (2026-09-16 14-34-12)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 35 (2026-09-16 14-34-14)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 292,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 36 (2026-09-16 14-34-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 320,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 37 (2026-09-16 14-34-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 274,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 38 (2026-09-16 14-34-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 39 (2026-09-16 14-34-18)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 40 (2026-09-16 14-34-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 41 (2026-09-16 14-34-22)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 42 (2026-09-16 14-34-23)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 43 (2026-09-16 14-34-24)": {
+            "coins": 7,
+            "kills": 0,
+            "steps": 127,
+            "suicides": 4
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 44 (2026-09-16 14-34-25)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 45 (2026-09-16 14-34-26)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 46 (2026-09-16 14-34-27)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 47 (2026-09-16 14-34-29)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 274,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 48 (2026-09-16 14-34-30)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 306,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 49 (2026-09-16 14-34-30)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 329,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 50 (2026-09-16 14-34-31)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 303,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 51 (2026-09-16 14-34-32)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 244,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 52 (2026-09-16 14-34-33)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 303,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 53 (2026-09-16 14-34-34)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 310,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 54 (2026-09-16 14-34-35)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 55 (2026-09-16 14-34-36)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 374,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 56 (2026-09-16 14-34-38)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 57 (2026-09-16 14-34-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 226,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 58 (2026-09-16 14-34-39)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 59 (2026-09-16 14-34-41)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 60 (2026-09-16 14-34-42)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 231,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 61 (2026-09-16 14-34-42)": {
+            "coins": 9,
+            "kills": 3,
+            "steps": 302,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 62 (2026-09-16 14-34-43)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 63 (2026-09-16 14-34-44)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 256,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 64 (2026-09-16 14-34-45)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 65 (2026-09-16 14-34-46)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 243,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 66 (2026-09-16 14-34-47)": {
+            "coins": 8,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 67 (2026-09-16 14-34-48)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 68 (2026-09-16 14-34-49)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 240,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 69 (2026-09-16 14-34-50)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 70 (2026-09-16 14-34-51)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 278,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 71 (2026-09-16 14-34-52)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 72 (2026-09-16 14-34-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 234,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 73 (2026-09-16 14-34-53)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 0
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 74 (2026-09-16 14-34-55)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 75 (2026-09-16 14-34-56)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 381,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 76 (2026-09-16 14-34-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 337,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 77 (2026-09-16 14-34-58)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 314,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 78 (2026-09-16 14-34-59)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 79 (2026-09-16 14-35-01)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 80 (2026-09-16 14-35-02)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 81 (2026-09-16 14-35-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 279,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 82 (2026-09-16 14-35-04)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 281,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 83 (2026-09-16 14-35-05)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 295,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 84 (2026-09-16 14-35-06)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 324,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 85 (2026-09-16 14-35-07)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 249,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 86 (2026-09-16 14-35-08)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 259,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 87 (2026-09-16 14-35-08)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 281,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 88 (2026-09-16 14-35-09)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 312,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 89 (2026-09-16 14-35-10)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 90 (2026-09-16 14-35-12)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 91 (2026-09-16 14-35-13)": {
+            "coins": 9,
+            "kills": 2,
+            "steps": 385,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 92 (2026-09-16 14-35-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 280,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 93 (2026-09-16 14-35-14)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 292,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 94 (2026-09-16 14-35-15)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 262,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 95 (2026-09-16 14-35-16)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 266,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 96 (2026-09-16 14-35-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 400,
+            "suicides": 1
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 97 (2026-09-16 14-35-17)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 376,
+            "suicides": 3
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 98 (2026-09-16 14-35-19)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 367,
+            "suicides": 2
+        },
+        "exp26_sarsa_baseline32_tournament_seed301 | Round 99 (2026-09-16 14-35-20)": {
+            "coins": 6,
+            "kills": 2,
+            "steps": 400,
+            "suicides": 0
+        }
+    }
+}

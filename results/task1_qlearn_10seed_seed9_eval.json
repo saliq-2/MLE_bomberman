@@ -1,0 +1,621 @@
+{
+  "by_agent": {
+    "qlearn_agent": {
+      "coins": 5000,
+      "moves": 12574,
+      "rounds": 100,
+      "score": 5000,
+      "steps": 12574,
+      "time": 15.416194915771484
+    }
+  },
+  "by_round": {
+    "task1_qlearn_10seed_seed9 | Round 01 (2026-09-01 23-13-33)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 117,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 02 (2026-09-01 23-13-34)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 129,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 03 (2026-09-01 23-13-34)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 129,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 04 (2026-09-01 23-13-34)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 130,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 05 (2026-09-01 23-13-34)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 133,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 06 (2026-09-01 23-13-34)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 133,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 07 (2026-09-01 23-13-34)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 131,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 08 (2026-09-01 23-13-35)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 123,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 09 (2026-09-01 23-13-35)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 127,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 10 (2026-09-01 23-13-35)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 135,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 100 (2026-09-01 23-13-50)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 119,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 11 (2026-09-01 23-13-35)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 131,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 12 (2026-09-01 23-13-35)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 132,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 13 (2026-09-01 23-13-36)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 103,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 14 (2026-09-01 23-13-36)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 108,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 15 (2026-09-01 23-13-36)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 129,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 16 (2026-09-01 23-13-36)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 131,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 17 (2026-09-01 23-13-36)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 131,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 18 (2026-09-01 23-13-36)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 123,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 19 (2026-09-01 23-13-37)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 137,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 20 (2026-09-01 23-13-37)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 128,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 21 (2026-09-01 23-13-37)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 145,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 22 (2026-09-01 23-13-37)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 133,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 23 (2026-09-01 23-13-37)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 125,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 24 (2026-09-01 23-13-37)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 129,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 25 (2026-09-01 23-13-38)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 132,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 26 (2026-09-01 23-13-38)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 112,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 27 (2026-09-01 23-13-38)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 125,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 28 (2026-09-01 23-13-38)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 123,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 29 (2026-09-01 23-13-38)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 121,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 30 (2026-09-01 23-13-38)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 124,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 31 (2026-09-01 23-13-39)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 131,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 32 (2026-09-01 23-13-39)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 147,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 33 (2026-09-01 23-13-39)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 123,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 34 (2026-09-01 23-13-39)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 136,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 35 (2026-09-01 23-13-39)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 125,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 36 (2026-09-01 23-13-40)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 97,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 37 (2026-09-01 23-13-40)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 133,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 38 (2026-09-01 23-13-40)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 131,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 39 (2026-09-01 23-13-40)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 113,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 40 (2026-09-01 23-13-40)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 107,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 41 (2026-09-01 23-13-40)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 129,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 42 (2026-09-01 23-13-40)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 115,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 43 (2026-09-01 23-13-41)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 124,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 44 (2026-09-01 23-13-41)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 146,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 45 (2026-09-01 23-13-41)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 128,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 46 (2026-09-01 23-13-41)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 143,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 47 (2026-09-01 23-13-41)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 128,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 48 (2026-09-01 23-13-42)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 141,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 49 (2026-09-01 23-13-42)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 131,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 50 (2026-09-01 23-13-42)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 138,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 51 (2026-09-01 23-13-42)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 149,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 52 (2026-09-01 23-13-42)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 120,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 53 (2026-09-01 23-13-42)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 112,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 54 (2026-09-01 23-13-43)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 137,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 55 (2026-09-01 23-13-43)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 119,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 56 (2026-09-01 23-13-43)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 117,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 57 (2026-09-01 23-13-43)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 121,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 58 (2026-09-01 23-13-43)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 150,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 59 (2026-09-01 23-13-43)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 120,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 60 (2026-09-01 23-13-44)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 120,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 61 (2026-09-01 23-13-44)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 124,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 62 (2026-09-01 23-13-44)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 137,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 63 (2026-09-01 23-13-44)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 113,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 64 (2026-09-01 23-13-44)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 133,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 65 (2026-09-01 23-13-44)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 143,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 66 (2026-09-01 23-13-45)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 123,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 67 (2026-09-01 23-13-45)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 130,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 68 (2026-09-01 23-13-45)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 115,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 69 (2026-09-01 23-13-45)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 129,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 70 (2026-09-01 23-13-45)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 105,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 71 (2026-09-01 23-13-45)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 135,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 72 (2026-09-01 23-13-46)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 125,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 73 (2026-09-01 23-13-46)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 107,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 74 (2026-09-01 23-13-46)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 129,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 75 (2026-09-01 23-13-46)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 116,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 76 (2026-09-01 23-13-46)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 122,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 77 (2026-09-01 23-13-46)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 117,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 78 (2026-09-01 23-13-47)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 129,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 79 (2026-09-01 23-13-47)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 117,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 80 (2026-09-01 23-13-47)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 140,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 81 (2026-09-01 23-13-47)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 135,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 82 (2026-09-01 23-13-47)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 119,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 83 (2026-09-01 23-13-47)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 116,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 84 (2026-09-01 23-13-48)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 114,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 85 (2026-09-01 23-13-48)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 144,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 86 (2026-09-01 23-13-48)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 119,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 87 (2026-09-01 23-13-48)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 115,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 88 (2026-09-01 23-13-48)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 136,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 89 (2026-09-01 23-13-49)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 110,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 90 (2026-09-01 23-13-49)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 141,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 91 (2026-09-01 23-13-49)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 128,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 92 (2026-09-01 23-13-49)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 124,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 93 (2026-09-01 23-13-49)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 119,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 94 (2026-09-01 23-13-49)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 116,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 95 (2026-09-01 23-13-50)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 119,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 96 (2026-09-01 23-13-50)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 106,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 97 (2026-09-01 23-13-50)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 131,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 98 (2026-09-01 23-13-50)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 114,
+      "suicides": 0
+    },
+    "task1_qlearn_10seed_seed9 | Round 99 (2026-09-01 23-13-50)": {
+      "coins": 50,
+      "kills": 0,
+      "steps": 120,
+      "suicides": 0
+    }
+  },
+  "_meta": {
+    "board_seed_train": 9,
+    "board_seed_eval": 10009,
+    "agent_seed": 9,
+    "train_rounds": 300,
+    "eval_rounds": 100
+  }
+}

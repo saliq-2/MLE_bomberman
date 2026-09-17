@@ -186,11 +186,28 @@ def evaluate_one(agent, checkpoint_path, opponents, n_rounds, seed, tag, scenari
     }
 
 
+# The four tasks the project brief defines, plus the tournament setup. Tasks 1
+# and 2 are solo: the brief's Task 1 is "a board without any crates or
+# opponents" and Task 2 is "randomly placed crates yet without opponents", so
+# an evaluation that only ever runs with opponents on the board cannot report
+# on either of them. They were missing here until Experiment 29, which is why
+# this log had no greedy-evaluation numbers for the submitted agent on the two
+# tasks it is actually good at.
 CONFIGS = {
+    "task1": [],
+    "task2": [],
     "task3": ["peaceful_agent", "coin_collector_agent"],
     "task4": ["rule_based_agent"],
     "tournament": ["rule_based_agent", "rule_based_agent", "rule_based_agent"],
 }
+
+# Task 1 is the coin-heaven board (no crates, many coins); everything else runs
+# on the tournament's own `classic` settings.
+SCENARIOS = {"task1": "coin-heaven"}
+
+# Default to the opponent configurations, so every invocation that predates
+# Experiment 29 reproduces exactly rather than silently gaining two configs.
+DEFAULT_CONFIGS = "task3,task4,tournament"
 
 
 def main():
@@ -201,14 +218,26 @@ def main():
     p.add_argument("--seeds", type=int, default=5)
     p.add_argument("--seed-offset", type=int, default=0)
     p.add_argument("--tag", required=True)
+    p.add_argument("--configs", default=DEFAULT_CONFIGS,
+                   help="comma-separated subset of: " + ", ".join(CONFIGS)
+                        + " (default: " + DEFAULT_CONFIGS + ")")
     args = p.parse_args()
 
-    for config_name, opponents in CONFIGS.items():
+    wanted = [c.strip() for c in args.configs.split(",") if c.strip()]
+    unknown = [c for c in wanted if c not in CONFIGS]
+    if unknown:
+        print("unknown config(s): " + ", ".join(unknown))
+        return
+    selected = {k: v for k, v in CONFIGS.items() if k in wanted}
+
+    for config_name, opponents in selected.items():
         per_seed = []
         for i in range(args.seeds):
             seed = args.seed_offset + i
             tag = f"{args.tag}_{config_name}_seed{seed}"
-            result = evaluate_one(args.agent, args.checkpoint, opponents, args.n_rounds, seed, tag)
+            result = evaluate_one(args.agent, args.checkpoint, opponents,
+                                  args.n_rounds, seed, tag,
+                                  scenario=SCENARIOS.get(config_name, "classic"))
             per_seed.append(result)
             print(f"[{config_name}] seed={seed} score/round={result['score_per_round']:.3f} "
                   f"W/D/L={result['w']}/{result['d']}/{result['l']} "
